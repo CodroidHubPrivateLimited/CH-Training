@@ -44,4 +44,4 @@ Each domain has its own folder, and inside that, every participant maintains the
 ---
 
 ## 📧 Contact
-For any issues or collaboration, reach out at **your-email@example.com**.
+For any issues or collaboration, reach out at **info@codroidhub.com**.
