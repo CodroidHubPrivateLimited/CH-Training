@@ -7,12 +7,12 @@ This repo contains structured training material across multiple domains. Each fo
 
 ## 🚀 Available Training Domains
 
-- [Data Analytics](./Data-Analytics)  
-- [Data Science](./Data-Science)  
+- [Data Analytics](./Data%20Analytics)  
+- [Data Science](./Data%20Science)  
 - [Figma](./Figma)  
 - [Finance](./Finance)  
 - [Flutter](./Flutter)  
-- [Graphic Designing](./Graphic-Designing)  
+- [Graphic Designing](./Graphic%20Designing)  
 - [LLM](./LLM)  
 - [MERN](./MERN)  
 - [Marketing](./Marketing)  
