@@ -10,7 +10,6 @@ This repository serves as the central hub for all training programs conducted by
 To keep the repository organized, **content is maintained in separate branches for each batch**. For example:  
 
 - `July-September,2025` → Work and submissions for the July–September 2025 batch  
-- Future batches will have their own branches (e.g., `October-December,2025`)  
 
 > The **main branch** contains only the repository structure, guidelines, and instructions for contributors.
 
