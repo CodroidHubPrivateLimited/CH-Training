@@ -1,0 +1,281 @@
+@media (max-width: 1200px) {
+
+    nav {
+        width: 500px;
+    }
+
+    li {
+        width: 100px;
+    }
+
+    li>a {
+        font-size: 24px;
+    }
+
+    .heroHeader {
+        font-size: 42px;
+        width: 600px;
+    }
+
+    .heroContent {
+        font-size: 22px;
+        width: 380px;
+        top: 180px;
+    }
+
+    .heroBtn {
+        top: 320px;
+    }
+
+    .MainMenu {
+        width: 1000px;
+        gap: 30px;
+    }
+
+    .menuCard {
+        width: 280px;
+    }
+
+    .AboutMain {
+        gap: 40px;
+    }
+
+    .AboutMain img {
+        width: 500px;
+    }
+
+    .MainContact {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .imgSection {
+        width: 45%;
+    }
+
+    .contact-form {
+        width: 500px;
+    }
+
+    .mainFooter {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header {
+        padding: 0 15px;
+    }
+
+    nav {
+        width: 500px;
+    }
+
+    li {
+        width: 100px;
+    }
+
+    li>a {
+        font-size: 24px;
+    }
+
+    .heroHeader {
+        font-size: 40px;
+        width: 500px;
+    }
+
+    .heroContent {
+        font-size: 20px;
+        width: 350px;
+        top: 170px;
+    }
+
+    .heroBtn {
+        top: 300px;
+    }
+
+    .MainMenu {
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .menuCard {
+        width: 280px;
+    }
+
+    .AboutMain {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .AboutMain img {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .MainContact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgSection {
+        width: 100%;
+        max-width: 600px;
+    }
+
+
+    .mainFooter {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .Hamburgur {
+        display: block;
+    }
+
+    .HeroSection {
+        height: 500px;
+    }
+
+    .heroHeader {
+        font-size: 30px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        top: 40px;
+    }
+
+    .heroContent {
+        font-size: 18px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        top: 150px;
+    }
+
+    .heroBtn {
+        /* position: relative; */
+        margin: 20px auto;
+        top: 0;
+    }
+
+    .MenuHeading {
+        font-size: 36px;
+    }
+
+    .MainMenu {
+        gap: 20px;
+    }
+
+    .menuCard {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .AboutHeading {
+        font-size: 36px;
+    }
+
+    .mainHeading {
+        font-size: 24px;
+    }
+
+    .contactHeading {
+        font-size: 36px;
+    }
+
+    .imgSection>img {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        padding: 15px;
+    }
+
+    .mainFooter {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .copyright p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    li>a {
+        font-size: 20px;
+    }
+
+    .logbtn {
+        font-size: 20px;
+    }
+
+    .heroHeader {
+        font-size: 24px;
+        top: 30px;
+    }
+
+    .heroContent {
+        font-size: 16px;
+        top: 120px;
+    }
+
+    .heroBtn>a {
+        font-size: 18px;
+    }
+
+    .MenuHeading,
+    .AboutHeading,
+    .contactHeading {
+        font-size: 30px;
+    }
+
+    .mainHeading {
+        font-size: 20px;
+    }
+
+    .contact-form {
+        padding: 20px 15px;
+    }
+
+    .contact-form h2 {
+        font-size: 20px;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+
+    .footerIcons {
+        width: 150px;
+    }
+
+    .Icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    i {
+        font-size: 20px;
+    }
+}

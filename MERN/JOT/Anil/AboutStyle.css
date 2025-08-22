@@ -1,0 +1,45 @@
+.AboutSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.AboutHeading{
+text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: orangered;
+    margin-bottom: 24px;
+}
+
+.AboutMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap:20px ;
+}
+
+.AboutMain>img{
+    height: auto;
+    width: 50%;
+}
+
+aside{
+    /* border: 1px solid black; */
+    height: 420px;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+
+.mainHeading{
+    font-size: 32px;
+    color: rgb(66, 66, 66);
+    font-weight: 500px;
+
+}

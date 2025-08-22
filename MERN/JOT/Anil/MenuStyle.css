@@ -1,0 +1,78 @@
+
+.MenuSection {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.MenuHeading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: orangered;
+    margin-bottom: 24px;
+}
+
+.MainMenu{
+    /* border: 1px solid orange; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        gap: 40px;
+        padding: 24px;
+}
+
+.menuCard {
+   height: auto;
+   width: 300px;
+   /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.CardImg>img{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menuDetails{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menuDetails>h3{
+    color: orangered;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.menuDetails>p{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(114, 114, 114);
+}
+
+.orderbtn{
+    border: 2px solid orangered;
+    background-color: transparent;
+    height: 30px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.orderbtn:hover{
+    background-color: orangered;
+    color: white;
+}

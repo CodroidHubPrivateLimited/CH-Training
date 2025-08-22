@@ -1,0 +1,50 @@
+Footer{
+    background-color: orangered;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainFooter{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright>p{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 200px;
+}
+
+.Icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Icon:hover{
+    background-color: orange;
+}
+
+i{
+    font-size: 24px;
+    color: white;
+}
+
