@@ -21,6 +21,6 @@ The landing page is designed for *Knowledge Hub*, an online education platform t
 
 ##  Tech Stack
 - *HTML5* for semantic and structured content.  
-- *CSS3* for styling and responsive layout is yet to be completed.  
+- *CSS3* for styling and responsive layout.  
 - *Font-Aweasome* for icons.
 - *Google-Fonts* for Different Font Styles.
