@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Acquisition - Anshita Dawar</title>
+    
+    <!-- Google Fonts: Orbitron for headings, Rajdhani for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Three.js for 3D background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <style>
+        /* --- FUTURISTIC AIML THEME --- */
+        :root {
+            --bg-dark: #0a0a1a;
+            --primary-magenta: #ff00ff;
+            --secondary-cyan: #00ffff;
+            --text-light: #e0e0e0;
+            --text-muted: #a0a0a0;
+            --card-bg: rgba(20, 20, 40, 0.8); /* More opaque for readability */
+            --border-color: rgba(0, 255, 255, 0.2);
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            font-family: 'Rajdhani', sans-serif; 
+            overflow-x: hidden;
+            margin: 0;
+            background-image: 
+                linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        h1, h2, h3, h4, h5, h6, .nav-link, .btn-cta {
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        #neural-canvas {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: -1; opacity: 0.5;
+        }
+
+        header { 
+            position: sticky; 
+            top: 0; 
+            z-index: 50;
+            background-color: rgba(10, 10, 26, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+        }
+        nav {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            max-width: 1200px; 
+            margin: auto; 
+            padding: 1rem 2rem;
+        }
+        nav a.nav-link {
+            position: relative; 
+            transition: color 0.3s ease; 
+            color: var(--text-muted); 
+            text-decoration: none; 
+            margin: 0 0.75rem;
+        }
+        nav a.nav-link::after {
+            content: ''; 
+            position: absolute; 
+            width: 0; 
+            height: 2px; 
+            bottom: -6px;
+            left: 50%; 
+            transform: translateX(-50%);
+            background: linear-gradient(90deg, var(--primary-magenta), var(--secondary-cyan));
+            transition: width 0.3s ease; 
+            border-radius: 2px;
+        }
+        nav a.nav-link.active, nav a.nav-link:hover {
+            color: white; 
+            text-shadow: 0 0 5px var(--secondary-cyan);
+        }
+        nav a.nav-link.active::after, nav a.nav-link:hover::after { width: 100%; }
+
+        .animate-on-scroll { 
+            opacity: 0; 
+            transform: translateY(30px); 
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out; 
+        }
+        .animate-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
+
+        .text-primary { color: var(--primary-magenta); }
+        .text-secondary { color: var(--secondary-cyan); }
+        .text-muted { color: var(--text-muted); }
+        
+        /* --- FLIP CARD STYLES --- */
+        .project-grid {
+            display: grid;
+            /* UPDATED: Adjusted minmax for larger cards */
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+        }
+        .flip-card {
+            background-color: transparent;
+            width: 100%;
+            /* UPDATED: Increased card height */
+            height: 420px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+        .flip-card.is-flipped .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background-color: var(--card-bg);
+            backdrop-filter: blur(10px);
+            overflow: hidden;
+        }
+        .flip-card-front {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .flip-card-front img {
+            width: 100%;
+            /* UPDATED: Increased image height */
+            height: 250px;
+            object-fit: cover;
+        }
+        .flip-card-front .content {
+            padding: 1.5rem;
+        }
+        .flip-card-front h3 {
+            color: white;
+        }
+        .flip-card-back {
+            transform: rotateY(180deg);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .flip-card-back h3 {
+            color: var(--secondary-cyan);
+            margin-bottom: 1rem;
+        }
+        .flip-card-back p {
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            /* UPDATED: Increased font size for better readability */
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--primary-magenta);
+            color: var(--primary-magenta);
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-outline:hover {
+            background: var(--primary-magenta);
+            color: white;
+            box-shadow: 0 0 20px var(--primary-magenta);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <canvas id="neural-canvas"></canvas>
+    <header>
+        <nav>
+            <a href="{{ url_for('home') }}" class="nav-link" style="margin-left:0; font-size: 1.5rem; font-weight: bold; color: white;">Anshita Dawar</a>
+            <div style="display:flex; align-items:center;">
+                <a href="{{ url_for('home') }}" class="nav-link">Home</a>
+                <a href="{{ url_for('about_me') }}" class="nav-link">About Me</a>
+                <a href="{{ url_for('journey') }}" class="nav-link active">Journey</a>
+                <a href="{{ url_for('blogs_page') }}" class="nav-link">Blogs</a>
+                <a href="{{ url_for('feedback') }}" class="nav-link">Feedback</a>
+                <a href="{{ url_for('codroidhub') }}" class="nav-link">CodroidHub</a>
+            </div>
+        </nav>
+    </header>
+
+    <main style="max-width: 1200px; margin: auto; padding: 3rem 1.5rem; position: relative; z-index: 10;">
+        <section id="data-acquisition-page">
+            <a href="{{ url_for('journey') }}" class="nav-link text-secondary" style="display: inline-block; margin-bottom: 2rem; font-weight: 600;">
+                <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i>Back to Journey
+            </a>
+            <h2 class="animate-on-scroll" style="font-size: 2.25rem; font-weight: bold; text-align: center; margin-bottom: 3rem;">Data Acquisition <span class="text-primary">Projects</span></h2>
+            
+            <div class="project-grid animate-on-scroll">
+                <!-- Project 1 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://placehold.co/600x400/0a0a1a/ff00ff?text=Price+Tracker" alt="Amazon Price Tracker">
+                            <div class="content">
+                                <h3>Amazon Price Tracker</h3>
+                                <p class="text-muted">Click to flip for details</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Web Scraping with BeautifulSoup</h3>
+                            <p>This project involved building a robust web scraper using Python's BeautifulSoup and Requests libraries. The script was designed to navigate Amazon's product pages, parse the HTML to locate specific price and product name elements, and handle potential anti-scraping measures. The acquired data was structured and saved for the next stage of the project.</p>
+                            <a href="https://github.com/" target="_blank" class="btn-outline">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://placehold.co/600x400/0a0a1a/00ffff?text=Sentiment+Data" alt="Sentiment Analysis Data">
+                            <div class="content">
+                                <h3>Sentiment Analysis Dataset</h3>
+                                <p class="text-muted">Click to flip for details</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Public Dataset Integration</h3>
+                            <p>For this NLP task, I acquired a widely-used public dataset of movie reviews from a repository like the UCI Machine Learning Repository. The raw data, consisting of thousands of text files, was systematically read, parsed, and loaded into a structured Pandas DataFrame, creating a clean foundation for text preprocessing and model training.</p>
+                            <a href="https://github.com/" target="_blank" class="btn-outline">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://placehold.co/600x400/0a0a1a/ff00ff?text=API+Data" alt="Financial Market API">
+                            <div class="content">
+                                <h3>Financial Market API</h3>
+                                <p class="text-muted">Click to flip for details</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>API Data Consumption</h3>
+                            <p>This project focused on acquiring real-time financial market data by connecting to a third-party API. I wrote Python scripts to handle authentication, make GET requests for stock prices, and parse the resulting JSON response into a structured format suitable for time-series analysis.</p>
+                            <a href="https://github.com/" target="_blank" class="btn-outline">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- NEW: Project 4 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://placehold.co/600x400/0a0a1a/00ffff?text=SQL+Database" alt="SQL Database">
+                            <div class="content">
+                                <h3>SQL Database Querying</h3>
+                                <p class="text-muted">Click to flip for details</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Extracting from Relational Databases</h3>
+                            <p>This project involved connecting to a PostgreSQL database using Python's `psycopg2` library. I wrote complex SQL queries with multiple joins to extract specific subsets of customer and sales data, which were then loaded into a DataFrame for further analysis and reporting.</p>
+                            <a href="https://github.com/" target="_blank" class="btn-outline">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW: Project 5 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://placehold.co/600x400/0a0a1a/ff00ff?text=Social+Media" alt="Social Media Data">
+                            <div class="content">
+                                <h3>Social Media Data Collection</h3>
+                                <p class="text-muted">Click to flip for details</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Scraping with Selenium</h3>
+                            <p>To gather data for brand sentiment analysis, I used Selenium to automate a web browser. This allowed me to handle dynamic, JavaScript-heavy social media sites, log in, search for specific keywords, and scrape posts and comments over a set period, simulating human interaction.</p>
+                            <a href="https://github.com/" target="_blank" class="btn-outline">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW: Project 6 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://placehold.co/600x400/0a0a1a/00ffff?text=IoT+Sensors" alt="IoT Sensor Data">
+                            <div class="content">
+                                <h3>IoT Sensor Data Stream</h3>
+                                <p class="text-muted">Click to flip for details</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Real-time Data Ingestion</h3>
+                            <p>This project involved setting up a pipeline to ingest real-time data from a network of IoT sensors. I used an MQTT message broker to subscribe to sensor topics, collecting and logging temperature and humidity data into a time-series database for anomaly detection modeling.</p>
+                            <a href="https://github.com/" target="_blank" class="btn-outline">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer style="border-top: 1px solid var(--border-color); margin-top: 5rem; padding: 1.5rem 0;">
+        <div style="max-width: 1200px; margin: auto; text-align: center;" class="text-muted">
+            <p>&copy; 2025 Anshita Dawar. All Rights Reserved.</p>
+            <p>Training and Projects powered by <a href="codroidhub.html" class="text-secondary" style="text-decoration: none; hover:underline;">CodroidHub</a>.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- FLIP CARD LOGIC ---
+            const flipCards = document.querySelectorAll('.flip-card');
+            flipCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    card.classList.toggle('is-flipped');
+                });
+            });
+
+            // --- ANIMATIONS & 3D BACKGROUND ---
+            let observer;
+            function observeElements() {
+                if (observer) observer.disconnect();
+                const animatedElements = document.querySelectorAll('.animate-on-scroll');
+                observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) entry.target.classList.add('is-visible');
+                    });
+                }, { threshold: 0.1 });
+                animatedElements.forEach(el => observer.observe(el));
+            }
+            observeElements();
+
+            const canvas = document.getElementById('neural-canvas');
+            if (canvas) {
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+                const renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true });
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                const particles = 1000;
+                const geometry = new THREE.BufferGeometry();
+                const positions = new Float32Array(particles * 3);
+                for (let i = 0; i < positions.length; i += 3) {
+                    positions[i] = (Math.random() - 0.5) * 10;
+                    positions[i + 1] = (Math.random() - 0.5) * 10;
+                    positions[i + 2] = (Math.random() - 0.5) * 10;
+                }
+                geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+                const material = new THREE.PointsMaterial({ color: 0x00ffff, size: 0.02, transparent: true, blending: THREE.AdditiveBlending });
+                const points = new THREE.Points(geometry, material);
+                scene.add(points);
+                const lineMaterial = new THREE.LineBasicMaterial({ color: 0xff00ff, transparent: true, opacity: 0.1 });
+                const lineGeometry = new THREE.BufferGeometry();
+                lineGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+                const lines = new THREE.LineSegments(lineGeometry, lineMaterial);
+                scene.add(lines);
+                camera.position.z = 5;
+                const mouse = new THREE.Vector2();
+                window.addEventListener('mousemove', (event) => {
+                    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+                    mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+                });
+                function animate() {
+                    requestAnimationFrame(animate);
+                    points.rotation.x += 0.0005;
+                    points.rotation.y += 0.0005;
+                    lines.rotation.copy(points.rotation);
+                    camera.position.x += (mouse.x * 0.5 - camera.position.x) * 0.02;
+                    camera.position.y += (-mouse.y * 0.5 - camera.position.y) * 0.02;
+                    camera.lookAt(scene.position);
+                    renderer.render(scene, camera);
+                }
+                animate();
+                window.addEventListener('resize', () => {
+                    camera.aspect = window.innerWidth / window.innerHeight;
+                    camera.updateProjectionMatrix();
+                    renderer.setSize(window.innerWidth, window.innerHeight);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
