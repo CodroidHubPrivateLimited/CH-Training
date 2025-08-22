@@ -1,0 +1,38 @@
+.package-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.package-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.package-item:hover {
+    transform: translateY(-4px);
+}
+
+.package-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1976d2;
+}
+
+.package-item p {
+    color: #555;
+}
+.packageslist{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
