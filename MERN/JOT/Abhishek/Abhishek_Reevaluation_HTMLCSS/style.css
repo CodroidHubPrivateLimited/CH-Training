@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+/* #1c92d2
+#f2fcfe */
+
+/* navbar */
+nav {
+  background: linear-gradient(to right, #1c92d26e, #f2fcfe);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar .logo {
+  height: 60px;
+  transition: transform 0.5s;
+}
+.navbar .logo img {
+  object-fit: cover;
+  height: 100%;
+  width: 150px;
+}
+
+.navbar .logo:hover {
+  transform: rotateY(360deg);
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+.nav-links a::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-actions {
+  width: 100px;
+}
+.nav-actions .btn {
+  background-color: skyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s;
+}
+.btn:hover {
+  transform: scale(1.02) translateY(-5px);
+  background-color: #379dd3d8;
+}
+
+/* Hero-section */
+.hero {
+  height: 450px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(./Images/Hero/posterbg.png);
+}
+.hero h1 {
+  font-size: 55px;
+}
+.hero span {
+  color: #87ceeb;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.hero p {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  color: white;
+}
+
+/* Featured */
+
+.featured {
+  margin-top: 50px;
+  height: 550px;
+  width: 100%;
+}
+
+.feature-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+}
+
+.feature-title .title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.features {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+}
+.feature {
+  background-color: gray;
+  width: 33%;
+  height: 440px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+.feature h1 {
+  padding: 20px 40px;
+}
+.feature button {
+  background-color: lightskyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+}
+.feature button:hover {
+  transform: scale(1.02);
+  background-color: #379dd3d8;
+}
+.feature1 {
+  background-image: url(https://thumbs.dreamstime.com/b/cap-graduate-certificate-hand-drawn-icon-cap-graduate-certificate-degree-hand-drawn-outline-doodle-icon-vector-111893693.jpg);
+  background-size: cover;
+}
+.feature2 {
+  background-image: url(https://thumbs.dreamstime.com/b/elearning-isolated-icon-simple-element-illustration-e-learning-concept-icons-editable-logo-sign-symbol-design-white-142288998.jpg);
+  background-size: cover;
+}
+.feature3 {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 10px;
+}
+.sub-feature1 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 220px;
+  background-image: url(https://media.istockphoto.com/id/178517323/photo/statue-of-liberty.jpg?s=612x612&w=0&k=20&c=kK90ZZjLoTWx89ZUj3TOnL9ayAFhWubA2JBbe3MGv8Y=);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.sub-feature2 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 220px;
+  background-image: url(https://media.istockphoto.com/id/1190839137/vector/service-upgrade-concept-three-options-basic-subscription-standard-account-premium-plan.jpg?s=612x612&w=0&k=20&c=r80IwuU38_qgzCjmeL0ZYz9E9psXj092ib72sy0TJh0=);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.feature:hover,
+.sub-feature1:hover,
+.sub-feature2 :hover {
+  transform: translateY(-10px);
+}
+
+/* CTA */
+
+.cta-section {
+  height: 400px;
+  margin-top: 50px;
+}
+.cta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.cta img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.cta img:hover {
+  transform: scale(1.05);
+}
+.cta-text {
+  width: 50%;
+  height: 350px;
+  font: 20px bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cta-text button {
+  width: 150px;
+  background-color: skyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s, transform 0.3s;
+}
+.cta-text button:hover {
+  transform: translateY(-5px);
+  background-color: #379dd3d8;
+}
+
+/* Courses */
+
+.courses {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.courses h1 {
+  color: gray;
+  font-size: 50px;
+}
+.courses h4 {
+  color: skyblue;
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+}
+.cards {
+  height: 380px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.card {
+  background: linear-gradient(to right, #1c92d243, #f2fcfe);
+  height: 380px;
+  width: 30%;
+  box-shadow: 0px 0px 8px #f5f5f5;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card2 {
+  background: linear-gradient(to left, #1c92d243, #f2fcfe);
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.card .card-info {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.card-info h2 {
+  color: #379dd3d8;
+}
+.card-info p {
+  font-size: 15px;
+}
+
+.card button {
+  width: 150px;
+  background-color: skyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s, transform 0.3s;
+}
+.card button:hover {
+  transform: translateY(-5px);
+  background-color: #379dd3d8;
+}
+
+/* 
+footer */
+footer {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 300px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+}
+footer .form {
+  width: 70%;
+}
+
+footer .social-links {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 3rem;
+}
+footer .social-links .links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+footer .social-links .links a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+footer .social-links .icons {
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .social-links .links a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.copyright {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.footer .form {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  margin-left: 2rem;
+}
+
+.footer .form h2 {
+  font-size: 40px;
+}
+
+.footer .form p {
+  font-size: 30px;
+}
+
+.footer .btn {
+  width: 150px;
+  background-color: lightskyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s;
+}
+.footer .btn:hover {
+  transform: scale(1.02);
+  background-color: #379dd3d8;
+}
+
+.footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="email"] {
+  width: 50%;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid#ccc;
+}
+::placeholder {
+  padding-left: 1rem;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border: 2px solid skyblue;
+}
