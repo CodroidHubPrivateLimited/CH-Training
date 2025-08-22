@@ -1,0 +1,703 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+/* Nav */
+nav {
+  background: linear-gradient(to right, #1c92d26e, #f2fcfe);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar .logo {
+  height: 60px;
+  transition: transform 0.5s;
+  z-index: 100;
+}
+
+.navbar .logo img {
+  object-fit: cover;
+  height: 100%;
+  width: 150px;
+}
+
+.navbar .logo:hover {
+  transform: rotateY(360deg);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-actions {
+  width: 100px;
+}
+
+.nav-actions .btn {
+  background-color: skyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.02) translateY(-5px);
+  background-color: #379dd3d8;
+}
+
+/* Ham */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Hero  */
+.hero {
+  height: 450px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(./Images/Hero/posterbg.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero span {
+  color: #87ceeb;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.hero p {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  color: white;
+  max-width: 800px;
+}
+
+/* Featured  */
+.featured {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.feature-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  flex-wrap: wrap;
+}
+
+.feature-title .title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.features {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: gray;
+  max-width: 350px;
+  height: 440px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.feature h1 {
+  padding: 20px 40px;
+  color: #ccc;
+  text-shadow: 0 0 2px #000, 0 0 5px #000;
+}
+
+.feature button {
+  background-color: lightskyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.feature button:hover {
+  transform: scale(1.02);
+  background-color: #379dd3d8;
+}
+
+.feature1 {
+  background: url(https://thumbs.dreamstime.com/b/cap-graduate-certificate-hand-drawn-icon-cap-graduate-certificate-degree-hand-drawn-outline-doodle-icon-vector-111893693.jpg)
+    center/cover;
+}
+
+.feature2 {
+  background: url(https://thumbs.dreamstime.com/b/elearning-isolated-icon-simple-element-illustration-e-learning-concept-icons-editable-logo-sign-symbol-design-white-142288998.jpg)
+    center/cover;
+}
+
+.feature3 {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 10px;
+}
+
+.sub-feature1 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 220px;
+  background: url(https://media.istockphoto.com/id/178517323/photo/statue-of-liberty.jpg?s=612x612&w=0&k=20&c=kK90ZZjLoTWx89ZUj3TOnL9ayAFhWubA2JBbe3MGv8Y=)
+    center/cover;
+  border-radius: 10px;
+}
+
+.sub-feature2 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 220px;
+  background: url(https://media.istockphoto.com/id/1190839137/vector/service-upgrade-concept-three-options-basic-subscription-standard-account-premium-plan.jpg?s=612x612&w=0&k=20&c=r80IwuU38_qgzCjmeL0ZYz9E9psXj092ib72sy0TJh0=)
+    center/cover;
+  border-radius: 10px;
+}
+
+.feature:hover,
+.sub-feature1:hover,
+.sub-feature2:hover {
+  transform: translateY(-10px);
+}
+
+/* CTA */
+.cta-section {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cta img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+.cta img:hover {
+  transform: scale(1.05);
+}
+
+.cta-text {
+  width: 50%;
+  min-width: 300px;
+  font: 20px bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.cta-text button {
+  width: 150px;
+  background-color: skyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s, transform 0.3s;
+  cursor: pointer;
+}
+
+.cta-text button:hover {
+  transform: translateY(-5px);
+  background-color: #379dd3d8;
+}
+
+/* Courses */
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.courses h1 {
+  color: gray;
+  font-size: 50px;
+  text-align: center;
+}
+
+.courses h4 {
+  color: skyblue;
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(to right, #1c92d243, #f2fcfe);
+  height: 380px;
+  width: 30%;
+  min-width: 300px;
+  box-shadow: 0px 0px 8px #f5f5f5;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.card2 {
+  background: linear-gradient(to left, #1c92d243, #f2fcfe);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.card .card-info {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.card-info h2 {
+  color: #379dd3d8;
+}
+
+.card-info p {
+  font-size: 15px;
+}
+
+.card button {
+  width: 150px;
+  background-color: skyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s, transform 0.3s;
+  cursor: pointer;
+}
+
+.card button:hover {
+  transform: translateY(-5px);
+  background-color: #379dd3d8;
+}
+
+/* Footer */
+footer {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+footer .form {
+  width: 60%;
+  min-width: 300px;
+}
+
+footer .social-links {
+  width: 30%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 3rem;
+}
+
+footer .social-links .links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+footer .social-links .links a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer .social-links .icons {
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .social-links .links a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.copyright {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer .form {
+  width: 65%;
+  height: 100%;
+  padding: 3rem;
+  margin-left: 2rem;
+}
+
+.footer .form h2 {
+  font-size: 40px;
+}
+
+.footer .form p {
+  font-size: 30px;
+}
+
+.footer .btn {
+  width: 150px;
+  background-color: lightskyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+
+.footer .btn:hover {
+  transform: scale(1.02);
+  background-color: #379dd3d8;
+}
+
+.footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="email"] {
+  width: 50%;
+  min-width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+}
+
+::placeholder {
+  padding-left: 1rem;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border: 2px solid skyblue;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .hero span {
+    font-size: 50px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+
+  .courses h1 {
+    font-size: 40px;
+  }
+
+  .courses h4 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Hamburger Menu */
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    flex-direction: column;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+    z-index: 99;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    right: 0;
+  }
+
+  .nav-actions {
+    display: none;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .hero span {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  /* Featured Section */
+  .feature-title {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  /* CTA Section */
+  .cta-text {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* Courses Section */
+  .courses h1 {
+    font-size: 35px;
+  }
+
+  .courses h4 {
+    font-size: 24px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer .form h2 {
+    font-size: 30px;
+  }
+
+  .footer .form p {
+    font-size: 20px;
+  }
+
+  footer .social-links {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    height: 350px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero span {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .feature h1 {
+    padding: 20px;
+    font-size: 24px;
+  }
+
+  .courses h1 {
+    font-size: 28px;
+  }
+
+  .courses h4 {
+    font-size: 22px;
+  }
+
+  .card {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer .form {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .footer .form h2 {
+    font-size: 26px;
+  }
+
+  .footer .form p {
+    font-size: 18px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+}
