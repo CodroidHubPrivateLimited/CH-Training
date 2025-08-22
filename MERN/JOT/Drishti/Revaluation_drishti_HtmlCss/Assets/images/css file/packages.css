@@ -1,0 +1,38 @@
+.banner{
+    width:100%;
+    height:200px;
+    /* background-color: bisque; */
+    background-image: url("https://i.pinimg.com/1200x/25/c8/ed/25c8ede24c03b225cb14977b0718abc8.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.offer{
+    background-color:bisque;
+}
+span{
+     color:rgb(71, 58, 169);
+}
+.offer h1{
+    color: rgb(170, 46, 11);
+}
+.cta-btn{
+    padding:10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:1px solid red;
+    color:rgb(105, 15, 15);
+    background-color: rgb(244, 182, 151);
+    box-shadow: 0px 0px 10px rgb(248, 196, 184);
+}
+.cta-btn:hover{
+    cursor:pointer;
+    transform: translateY(-8%);
+    color:floralwhite;
+    box-shadow: 0px 0px 5px rgb(226, 62, 25);
+}
