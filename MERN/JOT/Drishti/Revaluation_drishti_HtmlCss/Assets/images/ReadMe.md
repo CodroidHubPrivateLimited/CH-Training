@@ -1,5 +1,5 @@
 created a travel webpage using html and css.
-named it travel-bee.
+named it travel-bee. this website is about the tour booking where we can see differnet destinations and packages for them to travel .
 created 5 css files and one html file.
 use folder structure and created main folder then 3 folder under it as
 assests - images and video folder.
