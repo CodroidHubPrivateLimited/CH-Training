@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(228, 252, 252);
+    height: 400vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+}
+.menu-list a{
+    padding:20px;
+    color: rgb(1, 1, 54);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.menu-list a:hover{
+    background-color:rgb(2, 128, 128);
+    color:white
+}
+.hero{
+     background:url(images/yoga.webp);
+     object-fit: cover;
+     width: 100%;
+     height: 600px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.hero h1{
+    font-size: 4rem;
+    color: rgb(1, 1, 54);
+    padding: 20px;
+    text-align: center;
+}
+.hero button{
+   margin-left: 80%;
+}
+button{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(24, 189, 255);
+    border: none;
+    border-radius: 20px;
+    
+}
+button a{
+    color: rgb(1, 1, 54);
+    text-decoration: none;
+}
+button:hover{
+   background-color: rgb(13, 108, 146); 
+   color:white
+}
+button a:hover{
+    color:white
+}
+.programs{
+     width: 100%;
+     height: 500px;
+}
+.programs h2{
+    text-align: center;
+    color: rgb(1, 1, 54);
+    font-size: 2rem;
+    margin: 40px auto 50px;
+}
+.card-section{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
+     flex-wrap: wrap;
+}
+.card{
+  height:300px;
+  width: 250px;
+  background-color: rgb(207, 237, 250);
+  color: rgb(1, 1, 54);
+  padding: 30px 20px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.card:hover{
+     transform: translateY(-10px);
+     background-color: rgb(148, 217, 247);
+     color: rgb(6, 6, 165);;
+}
+.card h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.card img{
+    width: 40px;
+    height:40px;
+}
+.card li{
+    list-style-type: none;
+    padding: 10px auto;
+}
+.trainer{
+     width: 100%;
+     height: 600px;
+}
+.trainer h2{
+    text-align: center;
+    color: rgb(1, 1, 54);
+    font-size: 2rem;
+    margin: 30px auto 40px;
+}
+.trainer-section{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     flex-direction: column;
+}
+.trainer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.trainer-box img{
+    max-height:400px;
+    min-height: 200px;
+    max-width:400px;
+    min-width: 200px;
+}
+.trainer-box h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px auto;
+    color: rgb(1, 1, 54);
+}
+.trainer-box p{
+    font-size: 1rem;
+     padding: 20px auto;
+     color: rgb(2, 2, 112);
+}
+.footer{
+     width: 100%;
+     height: 600px;
+     margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+}
+.subscription-form h3{
+     font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px auto;
+    color: rgb(1, 1, 54);
+}
+.subscription-form div{
+     font-size: 1rem;
+     margin: 20px auto;
+     padding: 20px auto;
+     color: rgb(2, 2, 112);
+}
+.subscription-form .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.subscription-form .btn button{
+    display: inline-block;
+    margin-left: 10px;
+}
+.subscription-form input[type="email"]{
+    width: 50%;
+    border:none;
+    height: 100%;
+    width:100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:  rgb(24, 189, 255);
+}
+.subscription-form input[type="email"]:hover{
+       background-color: rgb(13, 108, 146); 
+       color: white;
+       height: 100%;
+       width:100%;
+}
+.contact-section{
+    height:80px;
+    width: 100%;
+    background-color: rgb(2, 137, 190);
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+.contact-details p{
+    padding: 20px auto;
+    color: white;
+}
+.socialmedia-icons{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+@media(max-width:768px){
+    .programs{
+        height:900px;
+    }
+    .trainer-box about{
+        padding: 10px;
+    }
+    .trainer{
+        height:1000px
+    }
+    .hero button{
+        margin-left: 40%;
+    }
+}
+
