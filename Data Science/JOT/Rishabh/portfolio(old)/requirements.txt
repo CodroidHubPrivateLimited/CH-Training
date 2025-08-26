@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+requests
+beautifulsoup4
+pandas
+matplotlib
