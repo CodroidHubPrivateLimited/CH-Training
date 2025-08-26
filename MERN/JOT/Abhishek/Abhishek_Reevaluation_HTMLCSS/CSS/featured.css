@@ -1,0 +1,132 @@
+/* Featured */
+.featured {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.feature-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  flex-wrap: wrap;
+}
+
+.feature-title .title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.features {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: gray;
+  max-width: 350px;
+  height: 440px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.feature h1 {
+  padding: 20px 40px;
+  color: #ccc;
+  text-shadow: 0 0 2px #000, 0 0 5px #000;
+}
+
+.feature button {
+  background-color: lightskyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.feature button:hover {
+  transform: scale(1.02);
+  background-color: #379dd3d8;
+}
+
+.feature1 {
+  background: url(https://thumbs.dreamstime.com/b/cap-graduate-certificate-hand-drawn-icon-cap-graduate-certificate-degree-hand-drawn-outline-doodle-icon-vector-111893693.jpg)
+    center/cover;
+}
+
+.feature2 {
+  background: url(https://thumbs.dreamstime.com/b/elearning-isolated-icon-simple-element-illustration-e-learning-concept-icons-editable-logo-sign-symbol-design-white-142288998.jpg)
+    center/cover;
+}
+
+.feature3 {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 10px;
+}
+
+.sub-feature1 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 220px;
+  background: url(https://media.istockphoto.com/id/178517323/photo/statue-of-liberty.jpg?s=612x612&w=0&k=20&c=kK90ZZjLoTWx89ZUj3TOnL9ayAFhWubA2JBbe3MGv8Y=)
+    center/cover;
+  border-radius: 10px;
+}
+
+.sub-feature2 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 220px;
+  background: url(https://media.istockphoto.com/id/1190839137/vector/service-upgrade-concept-three-options-basic-subscription-standard-account-premium-plan.jpg?s=612x612&w=0&k=20&c=r80IwuU38_qgzCjmeL0ZYz9E9psXj092ib72sy0TJh0=)
+    center/cover;
+  border-radius: 10px;
+}
+
+.feature:hover,
+.sub-feature1:hover,
+.sub-feature2:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .feature-title {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .feature h1 {
+    padding: 20px;
+    font-size: 24px;
+  }
+}

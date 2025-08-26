@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+/* Hero */
+.hero {
+  height: 450px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(../Images/Hero/posterbg.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero span {
+  color: #87ceeb;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.hero p {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  color: white;
+  max-width: 800px;
+}
+
+/* Responsive  */
+@media screen and (max-width: 1024px) {
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .hero span {
+    font-size: 50px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .hero span {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    height: 350px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero span {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+}

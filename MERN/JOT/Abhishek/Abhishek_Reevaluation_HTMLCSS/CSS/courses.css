@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+/* Courses */
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.courses h1 {
+  color: gray;
+  font-size: 50px;
+  text-align: center;
+}
+
+.courses h4 {
+  color: skyblue;
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(to right, #1c92d243, #f2fcfe);
+  height: 380px;
+  width: 30%;
+  min-width: 300px;
+  box-shadow: 0px 0px 8px #f5f5f5;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.card2 {
+  background: linear-gradient(to left, #1c92d243, #f2fcfe);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.card .card-info {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.card-info h2 {
+  color: #379dd3d8;
+}
+
+.card-info p {
+  font-size: 15px;
+}
+
+.card button {
+  width: 150px;
+  background-color: skyblue;
+  color: white;
+  font: 16px bold;
+  padding: 12px 30px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.5s, transform 0.3s;
+  cursor: pointer;
+}
+
+.card button:hover {
+  transform: translateY(-5px);
+  background-color: #379dd3d8;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .courses h1 {
+    font-size: 40px;
+  }
+
+  .courses h4 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .courses h1 {
+    font-size: 35px;
+  }
+
+  .courses h4 {
+    font-size: 24px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .courses h1 {
+    font-size: 28px;
+  }
+
+  .courses h4 {
+    font-size: 22px;
+  }
+
+  .card {
+    height: auto;
+    padding: 20px;
+  }
+}
