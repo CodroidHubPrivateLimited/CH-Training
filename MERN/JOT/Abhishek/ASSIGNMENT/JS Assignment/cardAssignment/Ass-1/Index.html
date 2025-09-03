@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local and Session Storage Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-card">
+        <div>
+          <h2>Local Storage Form</h2>
+
+          <form id="localStorageForm">
+            <div class="form-group">
+              <label for="localName">Name:</label>
+              <input
+                type="text"
+                id="localName"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="localEmail">Email:</label>
+              <input
+                type="email"
+                id="localEmail"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="localMessage">Message:</label>
+              <textarea
+                id="localMessage"
+                name="message"
+                rows="3"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Save to Local Storage</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <div>
+          <h2>Session Storage Form</h2>
+          <form id="sessionStorageForm">
+            <div class="form-group">
+              <label for="sessionName">Name:</label>
+              <input
+                type="text"
+                id="sessionName"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="sessionAge">Age:</label>
+              <input
+                type="number"
+                id="sessionAge"
+                name="age"
+                placeholder="Your age"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="sessionCity">City:</label>
+              <input
+                type="text"
+                id="sessionCity"
+                name="city"
+                placeholder="Your city"
+                required
+              />
+            </div>
+            <button type="submit">Save to Session Storage</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

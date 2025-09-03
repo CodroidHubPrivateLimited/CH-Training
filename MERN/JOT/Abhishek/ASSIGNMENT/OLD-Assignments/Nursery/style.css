@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom right, #f5f2e7, #c1bdb3);
+  color: #333;
+}
+a {
+  text-decoration: none;
+}
+aside {
+  width: 220px;
+  height: 100vh;
+  background: radial-gradient(circle, #bfbcb3, #f5f2e7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+aside h1 {
+  color: #444;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+aside a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+}
+aside a:hover {
+  background: #d6d4cc;
+}
+aside a:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 110%;
+  background: #444;
+  color: white;
+  padding: 4px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #e2e0d9;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  padding: 10px;
+  display: block;
+  color: #333;
+}
+.dropdown-content a:hover {
+  background: #c8c5bc;
+}
+main {
+  margin-left: 240px;
+  padding: 30px;
+}
+main div:hover {
+  transform: scale(1.02);
+}
+.hero {
+  height: 300px;
+  background-image: url("https://www.chandigarhhelp.com/wp-content/uploads/2022/02/Top-Plant-Nursery-in-Mohali.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  text-align: center;
+  display: table;
+  width: 100%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 1.5s ease-in;
+}
+.hero h2 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2.5em;
+  color: #f5f2e7;
+  text-shadow: 2px 2px #444;
+}
+.section {
+  margin-top: 30px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideUp 1s ease-in-out;
+}
+.section h3 {
+  color: #555;
+}
+.btn {
+  background: #444;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #2f2f2f;
+  transform: scale(1.05);
+}
+.image-gallery {
+  display: block;
+  margin-top: 10px;
+}
+.image-gallery img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.image-gallery img:hover {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* POPUP */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #bfbcb3a9;
+  display: none;
+  z-index: 999;
+}
+
+.popup:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff;
+  color: #555;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #c1bdb3;
+  font-weight: bold;
+}
+
+.close-btn:hover {
+  color: #c8c5bc;
+}
+.popup-link {
+  text-decoration: none;
+}
+.popup-link:hover {
+  transform: scale(1.02);
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* HAM */
+.hamburger {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1100;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger span {
+  display: block;
+  height: 4px;
+  background: #333;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* Contact form */
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f9f9;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border: 2px solid#888;
+}
+
+form textarea {
+  resize: none;
+}
+
+form .btn {
+  background: #444;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+form .btn:hover {
+  background: #2f2f2f;
+  transform: scale(1.05);
+}
+
+.section h3 {
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: #333;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  aside {
+    position: fixed;
+    left: -240px;
+    top: 0;
+    height: 100%;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+
+  #menu-toggle:checked ~ aside {
+    left: 0;
+  }
+
+  main {
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+  }
+  #menu-toggle:checked ~ main {
+    margin-left: 240px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

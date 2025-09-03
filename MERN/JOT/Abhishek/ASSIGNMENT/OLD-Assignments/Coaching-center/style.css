@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #f0f4f8, #ffffff);
+  color: #222;
+}
+header {
+  background: linear-gradient(to right, #008080, #004c4c);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  animation: fadeInDown 1s ease-out;
+}
+nav {
+  background-color: #004c4c;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #006666;
+  transform: scale(1.05);
+}
+nav a:hover::after {
+  content: attr(title);
+  position: absolute;
+  background: #222;
+  color: #fff;
+  padding: 5px 8px;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0.95;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 180px;
+  text-align: left;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  color: #004c4c;
+  text-decoration: none;
+  background: #f9f9f9;
+  transition: background 0.3s;
+}
+.dropdown-content a:hover {
+  background-color: #ddeeee;
+}
+.hero {
+  /* background: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f")
+    no-repeat center center/cover; */
+  background: url(https://vajiramandravi.com/current-affairs/wp-content/uploads/2025/04/coaching_centre.webp)
+    no-repeat center center/cover;
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+  animation: fadeIn 1.5s ease-in;
+}
+.hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.3em;
+}
+.btn {
+  background-color: #008080;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background 0.3s, transform 0.2s;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #005f5f;
+  transform: scale(1.05);
+}
+.section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+.batches,
+.features,
+.testimonials,
+#about,
+#contact {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-in;
+  transition: all 0.3s ease;
+}
+.testimonials div {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f0f4f8;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.testimonials div:hover {
+  background-color: gray;
+  color: white;
+  transform: scale(1.02);
+}
+.batch-item {
+  margin: 12px 0;
+}
+.features div,
+.testimonials div {
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: #004c4c;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 9999;
+}
+
+.popup:target {
+  display: block;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  margin: 100px auto;
+  border-radius: 10px;
+  animation: popIn 0.4s ease-out;
+  position: relative;
+  z-index: 10000;
+}
+
+.popup .close-btn {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes popIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

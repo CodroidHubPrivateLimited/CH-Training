@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="icon" type="image/x-icon" href="/Tourism/Icons/reviews.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="/Tourism/Codes/Style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <table width="100%">
+                    <tr>
+                        <td align="center">
+                            <p>
+                                <a href="Home.html" class="tooltip">
+                                    <i class="fa-solid fa-house"></i> Home
+                                    <span class="tooltiptext">Visit Homepage</span>
+                                </a> |
+                                <a href="About.html" class="tooltip">
+                                    <i class="fa-solid fa-address-card"></i> About
+                                    <span class="tooltiptext">Learn about Ambala</span>
+                                </a> |
+                                <div class="dropdown">
+                                    <a href="Popularareas.html" class="tooltip">
+                                        <i class="fa-solid fa-landmark"></i> Landmarks ▼
+                                        <span class="tooltiptext">Explore Ambala's landmarks</span>
+                                    </a>
+                                    <div class="dropdown-content">
+                                        <a href="#">Jaggi City Center</a>
+                                        <a href="#">Gurudwara Manji Sahib Ji</a>
+                                        <a href="#">Shri Ambika Devi Mandir</a>
+                                    </div>
+                                </div> |
+                                <a href="Reviews.html" class="tooltip">
+                                    <i class="fa-solid fa-magnifying-glass-location"></i> Reviews
+                                    <span class="tooltiptext">Read visitor reviews</span>
+                                </a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>Visitor Reviews</h1>
+            <p>See what people are saying about Ambala</p>
+        </div>
+
+        <div class="section">
+            <h2>Recent Reviews</h2>
+            
+            <div class="review-card">
+                <h3>Ravi Sharma</h3>
+                <div class="stars">★★★★★</div>
+                <p>"Beautiful Neat and Clean City"</p>
+            </div>
+            
+            <div class="review-card">
+                <h3>Anita Joshi</h3>
+                <div class="stars">★★★★☆</div>
+                <p>"Beautiful place with rich culture"</p>
+            </div>
+            
+            <div class="review-card">
+                <h3>Sunil Kumar</h3>
+                <div class="stars">★★★★☆</div>
+                <p>"Nice place to visit with family"</p>
+            </div>
+            
+            <div class="review-card">
+                <h3>Priya Singh</h3>
+                <div class="stars">★★★★★</div>
+                <p>"Loved the atmosphere and hospitality"</p>
+            </div>
+            
+            <div class="review-card">
+                <h3>Rahul Verma</h3>
+                <div class="stars">★★★☆☆</div>
+                <p>"Good experience but needs better infrastructure"</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Leave Your Review</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="rating">Rating:</label>
+                    <select id="rating" class="form-control" required>
+                        <option value="">Select Rating</option>
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="1">★☆☆☆☆</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="review">Your Review:</label>
+                    <textarea id="review" class="form-control" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Submit Review</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ambala Tourism. All rights reserved.</p>
+        <p>
+            <a href="Contact.html">Contact Us</a> | 
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a>
+        </p>
+    </footer>
+</body>
+</html>

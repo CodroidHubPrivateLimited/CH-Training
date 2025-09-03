@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+body {
+  background: #fff;
+  color: #000;
+}
+button:hover {
+  transform: scale(1.08);
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background: #000;
+  color: white;
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.08);
+}
+.header-buttons button {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  gap: 10px;
+}
+.sign-up {
+  background: white;
+  color: black;
+}
+.sign-up:hover {
+  transform: scale(1.08);
+}
+.sign-in {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.sign-in:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.08);
+}
+
+/* Hero Section */
+.hero {
+  background: url("https://www.shutterstock.com/image-photo/successful-business-woman-standing-outside-600nw-2208174657.jpg")
+    center/cover no-repeat;
+  padding: 60px 5%;
+  color: white;
+  text-align: left;
+  margin-top: 10px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background: white;
+  padding: 15px;
+  border-radius: 0px 8px 8px 8px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.form-container input,
+.form-container select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 180px;
+}
+.form-container button {
+  padding: 0px 100px;
+  height: 38px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 23px;
+  cursor: pointer;
+}
+.form-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-container label {
+  color: black;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  color: black;
+  width: 300px;
+  padding: 10px 10px 5px 10px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+.tabs div {
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.tabs div:hover {
+  border-bottom: 3px solid black;
+}
+.tabs .active {
+  border-bottom: 3px solid black;
+  font-weight: bold;
+}
+
+/* Why US  */
+
+.why-us {
+  padding: 50px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.why-text {
+  flex: 1;
+  width: 40%;
+  padding: 50px;
+}
+
+.why-text h2 {
+  margin-bottom: 100px;
+  font-size: xx-large;
+  margin-left: 3rem;
+}
+
+.why-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.why-icons div {
+  text-align: center;
+}
+.why-icons div :hover {
+  transform: scale(1.05);
+}
+
+.why-icons img {
+  width: 100px;
+  height: 100px;
+}
+
+.why-img {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+
+.why-img p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.why-img img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+/*  Banner */
+.banner {
+  background: url("https://images.pond5.com/two-girls-riding-taxi-back-footage-097594854_iconl.jpeg")
+    center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 0 5%;
+  color: white;
+}
+
+.banner-content {
+  max-width: 500px;
+  margin-left: 8rem;
+}
+
+.banner-content h1 {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.cta-btn {
+  background: white;
+  color: black;
+  padding: 20px 40px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Services */
+.services {
+  padding: 50px 5%;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 15px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Footer */
+
+.footer {
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-top {
+  padding: 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 5%;
+}
+
+.footer-col h4 {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #bbb;
+}
+
+.footer-col ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  padding: 15px 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: black;
+  background-color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 18px;
+  margin-left: 4rem;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.footer-links-inline a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.footer-links-inline a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.footer-lang {
+  margin-left: 46rem;
+}
+
+.footer-lang span {
+  margin-right: 10px;
+}
+
+.logo:hover,
+.footer-logo:hover {
+  transform: translateY(-10px);
+}

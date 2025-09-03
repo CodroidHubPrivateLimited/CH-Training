@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order - Frost Bloom Bakery</title>
+    <link rel="shortcut icon" href="../frostbloom.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <aside>
+      <h1>Frost Bloom 🎂</h1>
+      <a href="../index.html" title="Go to Home">Home</a>
+      <a href="menu.html" title="See our Menu">Menu</a>
+      <a href="order.html" title="Place Order" class="active">Order</a>
+      <div class="dropdown">
+        <a href="#" title="More Info">More ▾</a>
+        <div class="dropdown-content">
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="hero">
+        <h2>Place Your Order 🎂</h2>
+      </div>
+
+      <div class="section">
+        <h3>Online Cake Order</h3>
+        <form class="order-form">
+          <div class="form-group">
+            <label for="cake-type">Select Cake:</label>
+            <select id="cake-type" name="cake-type" required>
+              <option value="">-- Select a cake --</option>
+              <option value="chocolate">Classic Chocolate Fudge (₹599)</option>
+              <option value="vanilla">Vanilla Dream (₹549)</option>
+              <option value="strawberry">Strawberry Bliss (₹649)</option>
+              <option value="mango">Mango Madness (₹699)</option>
+              <option value="custom">Custom Cake (Price varies)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="size">Size:</label>
+            <select id="size" name="size" required>
+              <option value="standard">Standard (Serves 6-8)</option>
+              <option value="medium">Medium (+₹200, Serves 10-12)</option>
+              <option value="large">Large (+₹400, Serves 15-20)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Delivery/Pickup Date:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+
+          <div class="form-group">
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Special Instructions:</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="eggless" id="eggless" />
+              Eggless Version (₹50 extra)
+            </label>
+          </div>
+
+          <button type="submit" class="btn">Proceed to Checkout</button>
+        </form>
+      </div>
+
+      <div class="section">
+        <h3>Delivery Information</h3>
+        <p>
+          We deliver within 10km of our bakery. Delivery charges apply based on
+          distance.
+        </p>
+        <p>For same-day orders, please call us at +919812409496</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Frost Bloom Bakery. Crafted with sweetness 💚</p>
+    </footer>
+  </body>
+</html>

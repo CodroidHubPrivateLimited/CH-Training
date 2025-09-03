@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member Table</title>
+    <link
+      rel="shortcut icon"
+      href="https://static.thenounproject.com/png/3270771-200.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <strong> Organisation :</strong>
+      <div class="header">
+        <h1>MemberCheck Demo Monitoring Scans (DBMOMCMON)</h1>
+      </div>
+
+      <div class="search-section">
+        <div class="search-filters">
+          <div class="filter-group">
+            <h3>List Type:</h3>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="listType" checked /> Individuals
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="listType" /> Corporates
+              </label>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <h3>Monitoring:</h3>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="monitoring" /> On
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="monitoring" /> Off
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="monitoring" checked /> All
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-box">
+          <input type="text" placeholder="Individual Search: NA" />
+          <button>Search</button>
+        </div>
+      </div>
+
+      <div class="results-header">
+        <div class="results-count">54,967 individuals found</div>
+        <div class="actions">
+          <button>Download CSV</button>
+        </div>
+      </div>
+
+      <div class="display-options">
+        <span>Display</span>
+        <select>
+          <option>10 records per page</option>
+          <option>25 records per page</option>
+          <option>50 records per page</option>
+          <option>100 records per page</option>
+        </select>
+        <div class="pagination">
+          <button>&laquo;</button>
+          <button class="active">1</button>
+          <button>2</button>
+          <button>&raquo;</button>
+        </div>
+      </div>
+
+      <table class="results-table">
+        <thead>
+          <tr>
+            <th><input type="checkbox" /></th>
+            <th>Monitor</th>
+            <th>Member Number</th>
+            <th>First Name</th>
+            <th>Middle Name</th>
+            <th>Last Name</th>
+            <th>Original Script Name</th>
+            <th>DOB</th>
+            <th>Address</th>
+            <th>Added By</th>
+            <th>Date Added</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input type="checkbox" />
+            </td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+
+            <td>ABCMON+IELROS</td>
+            <td>Helen</td>
+            <td>--</td>
+            <td>ROSAMOND</td>
+            <td>--</td>
+            <td>02/02/1980</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Aug 26, 2020 6:24:00 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMON-LUBAL</td>
+            <td>Lubna</td>
+            <td>--</td>
+            <td>AL-HASHMY</td>
+            <td>--</td>
+            <td>01/12/1975</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Aug 26, 2020 6:23:37 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMON-STAND</td>
+            <td>Stanley</td>
+            <td>--</td>
+            <td>HO</td>
+            <td>--</td>
+            <td>08/05/1969</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Aug 26, 2020 6:23:11 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMON-THIBUI</td>
+            <td>Thi</td>
+            <td>Thuy Hoa</td>
+            <td>BUI</td>
+            <td>--</td>
+            <td>22/12/1978</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Aug 26, 2020 6:22:51 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMON-AUGNOS</td>
+            <td>Augustine</td>
+            <td>--</td>
+            <td>NOSTI</td>
+            <td>--</td>
+            <td>25/05/1975</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Aug 26, 2020 6:22:22 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMCMON-67620</td>
+            <td>Arturo Cesar</td>
+            <td>--</td>
+            <td>MORALES DAMIREZ</td>
+            <td>--</td>
+            <td>21/01/1970</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Oct 21, 2019 4:08:48 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMCMON-69497</td>
+            <td>Ernesto</td>
+            <td>--</td>
+            <td>MASTINEZ ANDREU</td>
+            <td>--</td>
+            <td>28/09/1970</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Oct 21, 2019 4:07:35 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMCMON-69496</td>
+            <td>Jose Angel</td>
+            <td>--</td>
+            <td>MATTAR OLIVA</td>
+            <td>--</td>
+            <td>30/07/1962</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Oct 21, 2019 4:07:35 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMCMON-69495</td>
+            <td>Juan Carlos</td>
+            <td>--</td>
+            <td>ORTEGA CASTRO</td>
+            <td>--</td>
+            <td>06/03/1961</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Oct 21, 2019 4:07:35 PM</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </td>
+            <td>ABCMCMON-69494</td>
+            <td>Olga Iliana</td>
+            <td>--</td>
+            <td>SALDANA DURAN</td>
+            <td>--</td>
+            <td>19/04/1952</td>
+            <td>--</td>
+            <td>mc.compliance</td>
+            <td>Oct 21, 2019 4:07:35 PM</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="monitor-actions">
+        <button>Monitor</button>
+        <button>Do Not Monitor</button>
+        <button>Remove from Monitoring</button>
+      </div>
+
+      <div class="pagination">
+        <button>&laquo;</button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>&raquo;</button>
+      </div>
+    </div>
+  </body>
+</html>

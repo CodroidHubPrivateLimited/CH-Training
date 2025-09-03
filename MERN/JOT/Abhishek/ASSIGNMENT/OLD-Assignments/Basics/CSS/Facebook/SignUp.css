@@ -1,0 +1,120 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  text-align: center;
+}
+
+.logo {
+  color: #1877f2;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.signup-box {
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.subtitle {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+input,
+select {
+  font-size: 14px;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.half-input {
+  width: 48%;
+  float: left;
+}
+
+.half-input-right {
+  width: 48%;
+  float: right;
+}
+
+.full-input {
+  width: 100%;
+  clear: both;
+}
+
+.third-input {
+  width: 31.5%;
+  margin-right: 1%;
+}
+
+.fourth-input {
+  width: 15%;
+  margin-right: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.signup-button {
+  background-color: #42b72a;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info-text {
+  font-size: 11px;
+  color: #777;
+  margin: 10px 0;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-link a {
+  color: #1877f2;
+  text-decoration: none;
+}
+.login-link a:hover {
+  text-decoration: underline;
+}

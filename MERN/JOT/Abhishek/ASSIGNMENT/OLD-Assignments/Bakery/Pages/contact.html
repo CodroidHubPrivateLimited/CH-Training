@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Frost Bloom Bakery</title>
+    <link rel="shortcut icon" href="../frostbloom.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <aside>
+      <h1>Frost Bloom 🎂</h1>
+      <a href="../index.html" title="Go to Home">Home</a>
+      <a href="menu.html" title="See our Menu">Menu</a>
+      <a href="gallery.html" title="Our Gallery">Gallery</a>
+      <div class="dropdown">
+        <a href="#" title="More Info">More ▾</a>
+        <div class="dropdown-content">
+          <a href="about.html">About Us</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="hero">
+        <h2>Get in Touch 📞</h2>
+      </div>
+
+      <div class="section">
+        <h3>Contact Information</h3>
+        <div class="contact-info">
+          <div class="contact-method">
+            <h4>📍 Visit Us</h4>
+            <p>
+              Frost Bloom Bakery<br />
+              Channa Colony, Main Market<br />
+              Naraingarh 134203<br />
+              Haryana, India
+            </p>
+            <a href="#directions" class="btn">Get Directions</a>
+          </div>
+
+          <div class="contact-method">
+            <h4>📞 Call Us</h4>
+            <p>
+              +91 98124 09496<br />
+              (10am - 8pm daily)
+            </p>
+            <a href="tel:+919812409496" class="btn">Call Now</a>
+          </div>
+
+          <div class="contact-method">
+            <h4>📧 Email Us</h4>
+            <p>
+              hello@frostbloom.com<br />
+              orders@frostbloom.com
+            </p>
+            <a href="mailto:hello@frostbloom.com" class="btn">Send Email</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Send Us a Message</h3>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+              <option value="general">General Inquiry</option>
+              <option value="order">Order Question</option>
+              <option value="custom">Custom Cake Request</option>
+              <option value="feedback">Feedback</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="section">
+        <h3>Business Hours</h3>
+        <table class="hours-table">
+          <tr>
+            <td>Monday - Friday</td>
+            <td>9:00 AM - 8:00 PM</td>
+          </tr>
+          <tr>
+            <td>Saturday - Sunday</td>
+            <td>8:00 AM - 9:00 PM</td>
+          </tr>
+          <tr>
+            <td>Holidays</td>
+            <td>8:00 AM - 10:00 PM</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- POPUP (same as index.html) -->
+      <div id="directions" class="popup">
+        <div class="popup-content">
+          <a href="#" class="close-btn">&times;</a>
+          <h2>Get Directions</h2>
+          <p>
+            📍 Frost Bloom Bakery, Channa Colony, Main Market, Naraingarh 134203
+          </p>
+          <p>
+            🗺️
+            <a
+              href="https://www.google.com/maps?q=Channa+Colony+Main+Market+Naraingarh"
+              target="_blank"
+              >Open in Google Maps</a
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Frost Bloom Bakery. Crafted with sweetness 💚</p>
+    </footer>
+  </body>
+</html>

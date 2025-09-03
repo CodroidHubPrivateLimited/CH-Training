@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Professional Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/Portfolio/Images/portfolio.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar Navigation -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <div class="profile">
+            <img
+              src="/Portfolio/Images/profile_pic.png"
+              alt="Profile Picture"
+              class="profile-img"
+            />
+            <h2 class="profile-name">Abhi Namdev</h2>
+            <p class="profile-title">Web Developer</p>
+          </div>
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <nav class="sidebar-nav">
+          <ul>
+            <li class="active">
+              <a href="#home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#skills">
+                <i class="fas fa-code"></i>
+                <span>Skills</span>
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+                <i class="fas fa-briefcase"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <div class="social-links">
+            <a href="https://github.com/AbhiNamdev025" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/abhinamdev025" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+          <p class="copyright">&copy; 2025 Abhi Namdev. All rights reserved.</p>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section home-section">
+          <div class="home-content">
+            <h1 class="home-title">Hello, I'm <span>Abhi Namdev</span></h1>
+            <p class="home-subtitle">Web Developer</p>
+            <p class="home-description">
+              I create beautiful, functional websites with a focus on user
+              experience and clean code.
+            </p>
+            <div class="home-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="home-image">
+            <div class="image-wrapper">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1661542703454-f5a85df35aa4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHMlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D"
+                alt="Hero Image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+          <h2 class="section-title">About <span>Me</span></h2>
+          <div class="about-content">
+            <div class="about-image">
+              <img src="/Portfolio/Images/portfolio.jpg" alt="About Me" />
+            </div>
+            <div class="about-text">
+              <h3>Who am I?</h3>
+              <p>
+                I'm a passionate web developer with 1+ year of experience
+                creating modern, responsive websites and web applications. I
+                focused on front-end development but also learning back-end
+                technologies.
+              </p>
+
+              <div class="about-details">
+                <div class="detail-item">
+                  <p><span>Name:</span> Abhi Namdev</p>
+                  <p><span>Email:</span> namdevabhi025@gmail.com</p>
+                </div>
+                <div class="detail-item">
+                  <p><span>Experience:</span> 1+ Year</p>
+                  <p><span>Location:</span> Naraingarh 134203, Haryana</p>
+                </div>
+              </div>
+
+              <a href="#" class="btn btn-primary">Download CV</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+
+        <section id="skills" class="section skills-section">
+          <h2 class="section-title">My <span>Skills</span></h2>
+          <div class="skills-container">
+            <div class="skills-category">
+              <h3>Frontend</h3>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <i class="devicon-html5-plain colored"></i>
+                  <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress html"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <i class="devicon-css3-plain colored"></i>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress css"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress javascript"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-category">
+              <h3>Backend</h3>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress node"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-category">
+              <h3>Tools & Frameworks</h3>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <i class="devicon-react-original colored"></i>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress react"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <i class="devicon-git-plain colored"></i>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress git"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <i class="devicon-figma-plain colored"></i>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress figma"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+          <h2 class="section-title">My <span>Projects</span></h2>
+          <div class="projects-container">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <img src="/Portfolio/Images/adoption.svg" alt="Project 1" />
+                  <h3>Pet-Adoption Website</h3>
+                  <div class="tech-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Figma</span>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <h3>Pet-Adoption Website</h3>
+                  <p>
+                    Connects shelters with adopters through smart filters and
+                    virtual meetups. Streamlines adoptions
+                  </p>
+                  <div class="project-links">
+                    <a href="#" class="btn-small">Click Here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <img src="/Portfolio/Images/logo.ico" alt="Project 2" />
+                  <h3>Tourism Website</h3>
+                  <div class="tech-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Figma</span>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <h3>Tourism Website</h3>
+                  <p>
+                    Features real-time bookings, interactive maps, and local
+                    experience marketplace.
+                  </p>
+                  <div class="project-links">
+                    <a href="#" class="btn-small">Click Here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="view-all">
+            <a
+              href="/Assignments Navigatio/index.html"
+              target="_blank"
+              class="btn btn-primary"
+              >View All Projects</a
+            >
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+          <h2 class="section-title">Get In <span>Touch</span></h2>
+          <div class="contact-container">
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>namdevabhi025@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+919812409496</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Naraingarh 134203, Haryana</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSI Thin 15 - Premium Laptop</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/icon-x" href="/Tourism/Icons/Home.ico" />
+  </head>
+  <body>
+    <!-- TASK 1: Semantic Structure -->
+    <header>
+      <h1>Flame Tech</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-house" style="color: #ffffff"></i> Home</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-laptop" style="color: #ffffff"></i>
+              Laptops</a
+            >
+          </li>
+          <li>
+            <div class="dropdown">
+              <a href="#" class="tooltip">
+                <i class="fa-solid fa-keyboard" style="color: #ffffff"></i>
+                Accessories ▼
+              </a>
+              <div class="dropdown-content">
+                <a href="#">Protectors</a>
+                <a href="#">Keyboard</a>
+                <a href="#">Mouse</a>
+                <a href="#">Skins</a>
+                <a href="#">Bags</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-headset" style="color: #ffffff"></i>
+              Support</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Product Article -->
+      <article class="product">
+        <section class="product-info">
+          <h2 class="product-title">MSI Thin 15 B12UCX-2471IN</h2>
+          <div class="product-image-container">
+            <img
+              src="https://m.media-amazon.com/images/I/71VG3azYMjL._SX679_.jpg"
+              alt="MSI Thin 15 Laptop"
+            />
+          </div>
+          <p class="product-description">
+            <span>Ultra-slim gaming laptop</span> with 12th Gen Intel Core i5
+            processor and NVIDIA RTX 3050 graphics. Perfect for gaming and
+            creative work.
+          </p>
+          <p class="product-price">₹69,999</p>
+          <button class="buy-button">Buy Now</button>
+        </section>
+
+        <section class="product-specs">
+          <h3>Specifications</h3>
+          <table>
+            <tr>
+              <th>Feature</th>
+              <th>Details</th>
+            </tr>
+            <tr>
+              <td>Processor</td>
+              <td>Intel Core i5-12650H</td>
+            </tr>
+            <tr>
+              <td>Graphics</td>
+              <td>NVIDIA RTX 3050 4GB</td>
+            </tr>
+            <tr>
+              <td>RAM</td>
+              <td>16GB DDR4</td>
+            </tr>
+            <tr>
+              <td>Storage</td>
+              <td>1TB NVMe SSD</td>
+            </tr>
+            <tr>
+              <td>Display</td>
+              <td>15.6" FHD 144Hz</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="product-reviews">
+          <h3>Customer Reviews</h3>
+          <ul class="reviews-list">
+            <li class="review">"Excellent performance for the price!" - Raj</li>
+            <li class="review">"Lightweight yet powerful" - Priya</li>
+            <li class="review">"Great for both work and gaming" - Amit</li>
+            <li class="review">"Battery life could be better" - Neha</li>
+          </ul>
+        </section>
+
+        <section class="inquiry-form">
+          <h3>Product Inquiry</h3>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+
+            <label for="rating">Rating (1-5):</label>
+            <input type="number" id="rating" min="1" max="5" placeholder="5" />
+
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </article>
+
+      <!-- TASK 10: Second Product -->
+      <article class="product">
+        <section class="product-info">
+          <h2 class="product-title">MSI Modern 14 C12MO-1298IN</h2>
+          <div class="product-image-container">
+            <img
+              src="https://m.media-amazon.com/images/I/71aCYNHL36L._SX679_.jpg"
+              alt="MSI Modern 14 Laptop"
+            />
+          </div>
+          <p class="product-description">
+            <span>Business edition</span> with longer battery life and
+            professional design. Same powerful performance in a sleek package.
+          </p>
+          <p class="product-price">₹82,990</p>
+          <button class="buy-button">Buy Now</button>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 FlameTech. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

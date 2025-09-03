@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  box-sizing: border-box;
+  background-color: beige;
+}
+
+h2 {
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-bottom: 1.56px solid black;
+}
+
+section {
+  height: 370px;
+  border: 2px solid #444;
+  border-bottom: none;
+  position: relative;
+}
+div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+div:hover {
+  box-shadow: 1px 1px 6px black;
+}
+
+/* Basic Animations Section 1*/
+
+.box1 {
+  background-color: skyblue;
+  animation-name: changebg;
+  animation-duration: 2s;
+}
+/* Task 1 */
+@keyframes changebg {
+  from {
+    background-color: skyblue;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+/* Task 2 */
+.box2 {
+  background-color: purple;
+  animation-name: Animate-size;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+@keyframes Animate-size {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 250px;
+  }
+}
+
+/*  Section 2 Animation Timing and Delay */
+
+/* Task 3 */
+.box3 {
+  background-color: skyblue;
+  animation-name: changebg;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+/* Task 4 */
+
+.timing {
+  display: flex;
+  border: none;
+  height: 120px;
+  width: 100%;
+}
+
+.timing div {
+  background-color: teal;
+  margin-left: 0;
+}
+.timing-linear {
+  animation: Animate-size 3s linear;
+}
+
+.timing-ease {
+  animation: Animate-size 3s ease;
+}
+
+.timing-ease-in-out {
+  animation: Animate-size 3s ease-in-out;
+}
+
+/* Section-3  Animating loop and direction */
+
+/* Task 5 */
+.loop {
+  background-color: orange;
+  position: absolute;
+  display: block;
+  animation: loop 2s infinite ease-in-out;
+}
+
+@keyframes loop {
+  from {
+    left: 0px;
+    background-color: orange;
+  }
+  to {
+    background-color: orangered;
+    left: 400px;
+  }
+}
+
+/* Task 6 */
+.alternate-loop {
+  background-color: green;
+  position: absolute;
+  top: 200px;
+  animation: loop 2s infinite alternate ease-in-out;
+}
+
+/*  Section-4  Animating Fill modes */
+
+/* Task 7 */
+
+.fill-forwards {
+  background-color: gray;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Task 8 */
+
+.fill-backwards {
+  background-color: pink;
+  animation: slideIn 2s backwards;
+  animation-delay: 1s;
+  position: absolute;
+}
+
+@keyframes slideIn {
+  from {
+    left: -100px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+/* Section 5  Short hand and pause */
+
+/* Task 9 */
+
+.shorthand {
+  background-color: skyblue;
+  /* name, duration, timing, delay, count, direction, fill */
+  animation: changebg 3s ease-in 1s infinite alternate forwards;
+}
+
+/* Task 10 */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    background-color: tomato;
+  }
+  to {
+    transform: rotate(360deg);
+    background-color: red;
+  }
+}
+
+.pause {
+  background-color: tomato;
+  animation: rotate 2s ease-in-out infinite alternate;
+}
+
+.pause:hover {
+  animation-play-state: paused;
+}
+
+/* Section 6 Creative Challenges */
+
+/* Task 11 */
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  position: relative;
+  animation: bounce 0.8s infinite ease-in-out;
+  margin-top: 6rem;
+}
+
+@keyframes bounce {
+  0% {
+    top: -80px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: 0px;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    top: -80px;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+/* Task 12 */
+.dot-container {
+  border: none;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* Task 13 */
+
+@keyframes load {
+  0% {
+    transform: scale(1);
+    background-color: #3498db;
+  }
+  50% {
+    transform: scale(1.5);
+    background-color: #2ecc71;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #3498db;
+  }
+}
+
+.dot1 {
+  animation: load 1.5s infinite;
+}
+
+.dot2 {
+  animation: load 1.5s infinite 0.5s;
+}
+
+.dot3 {
+  animation: load 1.5s infinite 1s;
+}

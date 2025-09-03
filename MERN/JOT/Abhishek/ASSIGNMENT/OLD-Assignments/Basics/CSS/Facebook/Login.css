@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 15px;
+  overflow: hidden;
+}
+
+/* Left Side: FB Text */
+.left-side {
+  width: 50%;
+  float: left;
+  padding-right: 20px;
+  margin-top: 112px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.left-side h1 {
+  text-align: left;
+  color: #1877f2;
+  /* color: #4267b3; */
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+.left-side p {
+  font-size: 28px;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* Right Side: Form */
+.right-side {
+  width: 50%;
+  float: left;
+}
+
+.login-box {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login-box input {
+  height: 55px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding: 0 14px;
+}
+.login-box input:hover {
+  border: 2px solid #0d65d9;
+  outline: #4267b3;
+  outline-offset: 1px;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.btn-login {
+  border: none;
+  background: #1877f2;
+  padding: 15px 0;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn-login:hover {
+  background: #0d65d9;
+}
+
+.link-forgot {
+  color: #1877f2;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.link-forgot:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+  border: none;
+}
+
+.create-btn-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+
+.btn-create {
+  padding: 15px 20px;
+  background: #42b72a;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn-create:hover {
+  background: #3ba626;
+}
+.footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 14px;
+}

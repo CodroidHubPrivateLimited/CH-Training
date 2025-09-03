@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopt a Pet | ThePetNest</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="adoption.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>ThePetNest - Adopt a Pet</h1>
+    </header>
+
+    <!-- Navbar -->
+
+    <nav>
+      <div class="logo-container">
+        <div class="logo">🐾</div>
+        <div class="logo-text">ThePetNest</div>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger"> ≡</label>
+
+      <div class="nav-links">
+        <a href="#pets" class="active">Search</a>
+        <a href="#journey">Meet</a>
+        <a href="#social-stories">Stories</a>
+        <a href="#social-media">About Us</a>
+        <a href="#adopt-popup" class="adopt-now">
+          <p>Adopt Now</p>
+        </a>
+      </div>
+    </nav>
+    <!-- Testimonial -->
+
+    <section class="testimonial">
+      <img
+        src="https://media.sciencephoto.com/f0/21/05/06/f0210506-800px-wm.jpg"
+        alt="Adoption Story"
+      />
+      <p>
+        "I am very happy to adopt Olivia. I was fortunate enough to find her on
+        ThePetNest." – <strong>Ritika Singh</strong>
+      </p>
+      <em>
+        "I never imagined how much joy adopting Max would bring to my family.
+        The process was smooth and the support from ThePetNest made everything
+        easier." – <strong>Arjun Mehra</strong>
+      </em>
+    </section>
+
+    <section class="section" id="section">
+      <h2>#AdoptLove</h2>
+      <p>
+        Approximately 1478 dogs & cats die every day on roads in India.
+        ThePetNest is on a mission to provide every pet a home before 2035. Be a
+        hero. Adopt a friend.
+      </p>
+      <a class="btn" href="#adopt-popup">Adopt a Pet</a>
+    </section>
+
+    <!-- Journey -->
+
+    <section class="journey" id="journey">
+      <h3>Your Pet Adoption Journey</h3>
+      <div class="steps">
+        <div class="step">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/616/616408.png"
+            alt="Search"
+          />
+          <p>
+            <strong>Search</strong><br />Find pets available for adoption in
+            your city.
+          </p>
+        </div>
+        <div class="step">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+            alt="Connect"
+          />
+          <p>
+            <strong>Connect</strong><br />Reach out to pet owners or rescue
+            centers.
+          </p>
+        </div>
+        <div class="step">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2769/2769339.png"
+            alt="AdoptLove"
+          />
+          <p>
+            <strong>AdoptLove</strong><br />Prepare your home and welcome your
+            new pet.
+          </p>
+        </div>
+        <div class="step">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/901/901435.png"
+            alt="Vet"
+          />
+          <p>
+            <strong>Free Vet Help</strong><br />Free consultation post adoption
+            from ThePetNest.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pets Section -->
+
+    <section class="pets" id="pets">
+      <h2>Our Pets</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Bruce</h3>
+          <img
+            src="https://www.bellaandduke.com/wp-content/uploads/2024/10/A-guide-to-German-Shepherds-characteristics-personality-lifespan-and-more-featured-image-1024x683.webp"
+            alt="bruce"
+          />
+          <p>Breed: German-Shepherd</p>
+          <p>Age: 3 Years</p>
+          <p>"A healthy,well-behaved pet"</p>
+          <a
+            href="#bruce-popup"
+            class="btn"
+            style="padding: 8px 15px; font-size: 12px"
+            >More Info</a
+          >
+        </div>
+        <div class="card">
+          <h3>Luna</h3>
+          <img
+            src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NlYWwtcG9pbnQuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0="
+            alt="luna"
+          />
+          <p>Breed: Siamese Cat</p>
+          <p>Age: 2 Years</p>
+          <p>"Playful companion"</p>
+          <a
+            href="#luna-popup"
+            class="btn"
+            style="padding: 8px 15px; font-size: 12px"
+            >More Info</a
+          >
+        </div>
+        <div class="card">
+          <h3>Rocky</h3>
+          <img
+            src="https://www.akc.org/wp-content/uploads/2017/11/Labrador-Retriever-MP.jpg"
+            alt="rocky"
+          />
+          <p>Breed: Labrador Retriever</p>
+          <p>Age: 1.5 Years</p>
+          <p>"Energetic and friendly dog"</p>
+          <a
+            href="#rocky-popup"
+            class="btn"
+            style="padding: 8px 15px; font-size: 12px"
+            >More Info</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media & Stories Section -->
+    <section class="social-stories">
+      <div class="social-media" id="social-media">
+        <h2>Join Our Pet Community</h2>
+        <p>Follow our daily adventures and adoption stories</p>
+
+        <div class="social-grid">
+          <div class="social-card instagram">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+              alt="Instagram"
+            />
+            <h3>@ThePetNest</h3>
+            <p>Daily pet photos & videos</p>
+          </div>
+
+          <div class="social-card facebook">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+              alt="Facebook"
+            />
+            <h3>ThePetNest</h3>
+            <p>Adoption events & community</p>
+          </div>
+
+          <div class="social-card youtube">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+              alt="YouTube"
+            />
+            <h3>ThePetNest TV</h3>
+            <p>Adoption journeys & tutorials</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3D Flipping Story Cards -->
+      <div class="story-showcase" id="social-stories">
+        <h3>Paws of Changes</h3>
+
+        <div class="flip-cards">
+          <!-- Card 1 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div
+                class="flip-card-front"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+                "
+              >
+                <div class="overlay">
+                  <h4>Before Adoption</h4>
+                  <p>Charlie, 2019</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT78iTmDLfJyMVd1UUK37wduEaPhVXcxxVvZA&s"
+                  alt="Owner"
+                />
+                <h4>Charlie's New Life</h4>
+                <p>
+                  "From scared shelter dog to confident companion. He now loves
+                  hiking and cuddles!" - Priya
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div
+                class="flip-card-front"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+                "
+              >
+                <div class="overlay">
+                  <h4>Before Adoption</h4>
+                  <p>Misty, 2020</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNPYAxhc1fYm_s3psVCPIfOZS0ojg92TimfA&s"
+                  alt="Owner"
+                />
+                <h4>Misty's Transformation</h4>
+                <p>
+                  "She was malnourished when found. Now she's the queen of our
+                  household!" - Rohan
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div
+                class="flip-card-front"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+                "
+              >
+                <div class="overlay">
+                  <h4>Before Adoption</h4>
+                  <p>Rocky, 2021</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkY36XkesV2esKBb7ds9iQinTHYG9R8pOGqQ&s"
+                  alt="Owner"
+                />
+                <h4>Rocky's Journey</h4>
+                <p>
+                  "He was abandoned with an injury. Now he runs faster than any
+                  dog in the park!" - Ananya
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>&copy; 2025 ThePetNest Foundation. Adopt, Don't Shop.</footer>
+
+    <!-- Popup for Adopt button -->
+    <div id="adopt-popup" class="popup">
+      <div class="popup-content">
+        <a href="#section" class="close-btn">&times;</a>
+        <h2>Start Your Adoption Journey</h2>
+        <p>
+          Thank you for considering pet adoption! Here's how you can proceed:
+        </p>
+        <ol>
+          <li>Browse our available pets</li>
+          <li>Schedule a meeting with the pet</li>
+          <li>Complete the adoption paperwork</li>
+          <li>Prepare your home for the new arrival</li>
+        </ol>
+        <p>Our team will guide you through every step of the process.</p>
+        <a href="#pets" class="btn">Continue to Pets</a>
+      </div>
+    </div>
+
+    <!-- Popup for Bruce -->
+    <div id="bruce-popup" class="popup">
+      <div class="popup-content">
+        <a href="#pets" class="close-btn">&times;</a>
+        <h2>Meet Bruce</h2>
+        <img
+          src="https://www.bellaandduke.com/wp-content/uploads/2024/10/A-guide-to-German-Shepherds-characteristics-personality-lifespan-and-more-featured-image-1024x683.webp"
+          alt="Bruce"
+          style="
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+          "
+        />
+        <p><strong>Breed:</strong> German Shepherd</p>
+        <p><strong>Age:</strong> 3 years</p>
+        <p>
+          <strong>Personality:</strong> Bruce is a loyal and intelligent
+          companion. He's well-trained and gets along with children and other
+          pets.
+        </p>
+        <p><strong>Health:</strong> Fully vaccinated and neutered</p>
+        <p><strong>Special Needs:</strong> None</p>
+        <a href="#adopt-popup" class="btn">Adopt Bruce</a>
+      </div>
+    </div>
+
+    <!-- Popup for Luna -->
+    <div id="luna-popup" class="popup">
+      <div class="popup-content">
+        <a href="#pets" class="close-btn">&times;</a>
+        <h2>Meet Luna</h2>
+        <img
+          src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NlYWwtcG9pbnQuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0="
+          alt="Luna"
+          style="
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+          "
+        />
+        <p><strong>Breed:</strong> Siamese Cat</p>
+        <p><strong>Age:</strong> 2 years</p>
+        <p>
+          <strong>Personality:</strong> Luna is a vocal and affectionate cat who
+          loves attention. She's playful and enjoys interactive toys.
+        </p>
+        <p><strong>Health:</strong> Fully vaccinated and spayed</p>
+        <p>
+          <strong>Special Needs:</strong> Prefers a quiet home without small
+          children
+        </p>
+        <a href="#adopt-popup" class="btn">Adopt Luna</a>
+      </div>
+    </div>
+
+    <!-- Popup for Rocky -->
+    <div id="rocky-popup" class="popup">
+      <div class="popup-content">
+        <a href="#pets" class="close-btn">&times;</a>
+        <h2>Meet Rocky</h2>
+        <img
+          src="https://www.akc.org/wp-content/uploads/2017/11/Labrador-Retriever-MP.jpg"
+          alt="Rocky"
+          style="
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+          "
+        />
+        <p><strong>Breed:</strong> Labrador Retriever</p>
+        <p><strong>Age:</strong> 1.5 years</p>
+        <p>
+          <strong>Personality:</strong> Rocky is full of energy and loves to
+          play fetch. He's friendly with everyone and would make a great family
+          pet.
+        </p>
+        <p><strong>Health:</strong> Fully vaccinated, not yet neutered</p>
+        <p>
+          <strong>Special Needs:</strong> Needs plenty of exercise and space to
+          run
+        </p>
+        <a href="#adopt-popup" class="btn">Adopt Rocky</a>
+      </div>
+    </div>
+  </body>
+</html>

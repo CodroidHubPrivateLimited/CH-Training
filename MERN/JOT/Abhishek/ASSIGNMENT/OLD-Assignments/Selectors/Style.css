@@ -1,0 +1,283 @@
+/* TASK 2: Simple and Group Selector */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: cursive;
+  color: #333;
+  margin-top: 0;
+}
+
+/* TASK 3: Attribute Selectors */
+input[type="text"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+input[type="number"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* TASK 4: Used Pseudo-Classes */
+.buy-button:hover {
+  background-color: #45a049;
+}
+
+.buy-button:active {
+  background-color: #3e8e41;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.reviews-list li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* TASK 5: Used Pseudo-Elements */
+.product-title::before {
+  content: "★ ";
+  color: gold;
+}
+
+.product-description::first-letter {
+  font-size: 150%;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+/* TASK 6: Used Combinators */
+.product-description span {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+section > h3 {
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+}
+
+h2 + p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.review + li {
+  margin-top: 8px;
+}
+
+/* TASK 7: CSS Box Model */
+* {
+  box-sizing: border-box;
+}
+
+.product {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  max-width: 900px;
+  border-radius: 5px;
+}
+
+.product-image-container {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+form input {
+  margin: 5px 0 15px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* TASK 8:Specificity */
+p {
+  color: black;
+}
+
+.product-description {
+  color: #555;
+}
+
+#special-description {
+  color: blue;
+}
+
+.buy-button {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+/* TASK 9: Layout*/
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #124313;
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+footer p {
+  color: white;
+}
+
+.buy-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* TASK 10: Second Product Styling */
+.product:nth-child(2) .product-title::before {
+  content: "★★★ ";
+  color: gold;
+  letter-spacing: 3px;
+}
+
+/* Customs */
+
+.inquiry-form button {
+  padding: 5px 10px;
+}
+
+.inquiry-form button:hover {
+  cursor: pointer;
+}
+
+::selection {
+  color: whitesmoke;
+  background-color: skyblue;
+}
+
+::marker {
+  color: #3e8e41;
+  content: "👉🏻";
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 90%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}

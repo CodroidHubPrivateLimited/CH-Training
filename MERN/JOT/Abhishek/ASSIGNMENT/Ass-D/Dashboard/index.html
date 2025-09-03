@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexCorp Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="logo">
+          <img src="./images/logo.jpeg" alt="logo" />
+          <span>LexCorp</span>
+        </div>
+
+        <nav>
+          <a href="#"><i class="fas fa-chart-line"></i> Per.</a>
+          <a href="#"><i class="fas fa-building"></i> Org.</a>
+          <a href="#"><i class="fas fa-parking"></i> Park</a>
+          <a href="#"><i class="fas fa-user-plus"></i> Rec.</a>
+          <a href="#"><i class="fas fa-envelope"></i> Msg</a>
+
+          <div class="bottom">
+            <a href="#"><i class="fa-regular fa-circle-question"></i></a>
+            <a href="#"><i class="fa-solid fa-gear"></i> </a>
+          </div>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <!-- Navbar -->
+        <div class="navbar">
+          <nav>
+            <a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+            <a href="#" class="active"><i class="fas fa-calendar"></i> Leave</a>
+            <a href="#"><i class="fas fa-user-check"></i> Attendance</a>
+          </nav>
+          <div class="navbar-actions">
+            <input type="text" class="search-bar" placeholder="Search..." />
+            <a href="#" class="icon-btn"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="icon-btn"><i class="fas fa-bell"></i></a>
+            <a href="#" class="profile-circle">
+              <img src="./images/pp.png" alt="Profile" />
+            </a>
+          </div>
+        </div>
+        <header class="topbar">
+          <div class="welcome">
+            <h2>Good afternoon, Abhishek!</h2>
+            <p>You have <strong>2 leave request</strong> pending.</p>
+          </div>
+          <div class="time">
+            <p><strong>26 Sept 2023, 12:10 PM</strong></p>
+          </div>
+        </header>
+
+        <section class="stats">
+          <div class="card">
+            <img src="./images/chart1.jpg" alt="chart-1" />
+          </div>
+
+          <div class="card">
+            <img src="./images/chart2.jpg" alt="chart-2" />
+          </div>
+          <div class="card">
+            <img src="./images/chart3.jpg" alt="chart-3" />
+          </div>
+        </section>
+
+        <section class="leave-section">
+          <div class="leave-box">
+            <h3>My Leaves</h3>
+            <p><strong>8-08-2025</strong> - Rakshbandhan (Pending)</p>
+            <p><strong>5 Sept 2025</strong> - Teacher’s Day (Approved)</p>
+            <p><strong>8-08-2025</strong> - Rakshbandhan (Pending)</p>
+            <p><strong>5 Sept 2025</strong> - Teacher’s Day (Approved)</p>
+            <p><strong>8-08-2025</strong> - Rakshbandhan (Pending)</p>
+            <p><strong>5 Sept 2025</strong> - Teacher’s Day (Approved)</p>
+          </div>
+          <div class="leave-box">
+            <h3>Leave Requests</h3>
+            <p><strong>ABC</strong> - 10 Aug 2025(1 day)</p>
+            <p><strong>XYZ</strong> - 24–26 Aug 2025 (3 days)</p>
+            <p><strong>ABC</strong> - 10 Aug 2025(1 day)</p>
+            <p><strong>XYZ</strong> - 24–26 Aug 2025 (3 days)</p>
+            <p><strong>ABC</strong> - 10 Aug 2025(1 day)</p>
+            <p><strong>XYZ</strong> - 24–26 Aug 2025 (3 days)</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

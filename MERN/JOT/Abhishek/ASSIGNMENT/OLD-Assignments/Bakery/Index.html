@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frost Bloom Bakery</title>
+    <link rel="shortcut icon" href="frostbloom.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <aside>
+      <h1>Frost Bloom 🎂</h1>
+      <a href="index.html" title="Go to Home">Home</a>
+      <a href="./Pages/menu.html" title="See our Menu">Menu</a>
+      <a href="./Pages/gallery.html" title="View Gallery">Gallery</a>
+      <div class="dropdown">
+        <a href="#" title="More Info">More ▾</a>
+        <div class="dropdown-content">
+          <a href="./Pages/about.html">About Us</a>
+          <a href="./Pages/order.html">Order Online</a>
+          <a href="./Pages/contact.html">Contact</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="hero" id="home">
+        <h2>Delight in Every Slice 🍰</h2>
+      </div>
+
+      <div class="section" id="cakes">
+        <h3>Our Signature Cakes</h3>
+        <div class="cakes-gallery">
+          <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+            alt="Chocolate Cake"
+          />
+          <img
+            src="https://tfcakes.in/images/products/201230_121222_402_376.jpg"
+            alt="Vanilla Cake"
+          />
+          <img
+            src="https://florasensations.com/wp-content/uploads/2023/05/Delicious-Creamy-Strawberry-Cake.jpg"
+            alt="Strawberry Cake"
+          />
+          <img
+            src="https://liliyum.com/cdn/shop/products/rengokucake_2400x.jpg?v=1658139767"
+            alt="Custom Cake"
+          />
+        </div>
+        <a class="btn" href="./Pages/menu.html">View All</a>
+      </div>
+
+      <div class="section" id="specials">
+        <h3>Today's Specials</h3>
+        <p>
+          Try our new Choco Fudge, Red Velvet Cupcakes, and Newest Macarons !
+        </p>
+        <a href="./Pages/menu.html" class="btn">See Menu</a>
+      </div>
+
+      <div class="section" id="about">
+        <h3>About Frost Bloom</h3>
+        <p>
+          At Frost Bloom, we craft cakes with love and premium ingredients.
+          Since our first bloom in 2015, we've become the go-to cake shop for
+          celebrations in town. From birthdays to weddings, every cake is a
+          story.
+        </p>
+        <a href="./Pages/about.html" class="btn">About Us</a>
+      </div>
+
+      <div class="section" id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: hello@frostbloom.com</p>
+        <p>Phone: +919812409496</p>
+        <p>Address: Channa Colony, Main Market , Naraingarh</p>
+        <a href="#directions" class="btn">Get Directions</a>
+      </div>
+
+      <!-- POPUP -->
+      <div id="directions" class="popup">
+        <div class="popup-content">
+          <a href="#" class="close-btn">&times;</a>
+          <h2>Get Directions</h2>
+          <p>
+            📍 Frost Bloom Bakery, Channa Colony, Main Market, Naraingarh 134203
+          </p>
+          <p>
+            🗺️
+            <a
+              href="https://www.google.com/maps?q=Channa+Colony+Main+Market+Naraingarh"
+              target="_blank"
+              >Open in Google Maps</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="section" id="faq">
+        <h3>Frequently Asked Questions</h3>
+        <p><strong>Do you deliver?</strong> Yes, within 10km of our store!</p>
+        <p><strong>Do you offer eggless cakes?</strong> Absolutely!</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Frost Bloom Bakery. Crafted with sweetness 💚</p>
+    </footer>
+  </body>
+</html>
