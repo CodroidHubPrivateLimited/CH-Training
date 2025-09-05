@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Guessing Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f4f4f9;
+    }
+    #game-container {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      display: inline-block;
+    }
+    input, button {
+      margin: 10px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    #message {
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <h2> Number Guessing Game</h2>
+    <p>Guess a number between <b>1</b> and <b>100</b></p>
+    
+ 
+    <input type="number" id="userGuess" placeholder="Enter your guess" />
+    <button id="checkBtn">Check</button>
+    <button id="resetBtn">Reset</button>
+    
+ 
+    <p id="message"></p>
+    <p id="score">Attempts: 0</p>
+  </div>
+
+  <script>
+ 
+    let randomNumber;
+    let attempts;
+
+    function resetGame() {
+      randomNumber = Math.floor(Math.random() * 100) + 1; 
+      attempts = 0;
+      document.getElementById("message").textContent = "";
+      document.getElementById("score").textContent = "Attempts: 0";
+      document.getElementById("userGuess").value = "";
+    }
+
+   
+    function checkGuess() {
+      const guess = Number(document.getElementById("userGuess").value); 
+
+      if (!guess || guess < 1 || guess > 100) {
+        document.getElementById("message").textContent = "Please enter a number between 1 and 100.";
+      } else if (guess === randomNumber) {
+        document.getElementById("message").textContent = `Correct! The number was ${randomNumber}`;
+      } else if (guess > randomNumber) {
+        document.getElementById("message").textContent = " Too high! Try again.";
+      } else {
+        document.getElementById("message").textContent = " Too low! Try again.";
+      }
+
+      document.getElementById("score").textContent = `Attempts: ${attempts}`;
+    }
+
+    document.getElementById("checkBtn").addEventListener("click", checkGuess);
+    document.getElementById("resetBtn").addEventListener("click", resetGame);
+
+   
+    resetGame();
+  </script>
+</body>
+</html>
+
+
+
+
+
