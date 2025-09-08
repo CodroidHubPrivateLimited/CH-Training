@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check the word is palindrome or not</title>
+  </head>
+  <body>
+    <script>
+      let word = "abccba";
+      let start = 0;
+      let end = word.length - 1;
+      let isPalindrome = true;
+      while (start <= end) {
+        if (word[start] !== word[end]) {
+          isPalindrome = false;
+          break;
+        }
+        start++;
+        end--;
+      }
+
+      if (isPalindrome) {
+        console.log("word is Palindrome");
+      } else {
+        console.log("word is not Palindrome");
+      }
+    </script>
+  </body>
+</html>
