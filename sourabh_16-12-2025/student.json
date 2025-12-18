@@ -1,0 +1,22 @@
+[
+    {
+        "Name": "Anjali",
+        "age": 30,
+        "city": "hardoi"
+    },
+    {
+        "Name": "Shivani",
+        "age": 30,
+        "city": "Delhi"
+    },
+    {
+        "Name": "Samridhi Tanwar",
+        "age": 9,
+        "city": "shahbad"
+    },
+    {
+        "Name": "Aviraj",
+        "age": 5,
+        "city": "Chandigarh"
+    }
+]
