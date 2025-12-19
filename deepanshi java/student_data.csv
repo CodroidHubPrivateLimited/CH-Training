@@ -1,0 +1,1001 @@
+student_ID,age,marks,grade,Department
+101,18,81,A,Physics
+102,21,56,A,Computer Science
+103,20,99,C,Biology
+104,18,59,B,Biology
+105,19,67,C,Physics
+106,21,87,B,mathematics
+107,27,52,C,Mathematics
+108,25,70,D,Mathematics
+109,23,73,A,Mathematics
+110,28,54,D,Mathematics
+111,26,99,D,Computer Science
+112,21,71,D,Physics
+113,21,43,A,Mathematics
+114,20,74,A,Physics
+115,24,91,C,Computer Science
+116,18,92,C,Computer Science
+117,22,56,C,Physics
+118,24,65,B,Biology
+119,27,46,A,Chemistry
+120,21,80,C,Biology
+121,26,72,C,Chemistry
+122,29,82,A,Chemistry
+123,22,88,A,Physics
+124,25,51,B,Biology
+125,24,41,B,Computer Science
+126,19,70,B,Mathematics
+127,23,77,D,computer science
+128,28,73,A,Physics
+129,20,50,B,Physics
+130,19,70,C,Biology
+131,23,49,B,Biology
+132,21,57,C,Mathematics
+133,28,68,A,Chemistry
+134,20,52,A,Biology
+135,28,96,B,chemistry
+136,22,77,B,Chemistry
+137,29,82,B,Mathematics
+138,19,46,C,Biology
+139,20,150,C,Computer Science
+140,21,81,A,Mathematics
+141,22,83,D,Physics
+142,23,69,A,Mathematics
+143,22,65,B,Biology
+144,23,66,C,Biology
+145,25,76,C,Chemistry
+146,24,48,C,Computer Science
+147,20,40,B,Mathematics
+148,22,95,A,Physics
+149,29,80,C,Computer Science
+150,23,73,B,Chemistry
+151,26,65,A,Mathematics
+152,22,49,D,biology
+153,28,48,C,Mathematics
+154,24,71,B,Computer Science
+155,28,97,C,Physics
+156,19,85,D,Chemistry
+157,22,99,C,Computer Science
+158,27,66,B,Mathematics
+159,-5,72,A,Computer Science
+160,23,45,D,Mathematics
+161,20,66,B,Mathematics
+162,22,60,D,Chemistry
+163,22,78,D,Computer Science
+164,22,72,C,Physics
+165,21,43,D,Mathematics
+166,18,40,B,Computer Science
+167,29,90,A,Mathematics
+168,25,82,A,Chemistry
+169,28,83,A,Mathematics
+170,23,86,A,Biology
+171,20,46,C,Physics
+172,23,81,C,Physics
+173,26,52,C,Computer Science
+174,28,57,C,physics
+175,23,92,B,Chemistry
+176,28,57,A,Computer Science
+177,20,71,C,Mathematics
+178,18,87,C,Mathematics
+179,19,46,C,Biology
+180,25,49,D,Computer Science
+181,20,45,A,Chemistry
+182,20,41,D,Mathematics
+183,26,77,B,Computer Science
+184,20,48,C,Biology
+185,23,61,B,Chemistry
+186,20,96,A,chemistry
+187,26,42,A,Biology
+188,26,73,C,Biology
+189,20,53,B,Chemistry
+190,19,92,C,Chemistry
+191,18,52,B,Biology
+192,22,93,D,chemistry
+193,19,61,D,Physics
+194,23,54,A,Chemistry
+195,19,78,C,Biology
+196,19,50,A,Biology
+197,28,96,A,Physics
+198,20,48,A,Biology
+199,25,99,D,Mathematics
+200,27,52,D,Computer Science
+201,27,95,C,physics
+202,28,67,B,Chemistry
+203,27,57,D,Biology
+204,18,79,B,Chemistry
+205,19,51,C,Computer Science
+206,27,52,C,Biology
+207,24,60,B,Chemistry
+208,25,82,A,Mathematics
+209,21,76,D,chemistry
+210,21,56,B,Biology
+211,28,52,D,Physics
+212,20,74,C,Computer Science
+213,19,79,C,Computer Science
+214,29,50,C,physics
+215,18,95,D,Biology
+216,19,89,C,Biology
+217,19,50,D,Physics
+218,28,86,C,Physics
+219,26,94,D,Computer Science
+220,25,58,A,Chemistry
+221,20,61,D,Computer Science
+222,28,94,B,Physics
+223,25,70,C,Physics
+224,22,71,A,Computer Science
+225,18,74,D,Computer Science
+226,19,82,D,Computer Science
+227,23,75,A,Computer Science
+228,22,52,B,Biology
+229,24,90,C,Mathematics
+230,29,66,D,Computer Science
+231,29,47,A,Physics
+232,18,92,A,Biology
+233,28,58,D,Chemistry
+234,21,46,B,Biology
+235,26,45,A,Chemistry
+236,21,240,D,Mathematics
+237,20,94,D,Chemistry
+238,21,42,D,Chemistry
+239,19,59,A,computer science
+240,28,58,D,Physics
+241,18,57,C,Biology
+242,28,94,A,Chemistry
+243,20,54,A,Physics
+244,25,61,B,Computer Science
+245,19,78,A,Chemistry
+246,19,50,A,computer science
+247,19,49,C,Biology
+248,22,77,D,Computer Science
+249,22,49,A,Chemistry
+250,28,77,A,Computer Science
+251,26,88,B,Mathematics
+252,18,70,A,Chemistry
+253,26,66,B,Computer Science
+254,18,91,D,Physics
+255,23,63,B,Biology
+256,20,61,C,Mathematics
+257,22,77,D,Biology
+258,29,67,A,Biology
+259,22,93,B,Mathematics
+260,23,41,B,Mathematics
+261,24,51,C,Chemistry
+262,29,49,D,Physics
+263,18,72,C,Mathematics
+264,19,84,D,Mathematics
+265,19,88,A,Mathematics
+266,25,51,B,Physics
+267,18,91,D,Mathematics
+268,25,88,C,Computer Science
+269,20,92,A,Computer Science
+270,26,92,B,computer science
+271,20,58,A,Physics
+272,23,54,A,Physics
+273,25,84,C,Physics
+274,28,89,B,mathematics
+275,25,90,C,Biology
+276,27,-5,B,Biology
+277,23,41,C,Chemistry
+278,23,56,B,Chemistry
+279,19,45,C,Physics
+280,24,92,B,biology
+281,20,45,D,biology
+282,29,65,B,Computer Science
+283,22,78,D,physics
+284,24,49,B,Chemistry
+285,21,42,D,Biology
+286,22,54,B,Computer Science
+287,23,84,B,Mathematics
+288,20,70,D,Mathematics
+289,27,68,D,Computer Science
+290,19,82,A,Chemistry
+291,21,57,B,Computer Science
+292,20,84,D,Chemistry
+293,29,70,A,Physics
+294,18,92,C,Chemistry
+295,19,45,B,Physics
+296,25,44,D,Biology
+297,24,72,C,Computer Science
+298,21,49,A,Physics
+299,26,98,D,Biology
+300,22,88,D,computer science
+301,18,74,A,Computer Science
+302,21,71,C,Chemistry
+303,21,66,C,Biology
+304,29,77,B,Computer Science
+305,18,56,C,Computer Science
+306,22,74,B,Computer Science
+307,28,-5,A,Chemistry
+308,23,82,C,Computer Science
+309,28,82,A,Chemistry
+310,24,50,A,Computer Science
+311,25,42,C,Biology
+312,27,48,B,Mathematics
+313,25,93,B,Chemistry
+314,19,89,A,Physics
+315,28,97,D,Computer Science
+316,22,98,B,Physics
+317,25,61,C,Biology
+318,20,78,D,Biology
+319,18,94,C,Physics
+320,19,96,D,computer science
+321,29,44,C,Mathematics
+322,25,50,B,Physics
+323,28,94,A,Chemistry
+324,23,78,A,Physics
+325,26,87,A,Physics
+326,25,65,B,Mathematics
+327,19,58,C,Physics
+328,29,48,D,physics
+329,26,65,C,Computer Science
+330,19,48,D,Mathematics
+331,25,91,B,Biology
+332,20,89,C,Computer Science
+333,24,57,C,Biology
+334,24,43,C,Mathematics
+335,23,52,C,Mathematics
+336,27,89,B,Chemistry
+337,29,47,D,Physics
+338,25,76,A,Chemistry
+339,18,68,D,Chemistry
+340,23,60,D,chemistry
+341,21,79,C,Mathematics
+342,19,80,C,Biology
+343,24,54,B,Mathematics
+344,27,86,D,Mathematics
+345,20,84,B,Physics
+346,26,47,C,Chemistry
+347,26,98,A,Computer Science
+348,22,74,C,Computer Science
+349,27,82,A,Mathematics
+350,19,99,D,Chemistry
+351,18,56,B,Physics
+352,20,51,A,computer science
+353,19,60,C,Chemistry
+354,24,93,C,Physics
+355,26,95,D,Chemistry
+356,26,66,D,Physics
+357,22,98,A,Chemistry
+358,20,61,B,Mathematics
+359,21,99,D,Mathematics
+360,25,44,A,Mathematics
+361,18,240,C,Physics
+362,20,51,D,mathematics
+363,28,58,A,Physics
+364,29,50,B,Biology
+365,23,97,D,Computer Science
+366,28,93,D,chemistry
+367,21,78,D,Physics
+368,29,66,D,Chemistry
+369,26,92,A,Mathematics
+370,28,50,D,Biology
+371,21,43,C,Mathematics
+372,21,45,B,Biology
+373,26,99,C,Physics
+374,19,67,B,Mathematics
+375,-5,87,A,Mathematics
+376,18,93,C,Physics
+377,26,94,B,physics
+378,20,99,B,Biology
+379,25,64,B,Chemistry
+380,26,73,C,Mathematics
+381,19,82,D,Physics
+382,20,81,A,Biology
+383,27,68,A,Mathematics
+384,20,86,B,Physics
+385,25,57,D,Chemistry
+386,23,47,D,Computer Science
+387,240,93,D,Biology
+388,19,54,A,Chemistry
+389,23,50,A,Physics
+390,27,44,C,Physics
+391,22,79,A,Computer Science
+392,22,49,B,Chemistry
+393,26,72,C,Physics
+394,20,73,C,Chemistry
+395,23,45,D,Mathematics
+396,28,46,D,Biology
+397,23,65,C,Chemistry
+398,29,90,A,Chemistry
+399,25,72,B,Biology
+400,26,70,B,Chemistry
+401,25,95,D,Chemistry
+402,21,59,B,Computer Science
+403,20,80,D,Mathematics
+404,20,83,D,Mathematics
+405,19,72,A,Biology
+406,23,56,D,Mathematics
+407,26,44,A,Chemistry
+408,19,73,C,Computer Science
+409,25,57,D,Biology
+410,27,61,A,biology
+411,19,93,A,Biology
+412,23,54,B,Physics
+413,22,55,B,Chemistry
+414,18,59,B,Biology
+415,26,91,C,Computer Science
+416,24,77,B,Computer Science
+417,22,58,B,Physics
+418,24,49,B,Computer Science
+419,19,40,C,Physics
+420,25,77,B,Mathematics
+421,25,50,A,Computer Science
+422,21,46,A,Physics
+423,20,40,C,Mathematics
+424,23,79,C,Biology
+425,25,43,A,Chemistry
+426,20,46,A,Mathematics
+427,29,89,B,Chemistry
+428,27,43,D,Mathematics
+429,27,67,D,Chemistry
+430,23,93,B,Physics
+431,19,77,D,Mathematics
+432,24,76,D,Biology
+433,26,79,C,Mathematics
+434,26,76,B,Mathematics
+435,19,91,B,Computer Science
+436,23,46,C,Biology
+437,29,69,A,Computer Science
+438,19,90,D,computer science
+439,18,58,B,Mathematics
+440,26,46,C,physics
+441,18,77,C,Physics
+442,28,56,D,Computer Science
+443,29,82,C,computer science
+444,18,61,B,physics
+445,24,66,A,Physics
+446,18,66,D,Computer Science
+447,26,49,B,Computer Science
+448,25,70,C,Computer Science
+449,26,43,A,Computer Science
+450,25,43,D,chemistry
+451,22,91,C,Computer Science
+452,25,61,A,Chemistry
+453,27,42,A,biology
+454,19,96,C,Chemistry
+455,21,76,B,Chemistry
+456,28,96,B,Computer Science
+457,20,92,B,Computer Science
+458,25,75,B,Physics
+459,21,64,D,Physics
+460,26,78,B,Biology
+461,28,83,C,mathematics
+462,24,150,C,Mathematics
+463,25,58,B,Computer Science
+464,22,95,D,Biology
+465,26,46,A,Mathematics
+466,21,74,C,Physics
+467,19,40,D,Physics
+468,21,54,C,Physics
+469,18,41,C,Physics
+470,20,58,C,Physics
+471,19,65,C,Biology
+472,29,42,A,Computer Science
+473,29,75,B,Computer Science
+474,29,43,B,Physics
+475,19,54,D,Physics
+476,240,86,D,physics
+477,24,88,B,Computer Science
+478,23,56,A,Biology
+479,24,40,B,Computer Science
+480,28,85,D,Biology
+481,22,82,C,Chemistry
+482,24,90,D,Physics
+483,25,56,A,Mathematics
+484,18,97,D,Physics
+485,21,77,D,Physics
+486,25,83,B,Chemistry
+487,19,91,D,Chemistry
+488,20,41,C,Chemistry
+489,26,-5,B,Computer Science
+490,21,79,B,computer science
+491,23,45,A,Biology
+492,27,58,B,Computer Science
+493,23,45,C,computer science
+494,24,42,A,Computer Science
+495,25,53,C,Physics
+496,27,45,A,mathematics
+497,26,65,C,Physics
+498,25,80,C,Chemistry
+499,20,80,A,Biology
+500,22,71,C,Physics
+501,25,41,A,Chemistry
+502,22,70,B,Mathematics
+503,26,88,A,biology
+504,25,89,D,Physics
+505,29,98,A,Physics
+506,23,93,B,Mathematics
+507,24,84,B,Mathematics
+508,21,72,B,Biology
+509,26,240,C,Chemistry
+510,18,96,A,Mathematics
+511,27,51,B,Computer Science
+512,19,96,C,Mathematics
+513,18,78,A,Mathematics
+514,23,82,A,Physics
+515,29,46,B,Biology
+516,28,68,A,Physics
+517,25,63,D,Biology
+518,24,71,C,Computer Science
+519,28,45,D,Computer Science
+520,23,40,A,Computer Science
+521,21,55,B,Mathematics
+522,21,75,B,Mathematics
+523,23,47,D,Physics
+524,28,67,B,Biology
+525,27,73,D,Chemistry
+526,21,94,A,chemistry
+527,22,49,C,Biology
+528,28,80,B,Mathematics
+529,23,48,C,Chemistry
+530,25,82,C,biology
+531,29,65,D,Computer Science
+532,23,83,B,Computer Science
+533,29,86,D,Mathematics
+534,24,88,B,Chemistry
+535,26,57,C,Chemistry
+536,19,56,D,Computer Science
+537,19,96,C,Chemistry
+538,25,54,A,Mathematics
+539,25,77,C,Biology
+540,20,240,C,Chemistry
+541,19,95,D,Chemistry
+542,18,42,D,Physics
+543,26,94,A,Computer Science
+544,19,75,A,Chemistry
+545,29,93,C,Physics
+546,29,55,B,Mathematics
+547,18,68,D,Physics
+548,26,82,D,Mathematics
+549,20,85,D,Computer Science
+550,25,43,D,Physics
+551,24,65,A,Biology
+552,19,40,D,Chemistry
+553,27,82,D,Chemistry
+554,25,85,A,Mathematics
+555,23,75,B,Chemistry
+556,29,40,A,Physics
+557,27,47,C,Computer Science
+558,27,47,D,physics
+559,29,82,D,chemistry
+560,18,86,D,Computer Science
+561,19,67,B,Computer Science
+562,23,78,A,Chemistry
+563,20,70,A,Chemistry
+564,23,90,D,Mathematics
+565,18,80,D,Biology
+566,23,89,A,Mathematics
+567,29,82,C,Physics
+568,18,93,A,Computer Science
+569,20,87,D,Computer Science
+570,21,78,A,Biology
+571,28,75,D,Physics
+572,24,67,D,Computer Science
+573,25,76,A,Computer Science
+574,22,85,C,Chemistry
+575,27,73,C,Computer Science
+576,22,45,D,Physics
+577,19,99,D,Mathematics
+578,19,52,D,mathematics
+579,18,78,B,Physics
+580,29,64,A,Physics
+581,24,60,C,Mathematics
+582,25,43,D,Biology
+583,23,50,A,Physics
+584,26,84,B,Biology
+585,27,82,C,Biology
+586,29,60,D,Chemistry
+587,19,74,D,Computer Science
+588,28,57,B,Mathematics
+589,25,53,D,Biology
+590,29,53,D,Chemistry
+591,22,97,B,biology
+592,19,43,C,Computer Science
+593,19,91,D,Mathematics
+594,20,57,D,Chemistry
+595,18,99,C,Mathematics
+596,22,91,B,Physics
+597,20,40,C,Chemistry
+598,28,65,B,computer science
+599,22,49,B,chemistry
+600,19,77,A,Chemistry
+601,21,47,A,physics
+602,21,50,C,Biology
+603,28,93,A,Physics
+604,26,43,D,Physics
+605,22,74,B,Biology
+606,28,71,D,Mathematics
+607,25,73,C,Physics
+608,21,40,C,Computer Science
+609,20,52,C,Mathematics
+610,29,89,D,Computer Science
+611,19,89,A,Physics
+612,20,40,B,Chemistry
+613,25,96,B,Physics
+614,20,68,C,Computer Science
+615,24,66,B,Physics
+616,25,40,B,Chemistry
+617,21,72,B,Chemistry
+618,22,90,B,Computer Science
+619,29,64,C,Computer Science
+620,26,67,C,Chemistry
+621,150,90,D,Chemistry
+622,19,49,C,Biology
+623,21,86,C,Chemistry
+624,21,66,B,Physics
+625,29,73,A,Mathematics
+626,23,72,D,Physics
+627,23,77,B,Mathematics
+628,28,59,A,Computer Science
+629,27,71,A,chemistry
+630,22,77,C,biology
+631,24,71,C,Computer Science
+632,28,57,C,Computer Science
+633,28,97,B,Computer Science
+634,26,75,A,Computer Science
+635,29,60,D,Chemistry
+636,26,45,B,chemistry
+637,18,61,B,physics
+638,24,83,B,Computer Science
+639,22,56,C,Biology
+640,28,64,D,Mathematics
+641,18,45,B,Chemistry
+642,24,90,A,Mathematics
+643,25,41,C,Chemistry
+644,28,43,D,Physics
+645,18,91,C,Chemistry
+646,18,91,B,Biology
+647,27,54,B,Mathematics
+648,23,51,A,Chemistry
+649,23,66,C,Computer Science
+650,19,60,B,Physics
+651,27,61,A,Computer Science
+652,240,69,D,Chemistry
+653,19,70,C,Mathematics
+654,27,61,C,chemistry
+655,20,84,B,Physics
+656,18,93,A,physics
+657,23,63,D,Computer Science
+658,18,72,D,Biology
+659,29,82,D,Physics
+660,150,61,D,Biology
+661,21,64,A,Computer Science
+662,27,84,C,Computer Science
+663,29,65,D,Biology
+664,21,60,D,Chemistry
+665,24,72,C,Physics
+666,27,82,B,Physics
+667,29,74,C,Physics
+668,28,78,B,Biology
+669,19,66,D,Biology
+670,20,51,D,Computer Science
+671,18,64,B,Biology
+672,20,62,D,Chemistry
+673,26,54,A,Computer Science
+674,23,71,B,Chemistry
+675,18,64,B,Computer Science
+676,23,42,B,Mathematics
+677,22,88,B,Biology
+678,29,66,D,Chemistry
+679,18,89,B,Computer Science
+680,22,90,B,Biology
+681,26,66,B,Computer Science
+682,21,98,D,Chemistry
+683,24,60,D,Mathematics
+684,19,75,D,Chemistry
+685,22,58,D,Physics
+686,18,73,A,Chemistry
+687,25,76,A,Chemistry
+688,25,90,A,Mathematics
+689,23,91,C,Mathematics
+690,28,81,A,biology
+691,27,90,B,Mathematics
+692,24,97,B,Mathematics
+693,18,70,A,Computer Science
+694,29,43,D,Computer Science
+695,29,65,B,Biology
+696,29,92,A,chemistry
+697,28,52,B,Physics
+698,18,97,A,Biology
+699,21,47,C,chemistry
+700,27,59,A,Mathematics
+701,22,89,A,Biology
+702,22,49,C,biology
+703,20,61,B,Mathematics
+704,19,86,B,Physics
+705,19,61,A,Mathematics
+706,24,85,C,computer science
+707,29,52,D,Mathematics
+708,22,52,C,Physics
+709,29,91,D,Chemistry
+710,27,87,A,Computer Science
+711,24,61,C,Physics
+712,18,71,C,Biology
+713,20,81,D,Physics
+714,26,90,D,Mathematics
+715,20,59,A,Biology
+716,24,74,D,Chemistry
+717,25,60,B,Physics
+718,22,87,B,Physics
+719,19,97,C,Physics
+720,26,98,B,Computer Science
+721,19,47,D,Biology
+722,24,45,A,Chemistry
+723,20,90,C,Physics
+724,26,98,C,Physics
+725,28,97,A,computer science
+726,25,66,D,Chemistry
+727,21,62,C,Physics
+728,19,58,C,Physics
+729,24,80,D,Mathematics
+730,19,62,D,Biology
+731,22,66,D,Mathematics
+732,29,60,D,Chemistry
+733,22,96,A,Computer Science
+734,28,89,B,Computer Science
+735,26,40,D,Biology
+736,24,91,D,Physics
+737,22,82,B,Chemistry
+738,24,84,A,mathematics
+739,25,53,B,Mathematics
+740,24,86,A,Mathematics
+741,21,56,C,Biology
+742,19,59,D,Mathematics
+743,19,65,A,Chemistry
+744,25,66,B,Mathematics
+745,25,97,C,Mathematics
+746,28,78,A,Chemistry
+747,28,71,D,Mathematics
+748,20,55,D,Biology
+749,19,41,D,physics
+750,28,67,D,Chemistry
+751,21,90,C,Physics
+752,21,50,A,Chemistry
+753,24,87,A,Biology
+754,28,52,C,Mathematics
+755,25,81,C,computer science
+756,24,54,B,Mathematics
+757,29,60,B,Physics
+758,25,64,B,Chemistry
+759,20,44,A,Computer Science
+760,20,67,C,Physics
+761,20,72,C,Biology
+762,18,71,C,Physics
+763,18,88,C,Computer Science
+764,26,82,B,Mathematics
+765,20,92,B,biology
+766,21,70,C,Mathematics
+767,18,91,A,computer science
+768,25,93,B,Chemistry
+769,21,71,C,Chemistry
+770,23,98,B,Computer Science
+771,20,58,C,Chemistry
+772,21,-5,A,Biology
+773,19,49,D,Physics
+774,27,66,B,Computer Science
+775,27,43,A,Physics
+776,21,71,A,Computer Science
+777,18,61,A,Computer Science
+778,25,47,C,Biology
+779,22,44,A,Physics
+780,19,69,A,Chemistry
+781,26,74,C,Biology
+782,19,47,C,Biology
+783,18,66,C,Computer Science
+784,23,46,B,Biology
+785,27,66,C,Mathematics
+786,18,61,C,Physics
+787,19,68,B,Chemistry
+788,20,55,C,Mathematics
+789,29,80,A,Physics
+790,28,69,B,Physics
+791,27,44,D,Biology
+792,20,72,A,Biology
+793,21,69,A,Physics
+794,27,82,C,computer science
+795,20,79,A,Computer Science
+796,21,49,D,Chemistry
+797,19,92,D,Chemistry
+798,19,97,C,Chemistry
+799,19,85,A,Chemistry
+800,29,89,D,Chemistry
+801,26,54,A,Biology
+802,20,70,C,Physics
+803,22,73,D,Chemistry
+804,25,92,B,Mathematics
+805,22,49,B,Chemistry
+806,29,93,C,Mathematics
+807,29,47,A,Biology
+808,18,41,A,Computer Science
+809,27,78,C,Mathematics
+810,18,75,D,chemistry
+811,19,60,A,biology
+812,27,41,A,Physics
+813,28,55,A,Chemistry
+814,19,87,B,Mathematics
+815,19,52,D,Physics
+816,28,61,C,Biology
+817,25,88,D,computer science
+818,22,63,B,Computer Science
+819,22,81,B,Mathematics
+820,19,64,B,mathematics
+821,27,89,D,Biology
+822,18,49,D,Biology
+823,26,43,C,computer science
+824,27,76,B,Computer Science
+825,25,48,A,Computer Science
+826,23,74,D,Physics
+827,25,48,A,Computer Science
+828,18,79,B,Computer Science
+829,24,88,B,Computer Science
+830,18,54,B,Computer Science
+831,26,55,A,Mathematics
+832,23,64,D,Physics
+833,21,67,D,Computer Science
+834,18,63,D,Computer Science
+835,26,86,C,chemistry
+836,24,64,D,Chemistry
+837,27,51,A,Computer Science
+838,19,49,D,Physics
+839,27,95,B,Computer Science
+840,23,56,D,Biology
+841,22,97,D,Biology
+842,23,51,D,Physics
+843,20,79,D,Chemistry
+844,19,56,B,Chemistry
+845,26,98,C,Physics
+846,21,81,D,Computer Science
+847,18,96,A,Physics
+848,22,81,C,Mathematics
+849,21,95,C,Biology
+850,28,86,D,Biology
+851,22,58,D,Physics
+852,23,40,B,Mathematics
+853,29,81,A,Computer Science
+854,27,97,B,Mathematics
+855,27,46,B,Chemistry
+856,18,56,C,Physics
+857,28,68,C,mathematics
+858,24,50,C,Computer Science
+859,29,47,B,Chemistry
+860,24,83,B,Computer Science
+861,27,96,C,physics
+862,27,48,D,Physics
+863,22,71,B,Chemistry
+864,27,88,D,Physics
+865,23,62,C,Physics
+866,24,75,D,physics
+867,23,62,D,Biology
+868,26,95,B,Chemistry
+869,28,81,A,Physics
+870,23,42,D,Computer Science
+871,23,67,D,Chemistry
+872,19,41,A,Biology
+873,25,52,D,Physics
+874,29,96,C,Computer Science
+875,19,41,C,Mathematics
+876,28,91,B,Mathematics
+877,28,53,D,Biology
+878,26,75,D,Mathematics
+879,28,73,A,computer science
+880,22,79,D,Chemistry
+881,19,58,C,Computer Science
+882,24,65,D,Physics
+883,29,78,B,Biology
+884,18,66,A,Chemistry
+885,21,70,D,Computer Science
+886,22,65,D,Biology
+887,19,88,C,Chemistry
+888,22,89,B,Biology
+889,19,40,C,Biology
+890,22,61,B,Physics
+891,23,92,D,Physics
+892,26,83,C,Physics
+893,25,90,D,Biology
+894,24,82,B,Mathematics
+895,19,51,A,Computer Science
+896,20,81,D,Computer Science
+897,22,76,B,Biology
+898,24,68,D,Physics
+899,19,45,D,mathematics
+900,19,48,A,Computer Science
+901,27,82,B,Mathematics
+902,23,63,A,Mathematics
+903,23,62,C,Mathematics
+904,19,65,D,physics
+905,27,88,B,Physics
+906,26,65,D,Biology
+907,20,66,A,Chemistry
+908,25,78,B,Chemistry
+909,19,45,A,Computer Science
+910,25,97,D,Biology
+911,21,73,C,Chemistry
+912,26,73,B,Physics
+913,26,82,A,Mathematics
+914,22,77,C,Computer Science
+915,29,94,C,Chemistry
+916,24,76,B,Mathematics
+917,18,56,D,Chemistry
+918,25,67,B,Physics
+919,23,79,D,Biology
+920,29,45,A,Chemistry
+921,19,86,D,Biology
+922,28,58,C,Mathematics
+923,21,67,C,Chemistry
+924,28,95,B,Biology
+925,22,55,D,Computer Science
+926,21,95,B,Mathematics
+927,25,66,D,mathematics
+928,29,70,B,Chemistry
+929,26,61,C,Physics
+930,18,63,B,Physics
+931,26,99,C,Chemistry
+932,20,40,C,Mathematics
+933,150,91,A,Biology
+934,24,91,D,Biology
+935,26,55,D,Chemistry
+936,19,91,B,Mathematics
+937,25,65,C,Mathematics
+938,19,88,D,Computer Science
+939,24,92,B,Mathematics
+940,24,61,D,Chemistry
+941,27,66,C,Chemistry
+942,25,92,D,Computer Science
+943,21,40,B,Mathematics
+944,24,85,B,Mathematics
+945,-5,92,B,Physics
+946,27,91,A,Mathematics
+947,21,88,B,mathematics
+948,29,69,A,Computer Science
+949,29,52,B,Mathematics
+950,29,54,C,physics
+951,-5,92,A,computer science
+952,24,98,D,Computer Science
+953,27,89,D,Mathematics
+954,21,45,A,Physics
+955,20,45,B,Physics
+956,27,92,D,Chemistry
+957,27,84,C,Physics
+958,20,98,A,Mathematics
+959,25,76,A,Chemistry
+960,20,65,A,Computer Science
+961,29,48,B,Physics
+962,23,98,B,Computer Science
+963,22,79,C,biology
+964,28,77,A,chemistry
+965,19,41,B,Physics
+966,28,95,C,Physics
+967,24,79,A,Chemistry
+968,29,97,C,Chemistry
+969,24,66,A,Physics
+970,24,70,B,Mathematics
+971,18,62,D,Mathematics
+972,20,79,A,Mathematics
+973,21,72,D,Biology
+974,27,77,A,Chemistry
+975,22,68,A,Physics
+976,28,94,A,Physics
+977,27,61,B,Biology
+978,27,57,B,Biology
+979,25,40,A,Biology
+980,21,70,B,Chemistry
+981,28,82,B,biology
+982,18,86,C,Physics
+983,29,48,B,Chemistry
+984,29,43,C,Computer Science
+985,26,95,C,Biology
+986,20,73,D,Computer Science
+987,29,74,A,Computer Science
+988,21,60,D,Biology
+989,25,45,D,Biology
+990,24,46,B,Physics
+991,26,71,A,Biology
+992,23,97,C,chemistry
+993,21,41,D,Chemistry
+994,23,72,D,computer science
+995,24,82,B,Chemistry
+996,18,98,C,Mathematics
+997,22,41,A,biology
+998,27,78,A,Biology
+999,24,47,B,Computer Science
+1000,20,69,B,Physics
+1001,19,56,C,chemistry
+1002,22,40,D,Biology
+1003,20,67,B,Computer Science
+1004,29,94,B,Computer Science
+1005,22,99,D,Chemistry
+1006,21,68,A,Computer Science
+1007,26,74,B,chemistry
+1008,19,51,A,Mathematics
+1009,19,68,A,Chemistry
+1010,19,63,D,Physics
+1011,21,83,A,Computer Science
+1012,19,67,D,Computer Science
+1013,19,74,C,Mathematics
+1014,29,50,A,Mathematics
+1015,21,53,A,Computer Science
+1016,26,81,B,Biology
+1017,26,48,A,Mathematics
+1018,19,48,D,Biology
+1019,23,94,C,Computer Science
+1020,28,41,C,Chemistry
+1021,19,47,C,Physics
+1022,28,84,C,Chemistry
+1023,28,74,C,Mathematics
+1024,21,64,A,Chemistry
+1025,25,99,D,Biology
+1026,18,93,C,Computer Science
+1027,19,55,B,Computer Science
+1028,27,72,A,Chemistry
+1029,19,94,B,Chemistry
+1030,25,89,C,biology
+1031,23,84,D,Computer Science
+1032,29,58,A,Physics
+1033,29,85,B,physics
+1034,20,90,A,physics
+1035,21,79,A,Mathematics
+1036,20,51,C,Mathematics
+1037,23,72,A,Mathematics
+1038,25,77,A,Biology
+1039,21,49,A,Biology
+1040,18,91,D,biology
+1041,23,84,B,Computer Science
+1042,20,68,C,Computer Science
+1043,26,49,B,Biology
+1044,28,99,D,Mathematics
+1045,19,73,C,Computer Science
+1046,22,63,D,Computer Science
+1047,25,45,C,Mathematics
+1048,18,70,C,Biology
+1049,21,43,B,Computer Science
+1050,23,74,A,Mathematics
+1051,20,48,C,Physics
+1052,24,93,A,Mathematics
+1053,21,62,A,Computer Science
+1054,21,75,C,Physics
+1055,18,70,B,Physics
+1056,25,56,B,Chemistry
+1057,29,55,D,Physics
+1058,28,85,D,Physics
+1059,21,62,A,Physics
+1060,25,82,D,Computer Science
+1061,21,53,A,Mathematics
+1062,22,67,D,computer science
+1063,21,94,D,Biology
+1064,27,44,A,Biology
+1065,28,62,B,Mathematics
+1066,27,70,D,physics
+1067,20,84,D,Chemistry
+1068,22,60,C,Mathematics
+1069,24,92,C,physics
+1070,19,89,B,Mathematics
+1071,24,82,B,Chemistry
+1072,22,87,A,Mathematics
+1073,27,41,C,Chemistry
+1074,29,48,C,Physics
+1075,24,49,A,Biology
+1076,23,89,A,Biology
+1077,28,48,B,Mathematics
+1078,27,76,D,Mathematics
+1079,25,61,B,Computer Science
+1080,27,76,B,Biology
+1081,23,42,C,Physics
+1082,19,75,A,Biology
+1083,23,61,B,Computer Science
+1084,22,97,D,biology
+1085,22,62,C,Chemistry
+1086,19,70,C,Mathematics
+1087,26,84,C,Computer Science
+1088,18,78,D,Biology
+1089,19,46,B,Computer Science
+1090,21,89,B,Biology
+1091,20,79,D,chemistry
+1092,24,77,C,physics
+1093,24,75,C,Physics
+1094,28,96,D,Physics
+1095,21,43,A,Chemistry
+1096,23,76,B,Computer Science
+1097,24,42,A,Biology
+1098,25,79,D,chemistry
+1099,26,52,A,Physics
+1100,18,60,A,Chemistry
