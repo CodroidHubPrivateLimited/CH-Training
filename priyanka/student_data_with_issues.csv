@@ -1,0 +1,1001 @@
+Student_ID,Name,Age,Marks,Department,Gender,Country,State
+1.0,Alice,20.0,72.0,IT,M,Australia,Florida
+2.0,David,20.0,66.0,IT,F,,KLP
+3.0,Eva,19.0,57.0,,F,NZ,KLP
+4.0,Charlie,23.0,51.0,CSE,F,NZ,New York
+5.0,Alice,24.0,76.0,IT,F,,Florida
+6.0,Bob,20.0,84.0,IT,F,UK,California
+7.0,David,22.0,77.0,CSE,M,Canada,Texas
+8.0,Bob,20.0,56.0,CSE,M,USA,Texas
+9.0,Charlie,21.0,79.0,,M,UK,Florida
+10.0,Eva,,61.0,AIML,F,Australia,KLP
+11.0,Alice,23.0,75.0,ECE,M,,California
+12.0,David,21.0,,IT,F,Australia,California
+,David,21.0,65.0,ECE,F,USA,Texas
+14.0,Charlie,23.0,52.0,CSE,F,USA,KLP
+15.0,Alice,24.0,78.0,AIML,F,Australia,New York
+,Eva,21.0,78.0,AIML,F,Canada,California
+17.0,Bob,18.0,96.0,ECE,M,Australia,
+18.0,David,19.0,83.0,CSE,F,Australia,KLP
+19.0,Eva,20.0,91.0,,F,NZ,
+20.0,Alice,19.0,71.0,ECE,F,NZ,Florida
+21.0,David,22.0,97.0,ECE,M,Australia,KLP
+22.0,Eva,24.0,71.0,CSE,M,UK,KLP
+23.0,Eva,19.0,52.0,AIML,F,USA,KLP
+24.0,Bob,23.0,84.0,CSE,M,Australia,Texas
+,Charlie,24.0,79.0,ECE,M,Canada,New York
+26.0,Charlie,23.0,89.0,AIML,M,USA,Texas
+27.0,Bob,,76.0,,F,Australia,Florida
+28.0,Eva,22.0,96.0,IT,M,NZ,KLP
+29.0,David,19.0,84.0,IT,F,Canada,Texas
+30.0,Charlie,22.0,88.0,AIML,F,NZ,KLP
+31.0,Charlie,18.0,79.0,IT,F,UK,Texas
+32.0,Charlie,19.0,67.0,CSE,F,NZ,California
+33.0,Eva,23.0,69.0,IT,M,NZ,KLP
+34.0,David,24.0,150.0,ECE,M,USA,California
+35.0,Bob,,75.0,CSE,F,UK,
+36.0,Eva,20.0,98.0,ECE,F,Canada,KLP
+37.0,Eva,18.0,63.0,IT,F,Australia,California
+38.0,Charlie,24.0,61.0,ECE,,Australia,Florida
+39.0,David,240.0,52.0,AIML,,Australia,Florida
+40.0,Eva,18.0,97.0,CSE,M,Canada,Texas
+41.0,Eva,21.0,95.0,AIML,F,USA,Texas
+42.0,Eva,18.0,,,F,Australia,Florida
+43.0,Charlie,18.0,54.0,ECE,F,Australia,Florida
+44.0,Eva,22.0,55.0,ECE,M,NZ,New York
+45.0,David,19.0,68.0,CSE,F,UK,California
+46.0,Alice,19.0,66.0,,M,,KLP
+47.0,Eva,24.0,84.0,ECE,F,Canada,California
+48.0,Charlie,23.0,64.0,IT,M,UK,KLP
+49.0,Charlie,23.0,66.0,CSE,F,NZ,KLP
+50.0,Bob,24.0,90.0,,M,NZ,Texas
+51.0,Eva,21.0,87.0,,F,Canada,Florida
+52.0,Bob,21.0,87.0,ECE,M,UK,Texas
+53.0,Bob,23.0,75.0,CSE,M,Canada,California
+54.0,Charlie,20.0,96.0,ECE,F,UK,California
+55.0,Eva,23.0,90.0,AIML,M,Australia,New York
+56.0,Eva,19.0,55.0,CSE,F,USA,California
+57.0,Eva,18.0,68.0,IT,F,USA,New York
+58.0,David,23.0,78.0,AIML,F,NZ,Florida
+59.0,Alice,24.0,,IT,M,Australia,Florida
+60.0,David,20.0,83.0,CSE,M,NZ,KLP
+61.0,Charlie,24.0,94.0,AIML,M,NZ,KLP
+62.0,Charlie,18.0,,IT,M,Canada,Texas
+63.0,Alice,21.0,99.0,IT,M,UK,New York
+64.0,Charlie,24.0,55.0,AIML,M,USA,Texas
+,Charlie,,65.0,AIML,,Canada,Florida
+,Charlie,21.0,63.0,ECE,M,UK,KLP
+67.0,Alice,21.0,54.0,,M,Australia,KLP
+68.0,Bob,23.0,68.0,CSE,F,Canada,Florida
+69.0,Charlie,23.0,79.0,AIML,M,Canada,Texas
+70.0,Charlie,22.0,80.0,IT,M,UK,California
+71.0,Alice,22.0,,CSE,M,Australia,New York
+72.0,Charlie,21.0,83.0,IT,F,USA,KLP
+73.0,Charlie,24.0,69.0,IT,M,UK,Florida
+74.0,Alice,23.0,59.0,ECE,F,Canada,New York
+75.0,Alice,20.0,56.0,CSE,F,UK,KLP
+76.0,Charlie,20.0,,CSE,F,NZ,Florida
+77.0,Bob,24.0,60.0,IT,F,Canada,New York
+78.0,Eva,23.0,60.0,ECE,M,Australia,California
+79.0,Alice,18.0,85.0,ECE,F,USA,Florida
+80.0,Eva,20.0,58.0,,M,UK,New York
+81.0,Bob,23.0,70.0,ECE,F,NZ,California
+82.0,Bob,20.0,79.0,IT,M,Canada,KLP
+83.0,Bob,20.0,82.0,AIML,M,Canada,California
+84.0,Charlie,19.0,61.0,AIML,M,NZ,New York
+85.0,Charlie,24.0,73.0,ECE,F,USA,New York
+86.0,Bob,21.0,75.0,CSE,M,USA,Florida
+,Bob,,94.0,IT,F,USA,New York
+88.0,Charlie,21.0,52.0,IT,M,USA,New York
+89.0,Bob,23.0,77.0,IT,F,USA,New York
+90.0,Alice,20.0,69.0,CSE,M,NZ,Florida
+91.0,Bob,18.0,57.0,,F,Australia,Texas
+92.0,Bob,22.0,79.0,CSE,M,Australia,California
+93.0,David,18.0,90.0,ECE,F,USA,Texas
+94.0,David,22.0,70.0,IT,M,Australia,New York
+95.0,Charlie,21.0,65.0,CSE,M,Canada,New York
+96.0,Charlie,18.0,80.0,CSE,F,USA,New York
+97.0,Bob,24.0,74.0,IT,M,UK,KLP
+98.0,David,21.0,85.0,AIML,M,Canada,California
+99.0,Alice,23.0,90.0,AIML,F,USA,New York
+100.0,Bob,20.0,61.0,CSE,M,UK,Texas
+101.0,Bob,24.0,,AIML,M,UK,
+102.0,Charlie,20.0,88.0,ECE,F,Australia,Texas
+103.0,Alice,18.0,76.0,,M,UK,Florida
+104.0,Charlie,24.0,93.0,IT,M,UK,New York
+105.0,Charlie,19.0,89.0,AIML,F,Canada,Florida
+106.0,Eva,23.0,85.0,ECE,M,UK,California
+107.0,Eva,20.0,79.0,AIML,F,UK,
+108.0,Alice,19.0,80.0,,F,UK,Texas
+109.0,Eva,20.0,65.0,AIML,M,Australia,California
+110.0,Bob,21.0,54.0,IT,F,UK,KLP
+111.0,Eva,21.0,71.0,CSE,F,Australia,California
+112.0,David,24.0,,CSE,,NZ,
+113.0,David,24.0,59.0,ECE,M,Australia,Florida
+114.0,Alice,18.0,93.0,CSE,F,NZ,Texas
+115.0,Charlie,18.0,97.0,AIML,F,Canada,New York
+116.0,David,,91.0,AIML,F,,New York
+117.0,Alice,23.0,56.0,CSE,F,UK,California
+118.0,David,20.0,69.0,nan,F,USA,KLP
+119.0,Charlie,20.0,72.0,CSE,M,USA,California
+120.0,David,18.0,80.0,ECE,M,,New York
+121.0,Bob,19.0,79.0,CSE,F,Australia,Texas
+122.0,Charlie,22.0,99.0,AIML,F,Australia,KLP
+123.0,Alice,23.0,82.0,,M,UK,Florida
+124.0,Charlie,,76.0,AIML,F,NZ,Florida
+125.0,Charlie,21.0,82.0,CSE,F,Australia,California
+126.0,Bob,19.0,53.0,CSE,M,USA,California
+127.0,Bob,19.0,91.0,ECE,F,Canada,California
+128.0,Bob,23.0,89.0,IT,,Australia,New York
+129.0,Eva,20.0,92.0,CSE,F,Canada,Florida
+130.0,Eva,23.0,96.0,nan,F,NZ,KLP
+131.0,Eva,20.0,57.0,ECE,F,,KLP
+132.0,Charlie,23.0,62.0,ECE,F,UK,New York
+133.0,Alice,23.0,71.0,CSE,F,Australia,California
+134.0,Alice,19.0,95.0,AIML,M,,KLP
+135.0,Alice,18.0,,AIML,F,USA,KLP
+136.0,Alice,18.0,99.0,AIML,F,Canada,California
+137.0,Charlie,19.0,150.0,IT,M,Canada,Florida
+138.0,Eva,24.0,67.0,IT,F,UK,Texas
+139.0,David,-5.0,72.0,AIML,F,UK,California
+140.0,Eva,19.0,84.0,AIML,M,Australia,New York
+141.0,David,20.0,72.0,ECE,M,UK,Texas
+142.0,Alice,23.0,79.0,AIML,M,Canada,New York
+143.0,Bob,22.0,78.0,ECE,M,Australia,Florida
+144.0,Bob,18.0,,IT,M,Australia,Florida
+145.0,Alice,21.0,96.0,CSE,F,NZ,Florida
+146.0,Charlie,18.0,80.0,AIML,M,Australia,California
+147.0,Alice,23.0,51.0,AIML,M,UK,California
+148.0,Charlie,21.0,86.0,,M,USA,KLP
+149.0,Charlie,18.0,71.0,ECE,F,Canada,Florida
+150.0,Bob,24.0,83.0,IT,F,Canada,Florida
+151.0,Bob,20.0,64.0,AIML,M,USA,Florida
+152.0,Charlie,24.0,97.0,AIML,F,Australia,Florida
+153.0,David,,79.0,nan,F,USA,California
+154.0,Eva,23.0,,IT,M,USA,KLP
+155.0,David,18.0,87.0,ECE,F,Canada,Florida
+156.0,Eva,21.0,82.0,IT,M,USA,California
+157.0,Charlie,21.0,91.0,AIML,M,Canada,New York
+158.0,Bob,19.0,62.0,IT,F,Canada,Florida
+159.0,Bob,24.0,57.0,IT,M,NZ,Texas
+160.0,Eva,19.0,57.0,IT,M,NZ,Texas
+161.0,David,18.0,94.0,,F,UK,California
+162.0,Charlie,18.0,72.0,AIML,M,NZ,KLP
+163.0,David,20.0,77.0,CSE,F,USA,
+164.0,Alice,19.0,97.0,ECE,F,USA,Texas
+165.0,Bob,21.0,72.0,IT,M,UK,New York
+166.0,David,24.0,83.0,IT,F,Canada,Texas
+167.0,Alice,18.0,71.0,CSE,F,Canada,Florida
+168.0,Eva,19.0,73.0,,F,,KLP
+169.0,Alice,18.0,63.0,IT,M,UK,KLP
+170.0,David,18.0,,AIML,F,USA,KLP
+171.0,David,24.0,66.0,,F,,KLP
+172.0,David,23.0,99.0,CSE,,NZ,Texas
+173.0,Eva,19.0,55.0,IT,F,Australia,California
+174.0,Alice,20.0,59.0,ECE,F,UK,California
+175.0,Eva,24.0,57.0,AIML,M,Australia,California
+176.0,Charlie,21.0,99.0,IT,M,NZ,
+177.0,Charlie,,81.0,IT,,UK,California
+178.0,Bob,23.0,81.0,nan,M,Australia,KLP
+179.0,Eva,22.0,77.0,AIML,F,USA,KLP
+180.0,Bob,20.0,78.0,ECE,F,UK,New York
+181.0,Charlie,23.0,66.0,CSE,,Canada,Florida
+182.0,Eva,21.0,90.0,CSE,M,USA,KLP
+183.0,Charlie,19.0,64.0,CSE,F,USA,Florida
+184.0,Alice,18.0,54.0,CSE,F,NZ,Texas
+185.0,Eva,20.0,71.0,CSE,M,UK,New York
+186.0,Bob,,79.0,AIML,M,Canada,KLP
+187.0,David,21.0,74.0,IT,M,Australia,New York
+188.0,Charlie,22.0,81.0,IT,M,Australia,KLP
+189.0,Alice,18.0,71.0,AIML,F,Australia,KLP
+190.0,Bob,23.0,82.0,AIML,M,UK,KLP
+191.0,David,20.0,59.0,IT,F,UK,Texas
+192.0,Eva,24.0,82.0,nan,M,Canada,Texas
+193.0,Alice,21.0,70.0,ECE,M,Canada,KLP
+194.0,Bob,24.0,90.0,AIML,F,Canada,Florida
+195.0,Charlie,24.0,80.0,CSE,F,,California
+196.0,Bob,24.0,67.0,CSE,F,USA,New York
+197.0,David,20.0,,,M,NZ,Florida
+198.0,Alice,18.0,86.0,AIML,M,UK,KLP
+199.0,David,19.0,81.0,,M,NZ,Texas
+200.0,Bob,20.0,72.0,ECE,M,Canada,California
+201.0,Bob,23.0,53.0,ECE,M,,California
+202.0,Charlie,24.0,78.0,AIML,M,Australia,California
+203.0,Alice,21.0,72.0,AIML,M,UK,
+204.0,Alice,21.0,68.0,CSE,F,NZ,New York
+205.0,Eva,22.0,73.0,AIML,,Canada,Texas
+206.0,Bob,23.0,85.0,AIML,F,USA,Texas
+207.0,Bob,19.0,78.0,AIML,F,NZ,New York
+208.0,Eva,,93.0,CSE,F,USA,Florida
+209.0,Alice,21.0,,CSE,F,UK,Texas
+210.0,Eva,22.0,79.0,CSE,M,NZ,Texas
+211.0,Charlie,24.0,76.0,CSE,F,USA,Florida
+212.0,Bob,18.0,150.0,AIML,,Australia,Florida
+213.0,Eva,22.0,73.0,AIML,F,USA,
+214.0,Alice,21.0,70.0,CSE,F,USA,New York
+215.0,Alice,20.0,82.0,CSE,M,UK,KLP
+216.0,Eva,22.0,60.0,CSE,M,Canada,KLP
+217.0,Charlie,20.0,92.0,nan,M,Australia,New York
+218.0,David,22.0,85.0,CSE,M,UK,California
+219.0,Alice,20.0,62.0,AIML,M,USA,Texas
+220.0,Charlie,19.0,59.0,,F,NZ,Florida
+221.0,Charlie,23.0,77.0,nan,F,Canada,KLP
+222.0,David,23.0,65.0,ECE,M,UK,New York
+,Charlie,19.0,99.0,AIML,F,NZ,New York
+224.0,David,21.0,50.0,CSE,M,Canada,California
+225.0,David,21.0,54.0,IT,F,Australia,Florida
+226.0,Alice,19.0,56.0,AIML,F,USA,New York
+227.0,Charlie,21.0,57.0,AIML,F,Australia,California
+228.0,David,21.0,54.0,AIML,M,USA,
+229.0,David,18.0,63.0,AIML,M,USA,Texas
+230.0,Alice,19.0,52.0,CSE,M,,KLP
+231.0,Bob,19.0,62.0,CSE,M,Australia,New York
+232.0,David,22.0,85.0,CSE,M,UK,KLP
+233.0,Alice,23.0,61.0,AIML,M,USA,Texas
+,Alice,20.0,57.0,ECE,M,USA,Florida
+235.0,Charlie,-5.0,69.0,AIML,,UK,
+236.0,Alice,21.0,52.0,IT,M,UK,New York
+237.0,Bob,20.0,54.0,ECE,M,USA,Texas
+238.0,Charlie,19.0,62.0,,F,USA,California
+239.0,Bob,,64.0,CSE,M,USA,California
+240.0,Charlie,22.0,80.0,ECE,M,UK,KLP
+241.0,Bob,19.0,59.0,IT,F,Canada,KLP
+242.0,Bob,19.0,55.0,CSE,M,,Florida
+243.0,Eva,18.0,91.0,AIML,F,Australia,Florida
+244.0,Eva,18.0,62.0,CSE,M,,KLP
+245.0,Eva,22.0,60.0,IT,F,Australia,California
+246.0,Alice,20.0,76.0,IT,M,Canada,California
+247.0,Charlie,24.0,64.0,CSE,F,NZ,New York
+248.0,Charlie,18.0,79.0,,,UK,Texas
+249.0,David,18.0,88.0,ECE,M,Australia,California
+250.0,Eva,24.0,98.0,ECE,M,USA,Texas
+251.0,Alice,20.0,55.0,CSE,M,Canada,New York
+252.0,David,18.0,72.0,AIML,M,NZ,Florida
+253.0,Charlie,21.0,59.0,AIML,F,Canada,Texas
+254.0,Charlie,24.0,74.0,IT,F,Canada,KLP
+255.0,Bob,20.0,87.0,AIML,F,Canada,Florida
+256.0,Alice,19.0,82.0,,F,Australia,Florida
+257.0,Bob,24.0,70.0,CSE,F,Canada,Texas
+258.0,Bob,20.0,66.0,ECE,F,Canada,California
+259.0,Eva,23.0,92.0,nan,M,Canada,New York
+260.0,Bob,19.0,68.0,IT,F,Australia,KLP
+261.0,Eva,18.0,55.0,AIML,M,Australia,Florida
+,Alice,23.0,52.0,,M,UK,California
+263.0,Alice,21.0,75.0,CSE,F,Australia,California
+264.0,Eva,23.0,56.0,AIML,F,Australia,Texas
+265.0,Bob,240.0,70.0,AIML,M,Canada,Florida
+266.0,David,19.0,75.0,IT,F,UK,KLP
+267.0,Charlie,21.0,53.0,CSE,M,USA,Florida
+268.0,Charlie,22.0,,CSE,M,NZ,Texas
+269.0,David,23.0,98.0,AIML,F,Canada,KLP
+270.0,Bob,23.0,76.0,IT,F,Canada,New York
+271.0,Bob,21.0,62.0,AIML,F,UK,New York
+272.0,Bob,18.0,57.0,IT,F,USA,California
+273.0,Alice,18.0,82.0,AIML,M,NZ,New York
+274.0,Alice,,89.0,IT,F,USA,KLP
+275.0,Bob,20.0,80.0,,F,Australia,Texas
+276.0,David,19.0,59.0,CSE,F,NZ,California
+277.0,Eva,21.0,,ECE,M,Australia,Texas
+278.0,Bob,21.0,68.0,CSE,M,Canada,New York
+279.0,Alice,21.0,300.0,nan,M,UK,KLP
+280.0,Alice,24.0,52.0,IT,M,USA,Texas
+281.0,Alice,21.0,98.0,nan,,UK,California
+282.0,Charlie,20.0,86.0,AIML,M,USA,KLP
+283.0,David,22.0,99.0,AIML,F,USA,Texas
+284.0,Alice,23.0,97.0,IT,F,,Texas
+285.0,Alice,,60.0,IT,M,,California
+286.0,Alice,24.0,69.0,nan,F,NZ,KLP
+,Alice,23.0,95.0,nan,M,,
+,Eva,22.0,79.0,IT,F,UK,Texas
+289.0,Bob,23.0,,CSE,F,UK,KLP
+290.0,Bob,18.0,81.0,ECE,F,Canada,California
+291.0,David,20.0,93.0,AIML,M,UK,New York
+292.0,Charlie,240.0,55.0,IT,F,UK,
+293.0,Charlie,18.0,58.0,CSE,F,USA,New York
+294.0,David,22.0,85.0,AIML,,Australia,California
+295.0,Alice,19.0,75.0,ECE,M,Canada,California
+296.0,Charlie,22.0,79.0,IT,M,UK,Florida
+297.0,Eva,18.0,94.0,IT,M,,New York
+298.0,Alice,20.0,53.0,IT,F,Canada,Florida
+299.0,David,20.0,89.0,CSE,M,USA,Florida
+300.0,Bob,24.0,52.0,ECE,F,Canada,California
+,David,20.0,61.0,AIML,F,UK,
+302.0,Alice,21.0,58.0,IT,M,,Florida
+303.0,Charlie,18.0,67.0,IT,M,NZ,Florida
+304.0,Eva,24.0,93.0,IT,M,UK,New York
+305.0,Bob,24.0,53.0,CSE,M,,Florida
+306.0,David,18.0,,AIML,F,NZ,New York
+307.0,David,20.0,59.0,CSE,F,Canada,Texas
+308.0,David,24.0,57.0,ECE,M,UK,New York
+309.0,Bob,18.0,58.0,CSE,M,USA,New York
+,Alice,20.0,64.0,AIML,F,Canada,KLP
+311.0,Charlie,19.0,57.0,CSE,,Australia,Florida
+312.0,Eva,20.0,63.0,CSE,M,,California
+313.0,Alice,22.0,90.0,ECE,F,UK,Texas
+314.0,David,20.0,51.0,ECE,F,,Florida
+,Bob,20.0,75.0,ECE,,Canada,New York
+316.0,Charlie,22.0,88.0,CSE,F,USA,New York
+317.0,Alice,21.0,88.0,nan,F,USA,New York
+318.0,David,20.0,83.0,ECE,M,,Florida
+319.0,Bob,19.0,87.0,IT,M,USA,KLP
+320.0,Eva,22.0,88.0,ECE,F,UK,KLP
+321.0,Bob,20.0,61.0,nan,M,Australia,Texas
+322.0,Eva,21.0,59.0,,F,NZ,New York
+323.0,Alice,19.0,89.0,,F,USA,New York
+,Charlie,20.0,88.0,IT,F,Canada,Florida
+325.0,Eva,19.0,57.0,,F,USA,KLP
+,Eva,24.0,85.0,,F,USA,California
+,Eva,24.0,67.0,AIML,F,NZ,California
+328.0,Eva,21.0,54.0,CSE,M,Australia,California
+329.0,Alice,19.0,89.0,IT,F,NZ,Texas
+330.0,David,22.0,98.0,IT,M,NZ,Texas
+331.0,David,22.0,64.0,ECE,M,Canada,Texas
+332.0,Alice,19.0,91.0,IT,M,Australia,New York
+333.0,Alice,,65.0,nan,F,UK,Texas
+334.0,Bob,19.0,73.0,AIML,F,Canada,KLP
+335.0,Bob,19.0,59.0,,F,NZ,Texas
+336.0,Alice,23.0,98.0,CSE,F,NZ,
+337.0,David,24.0,69.0,ECE,,NZ,Texas
+338.0,Charlie,23.0,85.0,CSE,M,NZ,Texas
+339.0,Charlie,23.0,83.0,,F,Canada,Florida
+340.0,David,22.0,56.0,ECE,F,NZ,KLP
+341.0,David,22.0,59.0,,M,Australia,California
+342.0,Charlie,21.0,85.0,IT,F,UK,
+343.0,Bob,23.0,76.0,IT,,NZ,Florida
+344.0,David,19.0,59.0,IT,M,UK,New York
+345.0,Eva,20.0,,ECE,F,Australia,California
+346.0,Charlie,22.0,95.0,AIML,M,,New York
+347.0,David,21.0,65.0,ECE,M,Canada,Florida
+348.0,David,20.0,77.0,,F,,Florida
+349.0,Alice,22.0,50.0,ECE,F,USA,KLP
+350.0,Bob,19.0,51.0,CSE,M,NZ,KLP
+351.0,Bob,20.0,74.0,ECE,M,Canada,New York
+352.0,Charlie,23.0,77.0,ECE,F,UK,KLP
+353.0,Bob,20.0,71.0,AIML,F,Canada,Florida
+354.0,Alice,20.0,,CSE,M,UK,KLP
+355.0,Alice,19.0,50.0,nan,,,Florida
+356.0,Bob,20.0,99.0,AIML,M,UK,Texas
+357.0,David,24.0,86.0,nan,F,Canada,Florida
+358.0,Eva,20.0,69.0,IT,M,Australia,New York
+359.0,David,18.0,76.0,ECE,F,NZ,New York
+360.0,Alice,24.0,55.0,IT,M,NZ,KLP
+361.0,Alice,20.0,54.0,AIML,F,Australia,California
+362.0,Eva,22.0,72.0,CSE,M,Australia,Texas
+363.0,Charlie,18.0,61.0,ECE,M,NZ,California
+364.0,Eva,19.0,95.0,IT,M,UK,Florida
+365.0,Bob,18.0,89.0,CSE,F,Australia,Florida
+366.0,Bob,23.0,66.0,AIML,M,Australia,New York
+367.0,David,21.0,83.0,AIML,M,Canada,Florida
+368.0,Bob,20.0,53.0,AIML,M,USA,New York
+369.0,Bob,22.0,91.0,IT,M,NZ,New York
+370.0,David,23.0,93.0,AIML,F,NZ,KLP
+371.0,Alice,24.0,83.0,CSE,M,USA,KLP
+372.0,Bob,18.0,80.0,IT,M,USA,KLP
+373.0,Charlie,21.0,91.0,CSE,M,Australia,KLP
+374.0,Alice,19.0,,CSE,F,Australia,Florida
+375.0,David,20.0,84.0,AIML,M,Canada,KLP
+376.0,Alice,19.0,66.0,AIML,M,Australia,Florida
+377.0,Charlie,24.0,69.0,AIML,F,NZ,New York
+378.0,David,19.0,99.0,CSE,F,USA,California
+379.0,Charlie,21.0,57.0,AIML,F,,California
+380.0,Eva,20.0,87.0,ECE,F,UK,Florida
+381.0,Eva,,61.0,AIML,M,NZ,New York
+382.0,Bob,22.0,64.0,ECE,,Australia,Texas
+383.0,Eva,19.0,97.0,ECE,M,USA,KLP
+384.0,Bob,24.0,51.0,ECE,F,Canada,Texas
+385.0,Bob,22.0,91.0,CSE,F,NZ,Texas
+386.0,Alice,18.0,99.0,IT,F,Canada,
+387.0,David,22.0,74.0,ECE,,Canada,New York
+388.0,Alice,21.0,75.0,CSE,M,UK,KLP
+389.0,Eva,18.0,82.0,CSE,F,Canada,
+390.0,Bob,18.0,59.0,ECE,M,USA,KLP
+391.0,David,20.0,64.0,,F,Canada,Florida
+392.0,Bob,22.0,82.0,AIML,M,Canada,California
+393.0,Charlie,24.0,89.0,AIML,M,UK,Florida
+394.0,David,21.0,77.0,CSE,M,,Florida
+395.0,Eva,23.0,94.0,CSE,F,Australia,New York
+,Bob,20.0,,IT,M,NZ,California
+397.0,Bob,20.0,,CSE,M,UK,California
+398.0,Charlie,19.0,74.0,AIML,F,USA,California
+399.0,Alice,19.0,98.0,,F,Australia,Texas
+400.0,Eva,20.0,70.0,,M,USA,Texas
+401.0,Charlie,21.0,87.0,ECE,F,UK,KLP
+402.0,Eva,23.0,56.0,ECE,F,NZ,Texas
+403.0,Charlie,22.0,55.0,IT,M,UK,New York
+404.0,Eva,23.0,92.0,,F,NZ,Florida
+405.0,Eva,20.0,66.0,ECE,M,Australia,Florida
+406.0,Bob,20.0,,ECE,F,USA,Florida
+407.0,David,24.0,78.0,CSE,M,USA,California
+408.0,David,20.0,55.0,CSE,M,Australia,
+409.0,Charlie,23.0,50.0,CSE,M,Canada,California
+410.0,Alice,22.0,70.0,ECE,M,USA,New York
+411.0,Eva,18.0,54.0,,F,Australia,KLP
+412.0,Charlie,23.0,98.0,ECE,M,NZ,KLP
+413.0,David,-5.0,87.0,CSE,M,Canada,
+414.0,Charlie,18.0,95.0,ECE,,Canada,
+415.0,David,23.0,62.0,IT,M,Australia,California
+416.0,Bob,20.0,71.0,AIML,,NZ,Texas
+417.0,Charlie,19.0,79.0,CSE,F,USA,Texas
+418.0,Charlie,,52.0,,F,UK,
+419.0,David,19.0,67.0,CSE,F,Canada,
+420.0,Eva,23.0,96.0,CSE,M,USA,Florida
+421.0,David,19.0,76.0,AIML,M,NZ,Texas
+422.0,Alice,22.0,53.0,CSE,F,Australia,Florida
+423.0,Eva,24.0,54.0,IT,M,UK,Texas
+424.0,Bob,24.0,85.0,ECE,F,UK,KLP
+425.0,Eva,19.0,81.0,AIML,F,,California
+426.0,David,22.0,51.0,ECE,F,UK,California
+427.0,David,19.0,66.0,AIML,M,Australia,Florida
+428.0,David,23.0,76.0,nan,F,Australia,KLP
+,Charlie,19.0,85.0,IT,F,NZ,KLP
+,Bob,24.0,93.0,CSE,M,Australia,New York
+431.0,Eva,21.0,59.0,AIML,M,USA,
+432.0,Charlie,22.0,80.0,AIML,M,NZ,New York
+433.0,Charlie,19.0,58.0,IT,M,UK,California
+434.0,Alice,22.0,90.0,IT,F,UK,Texas
+435.0,David,23.0,55.0,IT,M,NZ,Texas
+436.0,Alice,18.0,59.0,IT,,NZ,New York
+437.0,Alice,19.0,92.0,AIML,F,UK,Texas
+438.0,Eva,18.0,63.0,AIML,F,NZ,New York
+439.0,Charlie,19.0,67.0,ECE,F,Australia,California
+440.0,Alice,19.0,90.0,,F,Australia,Florida
+441.0,Charlie,21.0,51.0,ECE,F,UK,California
+442.0,Alice,22.0,62.0,IT,F,UK,Florida
+443.0,Alice,18.0,57.0,AIML,F,USA,KLP
+444.0,Bob,20.0,70.0,CSE,F,Australia,Texas
+445.0,Bob,18.0,53.0,CSE,F,Australia,Florida
+446.0,Bob,18.0,70.0,CSE,F,UK,KLP
+447.0,Bob,24.0,66.0,IT,F,Australia,Florida
+,Bob,18.0,71.0,AIML,M,Australia,
+449.0,Bob,21.0,58.0,CSE,M,Canada,New York
+450.0,Charlie,24.0,,IT,M,NZ,KLP
+451.0,Alice,18.0,72.0,CSE,F,UK,KLP
+452.0,Alice,21.0,56.0,AIML,F,Canada,California
+453.0,David,19.0,88.0,AIML,F,Canada,Florida
+454.0,David,22.0,56.0,ECE,F,Canada,KLP
+455.0,David,23.0,66.0,CSE,M,Australia,New York
+,Bob,18.0,56.0,AIML,M,Australia,New York
+457.0,David,19.0,91.0,AIML,M,UK,Florida
+458.0,David,21.0,70.0,ECE,F,USA,Texas
+459.0,Bob,18.0,99.0,nan,M,USA,California
+460.0,David,20.0,70.0,AIML,M,,New York
+461.0,Charlie,19.0,90.0,ECE,M,NZ,Texas
+,Bob,18.0,84.0,,F,Canada,Texas
+463.0,Charlie,,90.0,,F,NZ,Texas
+464.0,Alice,19.0,74.0,nan,M,USA,KLP
+465.0,Charlie,240.0,74.0,CSE,F,Canada,Florida
+466.0,Eva,20.0,97.0,CSE,M,Australia,KLP
+467.0,Alice,18.0,75.0,IT,M,Australia,California
+468.0,Alice,,96.0,CSE,M,NZ,
+469.0,Eva,19.0,83.0,IT,F,USA,Texas
+470.0,David,24.0,85.0,ECE,F,Australia,California
+471.0,Alice,,76.0,IT,F,USA,KLP
+472.0,Eva,22.0,65.0,AIML,F,Canada,Texas
+473.0,Alice,20.0,84.0,IT,F,NZ,Florida
+474.0,David,21.0,,ECE,F,USA,Florida
+475.0,Bob,18.0,58.0,AIML,F,NZ,Florida
+476.0,Eva,22.0,82.0,,M,UK,KLP
+477.0,Alice,18.0,80.0,ECE,M,USA,California
+478.0,Eva,23.0,51.0,AIML,F,USA,Florida
+479.0,Charlie,18.0,63.0,AIML,F,UK,Florida
+480.0,Bob,24.0,69.0,nan,F,NZ,KLP
+481.0,Alice,21.0,65.0,IT,M,Australia,
+482.0,David,24.0,62.0,IT,F,Canada,Texas
+483.0,David,19.0,61.0,AIML,M,,Texas
+,David,20.0,66.0,AIML,F,Canada,Texas
+485.0,Eva,,85.0,AIML,M,UK,KLP
+486.0,Charlie,,53.0,CSE,F,UK,Florida
+487.0,Alice,22.0,50.0,CSE,M,Australia,California
+488.0,David,18.0,75.0,CSE,F,UK,Florida
+489.0,Bob,19.0,61.0,CSE,M,UK,New York
+490.0,Eva,21.0,53.0,IT,F,USA,KLP
+491.0,Eva,24.0,99.0,CSE,F,USA,California
+,Charlie,23.0,67.0,CSE,F,Canada,Texas
+493.0,Bob,,56.0,CSE,M,USA,Texas
+494.0,Bob,19.0,72.0,IT,M,USA,California
+495.0,David,20.0,98.0,AIML,M,UK,Texas
+,Eva,19.0,62.0,CSE,F,UK,California
+497.0,David,24.0,79.0,CSE,F,NZ,New York
+498.0,Bob,20.0,97.0,ECE,F,UK,Texas
+499.0,Alice,24.0,51.0,ECE,M,USA,New York
+500.0,Charlie,,79.0,CSE,F,NZ,Florida
+501.0,Alice,18.0,54.0,,M,USA,Texas
+502.0,Charlie,19.0,83.0,CSE,F,NZ,California
+503.0,Eva,18.0,88.0,IT,M,Canada,Florida
+504.0,Eva,23.0,52.0,AIML,M,USA,Texas
+505.0,Bob,22.0,80.0,ECE,F,Australia,California
+506.0,Alice,21.0,81.0,CSE,F,UK,
+507.0,Bob,20.0,75.0,CSE,M,USA,California
+508.0,Charlie,20.0,79.0,IT,M,UK,New York
+509.0,Alice,21.0,68.0,AIML,M,,California
+510.0,Eva,19.0,85.0,IT,M,NZ,KLP
+511.0,Charlie,22.0,66.0,CSE,F,UK,California
+,David,22.0,63.0,CSE,F,Canada,Florida
+513.0,Bob,23.0,66.0,ECE,F,UK,Florida
+,Eva,18.0,58.0,AIML,M,USA,New York
+515.0,Bob,24.0,50.0,,F,UK,
+516.0,Eva,20.0,61.0,ECE,,NZ,Texas
+517.0,David,24.0,79.0,IT,F,Australia,KLP
+518.0,Eva,24.0,71.0,AIML,M,NZ,KLP
+519.0,Charlie,19.0,56.0,nan,M,Canada,Florida
+520.0,Alice,18.0,58.0,IT,F,UK,KLP
+521.0,Eva,19.0,84.0,IT,F,Canada,Florida
+522.0,Eva,20.0,68.0,CSE,M,Australia,New York
+523.0,Eva,24.0,81.0,ECE,M,Canada,New York
+524.0,Eva,23.0,95.0,nan,F,Australia,California
+525.0,Eva,19.0,52.0,,F,Canada,Florida
+526.0,David,19.0,94.0,IT,M,NZ,KLP
+527.0,Bob,19.0,82.0,IT,M,UK,Texas
+528.0,Bob,20.0,84.0,AIML,M,USA,New York
+529.0,Eva,23.0,66.0,AIML,M,NZ,KLP
+530.0,Charlie,24.0,62.0,CSE,M,UK,Florida
+531.0,Charlie,22.0,72.0,nan,M,Australia,Texas
+532.0,Charlie,18.0,,AIML,M,NZ,Texas
+533.0,Bob,,71.0,AIML,F,Canada,California
+534.0,Eva,23.0,58.0,CSE,M,NZ,New York
+535.0,Eva,24.0,77.0,AIML,F,USA,Texas
+536.0,Charlie,20.0,96.0,AIML,M,USA,Texas
+537.0,Eva,21.0,99.0,AIML,M,UK,California
+538.0,David,20.0,87.0,ECE,F,USA,New York
+539.0,David,24.0,96.0,ECE,F,Australia,California
+540.0,Charlie,24.0,77.0,IT,,UK,New York
+541.0,David,23.0,59.0,AIML,M,Australia,New York
+542.0,Charlie,21.0,67.0,,M,Canada,California
+543.0,Charlie,18.0,80.0,AIML,M,Australia,California
+544.0,Charlie,,50.0,AIML,F,Australia,Texas
+545.0,Alice,21.0,69.0,CSE,F,Australia,California
+546.0,Alice,21.0,54.0,CSE,F,UK,California
+547.0,Alice,19.0,97.0,,F,Canada,New York
+548.0,Charlie,18.0,95.0,AIML,F,NZ,California
+549.0,David,22.0,97.0,ECE,F,USA,California
+550.0,Alice,23.0,57.0,ECE,M,NZ,Texas
+551.0,David,20.0,94.0,nan,M,USA,KLP
+552.0,Charlie,,96.0,AIML,F,USA,
+553.0,David,18.0,74.0,IT,M,Australia,Florida
+554.0,Bob,-5.0,90.0,IT,M,USA,Florida
+,Bob,22.0,73.0,AIML,M,Canada,Florida
+556.0,Bob,21.0,53.0,CSE,F,USA,New York
+,David,18.0,52.0,,,Australia,California
+558.0,Alice,23.0,59.0,CSE,F,NZ,Florida
+559.0,Eva,22.0,85.0,ECE,F,NZ,Texas
+560.0,Bob,24.0,99.0,AIML,M,Canada,Florida
+561.0,Alice,,61.0,AIML,M,NZ,Texas
+562.0,Bob,20.0,,AIML,M,USA,Florida
+563.0,Alice,19.0,60.0,CSE,F,Australia,Florida
+564.0,Bob,23.0,50.0,ECE,F,Canada,KLP
+,Alice,23.0,57.0,ECE,F,UK,Florida
+566.0,Bob,22.0,68.0,,M,UK,Texas
+567.0,Charlie,22.0,85.0,IT,F,UK,Florida
+568.0,David,20.0,97.0,CSE,M,USA,Texas
+569.0,Charlie,22.0,59.0,AIML,F,Canada,KLP
+570.0,Bob,23.0,54.0,ECE,F,Canada,New York
+571.0,Charlie,23.0,73.0,AIML,F,UK,California
+572.0,David,19.0,50.0,nan,M,UK,Florida
+573.0,Bob,18.0,,CSE,F,NZ,KLP
+574.0,Charlie,20.0,84.0,AIML,F,Canada,California
+575.0,David,23.0,69.0,ECE,F,USA,California
+576.0,Bob,19.0,84.0,AIML,M,,Florida
+577.0,Bob,24.0,98.0,CSE,,USA,KLP
+578.0,Bob,19.0,91.0,ECE,M,USA,California
+579.0,David,20.0,55.0,CSE,M,USA,New York
+580.0,Alice,,78.0,,F,Canada,New York
+581.0,Charlie,24.0,79.0,AIML,F,Australia,Texas
+582.0,Eva,18.0,87.0,AIML,M,USA,Texas
+583.0,Eva,23.0,60.0,AIML,F,UK,California
+584.0,David,22.0,94.0,nan,M,UK,Florida
+,Eva,24.0,57.0,CSE,M,UK,KLP
+586.0,David,23.0,68.0,AIML,F,USA,New York
+587.0,Alice,,80.0,AIML,M,USA,Texas
+588.0,Bob,18.0,76.0,AIML,M,UK,New York
+589.0,Alice,24.0,99.0,,M,USA,California
+590.0,Bob,20.0,62.0,CSE,F,Australia,KLP
+591.0,Bob,24.0,50.0,IT,F,USA,KLP
+592.0,Charlie,18.0,92.0,nan,M,Canada,Texas
+593.0,Bob,23.0,,AIML,M,USA,Florida
+594.0,Bob,21.0,70.0,AIML,F,NZ,Florida
+595.0,Charlie,19.0,65.0,,F,USA,California
+596.0,Eva,20.0,84.0,,F,Australia,KLP
+597.0,Eva,22.0,57.0,AIML,F,NZ,KLP
+598.0,Bob,23.0,51.0,IT,M,UK,California
+599.0,Bob,24.0,60.0,AIML,F,NZ,New York
+600.0,Alice,19.0,69.0,ECE,F,UK,Texas
+601.0,Alice,19.0,64.0,ECE,M,UK,California
+602.0,Bob,18.0,58.0,ECE,F,Canada,Florida
+603.0,Alice,20.0,58.0,IT,F,NZ,Texas
+604.0,Alice,20.0,87.0,CSE,F,Australia,KLP
+605.0,Alice,23.0,62.0,IT,F,Canada,
+606.0,David,19.0,90.0,ECE,F,USA,California
+607.0,Alice,24.0,55.0,,F,Australia,Florida
+608.0,Alice,,59.0,AIML,F,NZ,KLP
+609.0,Bob,18.0,78.0,CSE,M,Australia,California
+610.0,Bob,18.0,,CSE,M,USA,California
+611.0,Bob,21.0,61.0,AIML,M,Canada,New York
+612.0,Eva,24.0,73.0,CSE,M,NZ,California
+613.0,Charlie,24.0,78.0,AIML,M,USA,Florida
+614.0,Bob,21.0,80.0,IT,M,Canada,KLP
+615.0,Alice,22.0,79.0,CSE,M,Canada,New York
+616.0,David,20.0,68.0,,F,Australia,Texas
+617.0,Alice,21.0,62.0,,M,NZ,California
+618.0,Eva,,61.0,AIML,F,USA,KLP
+619.0,David,21.0,72.0,IT,F,Canada,New York
+620.0,Charlie,21.0,75.0,IT,F,,California
+621.0,Eva,20.0,51.0,IT,F,UK,New York
+622.0,David,,85.0,CSE,M,Canada,Florida
+623.0,Bob,23.0,64.0,IT,M,NZ,Florida
+624.0,Bob,19.0,69.0,IT,M,USA,California
+625.0,Alice,18.0,300.0,ECE,M,NZ,Florida
+626.0,Charlie,18.0,99.0,ECE,M,Canada,KLP
+,David,24.0,93.0,ECE,M,UK,Texas
+628.0,Bob,19.0,88.0,IT,F,NZ,Texas
+629.0,Bob,22.0,51.0,CSE,F,NZ,Texas
+630.0,Eva,,74.0,CSE,M,USA,Florida
+631.0,Bob,18.0,51.0,nan,F,Canada,Florida
+632.0,Alice,21.0,,,F,NZ,Texas
+633.0,Eva,23.0,61.0,AIML,M,UK,New York
+634.0,Charlie,18.0,50.0,AIML,F,UK,KLP
+635.0,Bob,24.0,93.0,CSE,F,NZ,New York
+636.0,David,19.0,56.0,CSE,F,Canada,California
+637.0,Eva,22.0,60.0,ECE,,Canada,New York
+,Bob,20.0,86.0,CSE,F,NZ,Texas
+639.0,Eva,23.0,74.0,AIML,M,Australia,KLP
+640.0,Charlie,20.0,59.0,IT,M,Canada,Texas
+641.0,Charlie,21.0,93.0,ECE,M,Canada,Texas
+642.0,Alice,18.0,67.0,ECE,F,UK,California
+643.0,Charlie,23.0,78.0,AIML,M,Australia,KLP
+644.0,Eva,19.0,65.0,AIML,M,USA,
+645.0,Eva,21.0,69.0,IT,M,UK,California
+646.0,Bob,,71.0,IT,M,UK,California
+647.0,David,22.0,72.0,IT,,UK,New York
+648.0,Alice,19.0,64.0,AIML,M,Australia,KLP
+649.0,David,21.0,83.0,CSE,M,Canada,Texas
+650.0,Eva,19.0,75.0,,M,Australia,KLP
+651.0,Bob,23.0,69.0,IT,M,UK,Texas
+652.0,Eva,24.0,88.0,IT,,Canada,Florida
+653.0,Bob,21.0,80.0,,M,Canada,Texas
+654.0,Eva,20.0,82.0,CSE,F,UK,California
+655.0,Alice,18.0,,AIML,M,,KLP
+,Bob,23.0,94.0,IT,F,USA,New York
+657.0,Charlie,24.0,98.0,ECE,M,Australia,California
+658.0,Eva,21.0,,ECE,M,Australia,New York
+659.0,Bob,24.0,77.0,IT,F,Canada,California
+660.0,Bob,18.0,66.0,ECE,F,Australia,Texas
+,Bob,23.0,82.0,AIML,M,Australia,California
+662.0,Bob,24.0,72.0,AIML,F,Australia,New York
+663.0,Bob,20.0,86.0,IT,F,UK,KLP
+664.0,Alice,23.0,72.0,,M,Australia,Texas
+665.0,Charlie,21.0,72.0,ECE,F,,KLP
+666.0,Bob,24.0,,IT,M,Canada,New York
+667.0,David,22.0,73.0,CSE,M,Australia,Texas
+668.0,Alice,24.0,70.0,IT,M,Canada,KLP
+669.0,Alice,24.0,,CSE,F,Canada,New York
+670.0,Eva,22.0,65.0,nan,F,NZ,New York
+671.0,David,22.0,54.0,,F,,Florida
+672.0,Alice,22.0,88.0,CSE,M,Australia,Texas
+673.0,David,19.0,65.0,CSE,M,NZ,California
+674.0,Bob,20.0,73.0,CSE,M,USA,New York
+675.0,Charlie,19.0,81.0,,M,Australia,KLP
+676.0,David,18.0,86.0,ECE,M,Australia,New York
+677.0,Charlie,19.0,,ECE,F,,New York
+678.0,Eva,19.0,90.0,IT,F,Australia,KLP
+679.0,David,18.0,53.0,ECE,F,NZ,Florida
+680.0,David,22.0,,AIML,F,NZ,Texas
+681.0,Alice,23.0,59.0,IT,M,NZ,Texas
+682.0,Alice,22.0,93.0,CSE,M,NZ,KLP
+683.0,Alice,20.0,83.0,ECE,F,UK,KLP
+684.0,Charlie,21.0,75.0,ECE,M,UK,Texas
+,Eva,23.0,62.0,CSE,M,USA,Florida
+686.0,David,19.0,74.0,,F,UK,California
+687.0,Alice,24.0,89.0,IT,M,,Florida
+688.0,Bob,24.0,93.0,CSE,M,USA,KLP
+689.0,Bob,22.0,59.0,IT,,,New York
+690.0,Bob,24.0,98.0,ECE,M,Australia,KLP
+691.0,Eva,24.0,86.0,CSE,F,Australia,KLP
+692.0,David,19.0,,ECE,F,NZ,
+693.0,Bob,23.0,78.0,IT,M,Australia,California
+,Bob,21.0,51.0,IT,F,Canada,Texas
+695.0,David,18.0,65.0,,F,Canada,KLP
+696.0,David,21.0,72.0,AIML,M,UK,New York
+697.0,David,,72.0,,F,UK,KLP
+698.0,David,20.0,54.0,IT,M,Australia,KLP
+699.0,David,,92.0,ECE,M,Canada,KLP
+700.0,Bob,22.0,67.0,CSE,M,Canada,KLP
+701.0,David,22.0,90.0,AIML,M,Australia,Florida
+702.0,Charlie,22.0,65.0,IT,F,,Texas
+703.0,Bob,20.0,55.0,AIML,F,NZ,
+704.0,Bob,23.0,97.0,ECE,M,Australia,
+705.0,Charlie,20.0,55.0,,F,UK,Texas
+706.0,Charlie,23.0,85.0,,F,NZ,
+707.0,David,24.0,93.0,ECE,F,Australia,KLP
+708.0,Eva,21.0,89.0,IT,F,Canada,KLP
+709.0,Charlie,22.0,60.0,IT,F,USA,New York
+710.0,Bob,21.0,68.0,nan,M,USA,New York
+711.0,Charlie,21.0,83.0,CSE,M,,KLP
+712.0,Eva,18.0,65.0,ECE,M,Canada,Texas
+713.0,David,22.0,60.0,ECE,M,Canada,California
+714.0,Alice,20.0,68.0,AIML,M,NZ,New York
+715.0,Charlie,24.0,52.0,,F,NZ,Florida
+716.0,David,24.0,55.0,CSE,F,NZ,Texas
+717.0,Bob,23.0,88.0,CSE,F,NZ,New York
+718.0,Eva,18.0,82.0,IT,F,NZ,Florida
+719.0,Charlie,20.0,55.0,nan,F,Canada,Florida
+720.0,Bob,20.0,76.0,ECE,F,USA,
+721.0,Bob,18.0,81.0,ECE,,NZ,New York
+722.0,David,18.0,71.0,IT,F,Canada,KLP
+723.0,Charlie,19.0,70.0,AIML,M,UK,Texas
+724.0,Alice,19.0,63.0,ECE,F,NZ,New York
+725.0,David,,78.0,ECE,,Australia,California
+726.0,David,18.0,58.0,,F,Canada,KLP
+727.0,Alice,23.0,95.0,IT,F,Canada,Florida
+728.0,Charlie,24.0,,AIML,F,UK,Florida
+729.0,David,23.0,300.0,ECE,M,USA,California
+730.0,David,20.0,81.0,nan,F,NZ,California
+731.0,Alice,22.0,98.0,IT,F,Canada,
+732.0,David,22.0,58.0,AIML,M,Australia,KLP
+733.0,Eva,23.0,76.0,ECE,F,,New York
+734.0,Alice,23.0,93.0,ECE,F,UK,New York
+735.0,Eva,23.0,,AIML,F,UK,Texas
+736.0,Bob,20.0,63.0,AIML,M,Canada,Florida
+737.0,Charlie,20.0,300.0,AIML,F,Canada,New York
+738.0,Bob,18.0,93.0,IT,M,USA,KLP
+739.0,Eva,18.0,79.0,ECE,F,Australia,KLP
+740.0,Charlie,19.0,81.0,IT,F,NZ,California
+,David,,67.0,AIML,F,Canada,Florida
+742.0,Eva,24.0,98.0,nan,M,Canada,California
+743.0,David,20.0,71.0,,F,USA,California
+744.0,Alice,23.0,79.0,AIML,M,USA,KLP
+745.0,Bob,18.0,69.0,,M,USA,Texas
+746.0,Bob,20.0,79.0,CSE,M,Australia,Texas
+747.0,Bob,23.0,94.0,AIML,M,Canada,Texas
+748.0,David,22.0,98.0,ECE,F,Canada,KLP
+749.0,Bob,24.0,75.0,CSE,F,USA,California
+750.0,Bob,19.0,85.0,AIML,F,Australia,New York
+751.0,David,24.0,62.0,AIML,M,Canada,California
+752.0,David,21.0,81.0,AIML,M,Australia,Florida
+753.0,Alice,20.0,92.0,nan,F,Australia,KLP
+754.0,Alice,19.0,51.0,ECE,M,Canada,New York
+755.0,Bob,22.0,62.0,,F,UK,New York
+756.0,Charlie,21.0,99.0,nan,F,USA,California
+757.0,Bob,19.0,58.0,AIML,F,USA,Texas
+758.0,Charlie,21.0,59.0,ECE,M,Canada,New York
+759.0,Charlie,24.0,98.0,AIML,M,Canada,KLP
+760.0,David,23.0,85.0,nan,F,,Florida
+761.0,Alice,22.0,71.0,,,,New York
+762.0,Bob,18.0,58.0,,M,UK,Florida
+763.0,Bob,22.0,77.0,ECE,F,Australia,California
+764.0,Bob,22.0,62.0,AIML,M,Australia,KLP
+765.0,David,24.0,62.0,ECE,F,Canada,New York
+766.0,David,24.0,91.0,IT,F,UK,California
+767.0,Charlie,24.0,94.0,ECE,M,NZ,KLP
+768.0,David,20.0,94.0,ECE,F,UK,California
+769.0,Charlie,19.0,62.0,IT,F,USA,KLP
+770.0,David,22.0,89.0,nan,F,USA,KLP
+771.0,Alice,24.0,79.0,CSE,M,USA,KLP
+772.0,Charlie,20.0,79.0,AIML,F,,California
+773.0,Alice,24.0,67.0,,M,USA,KLP
+774.0,Charlie,21.0,57.0,IT,F,UK,Florida
+775.0,Bob,22.0,65.0,IT,M,NZ,Texas
+776.0,Eva,19.0,57.0,IT,M,NZ,
+777.0,Alice,20.0,95.0,,M,Canada,Florida
+778.0,David,23.0,62.0,nan,F,Australia,
+779.0,Charlie,,59.0,AIML,F,USA,Florida
+780.0,Eva,18.0,69.0,CSE,,Canada,California
+781.0,David,24.0,80.0,,F,UK,Florida
+782.0,David,23.0,56.0,AIML,M,Canada,Texas
+783.0,Alice,24.0,55.0,nan,F,UK,KLP
+784.0,David,23.0,65.0,IT,M,USA,Texas
+785.0,Charlie,21.0,99.0,AIML,F,Australia,Florida
+786.0,David,22.0,58.0,ECE,M,Australia,KLP
+787.0,David,20.0,70.0,AIML,F,Canada,Florida
+788.0,Eva,22.0,50.0,ECE,M,Australia,California
+789.0,David,18.0,80.0,IT,M,Australia,California
+790.0,Bob,22.0,87.0,IT,M,USA,New York
+791.0,Charlie,21.0,93.0,AIML,M,NZ,
+792.0,Bob,24.0,57.0,ECE,F,USA,KLP
+793.0,Charlie,23.0,74.0,IT,F,UK,Texas
+794.0,Eva,19.0,94.0,CSE,M,Australia,Texas
+795.0,Bob,20.0,68.0,CSE,F,NZ,California
+,Eva,24.0,74.0,,F,Canada,KLP
+797.0,Bob,-5.0,98.0,CSE,F,NZ,Texas
+798.0,Eva,18.0,90.0,AIML,M,USA,
+799.0,David,21.0,92.0,,,NZ,California
+800.0,Charlie,19.0,73.0,CSE,F,Australia,California
+801.0,Eva,21.0,66.0,IT,M,Australia,KLP
+802.0,Bob,20.0,81.0,ECE,F,USA,Florida
+803.0,Bob,20.0,55.0,CSE,M,NZ,KLP
+804.0,Bob,24.0,73.0,IT,F,USA,Texas
+805.0,Eva,20.0,69.0,IT,F,Canada,California
+806.0,Eva,,57.0,AIML,,UK,KLP
+807.0,Eva,,69.0,AIML,F,UK,KLP
+808.0,Bob,21.0,68.0,CSE,M,Australia,Texas
+809.0,Alice,22.0,66.0,IT,M,USA,California
+810.0,Alice,21.0,75.0,AIML,F,UK,KLP
+811.0,Bob,19.0,83.0,AIML,M,UK,New York
+812.0,David,24.0,73.0,IT,F,USA,Florida
+813.0,Charlie,18.0,83.0,,F,UK,KLP
+,Eva,21.0,80.0,AIML,F,USA,California
+815.0,Charlie,21.0,55.0,IT,M,Canada,New York
+816.0,David,22.0,68.0,CSE,,Canada,KLP
+817.0,Alice,,89.0,ECE,F,NZ,New York
+818.0,Alice,20.0,52.0,CSE,F,NZ,Texas
+819.0,Bob,21.0,74.0,IT,M,UK,New York
+820.0,Alice,22.0,51.0,AIML,M,Australia,Texas
+821.0,David,18.0,56.0,AIML,F,Canada,
+822.0,David,21.0,63.0,,F,UK,California
+823.0,David,23.0,70.0,IT,M,Canada,Florida
+824.0,Eva,18.0,63.0,ECE,F,Canada,California
+825.0,Bob,21.0,89.0,,F,NZ,California
+826.0,David,18.0,,IT,F,UK,Texas
+827.0,David,20.0,70.0,AIML,M,Australia,KLP
+828.0,Charlie,18.0,52.0,IT,F,Canada,KLP
+,David,18.0,99.0,ECE,M,Canada,New York
+830.0,Eva,19.0,58.0,,F,Canada,Florida
+831.0,Alice,18.0,57.0,AIML,M,USA,California
+,Bob,22.0,95.0,CSE,M,Canada,Texas
+833.0,Alice,24.0,80.0,AIML,M,NZ,New York
+834.0,Alice,21.0,72.0,ECE,F,Australia,Texas
+835.0,Charlie,,83.0,nan,M,Australia,Texas
+836.0,Alice,18.0,96.0,CSE,F,USA,Texas
+837.0,David,19.0,98.0,,M,USA,KLP
+838.0,Bob,18.0,65.0,CSE,F,UK,Florida
+839.0,Bob,19.0,51.0,IT,F,UK,Florida
+840.0,Charlie,21.0,73.0,ECE,,Canada,Florida
+841.0,Bob,23.0,56.0,CSE,,NZ,Florida
+842.0,Bob,24.0,60.0,IT,F,USA,Texas
+843.0,Eva,21.0,68.0,IT,F,USA,New York
+844.0,Eva,22.0,71.0,IT,M,NZ,KLP
+845.0,Alice,23.0,66.0,IT,F,NZ,
+846.0,Charlie,19.0,52.0,AIML,M,UK,California
+847.0,Charlie,,50.0,AIML,F,NZ,KLP
+848.0,Bob,21.0,55.0,CSE,M,Canada,New York
+849.0,David,24.0,54.0,CSE,,Australia,KLP
+850.0,Bob,21.0,67.0,,M,USA,New York
+851.0,Charlie,22.0,50.0,AIML,M,NZ,KLP
+852.0,Eva,19.0,63.0,AIML,M,UK,Florida
+853.0,Alice,24.0,99.0,AIML,M,USA,California
+854.0,Alice,22.0,84.0,nan,M,USA,KLP
+855.0,Alice,19.0,69.0,ECE,F,USA,California
+856.0,Bob,18.0,92.0,ECE,M,Australia,Texas
+857.0,Bob,22.0,65.0,ECE,,USA,California
+858.0,Bob,20.0,85.0,ECE,F,USA,California
+859.0,Alice,23.0,58.0,ECE,F,USA,Texas
+,Bob,24.0,65.0,ECE,M,NZ,California
+861.0,David,,,IT,M,NZ,California
+862.0,Charlie,20.0,50.0,IT,M,USA,Florida
+863.0,Alice,23.0,89.0,CSE,F,Australia,New York
+864.0,Charlie,24.0,58.0,IT,M,Australia,Texas
+865.0,Eva,23.0,69.0,nan,F,Canada,Florida
+866.0,Alice,21.0,51.0,AIML,M,Canada,California
+867.0,David,19.0,92.0,,M,Australia,Florida
+,Alice,23.0,88.0,AIML,M,Canada,California
+869.0,Charlie,21.0,58.0,IT,M,Australia,Florida
+870.0,Charlie,19.0,53.0,IT,M,USA,KLP
+,David,23.0,68.0,ECE,F,NZ,California
+872.0,Bob,21.0,73.0,AIML,F,Australia,New York
+873.0,Eva,21.0,90.0,AIML,F,Australia,Texas
+874.0,Bob,22.0,56.0,CSE,F,Australia,Florida
+875.0,Eva,,75.0,IT,F,NZ,
+876.0,Bob,18.0,94.0,ECE,M,USA,Florida
+877.0,Bob,24.0,85.0,CSE,F,Canada,Texas
+878.0,Bob,19.0,89.0,IT,F,USA,Texas
+879.0,Alice,21.0,83.0,ECE,M,Canada,KLP
+880.0,Alice,,58.0,AIML,F,Australia,Florida
+881.0,Charlie,18.0,66.0,ECE,F,UK,New York
+882.0,Bob,21.0,96.0,AIML,F,Canada,KLP
+883.0,Eva,18.0,57.0,ECE,F,NZ,Texas
+884.0,Eva,24.0,51.0,AIML,,Australia,Texas
+885.0,Charlie,24.0,66.0,AIML,M,Canada,California
+886.0,Alice,23.0,87.0,CSE,F,USA,Texas
+887.0,Alice,24.0,67.0,AIML,M,NZ,New York
+888.0,David,23.0,95.0,CSE,M,Australia,KLP
+889.0,Eva,22.0,69.0,IT,F,Canada,New York
+890.0,David,24.0,91.0,AIML,F,UK,Texas
+891.0,Bob,22.0,71.0,AIML,M,Australia,California
+892.0,David,22.0,51.0,AIML,M,USA,California
+893.0,Eva,20.0,93.0,ECE,M,USA,California
+894.0,Eva,23.0,79.0,AIML,F,UK,KLP
+895.0,Charlie,19.0,67.0,IT,F,USA,California
+896.0,Eva,22.0,,CSE,F,USA,California
+897.0,Alice,23.0,91.0,ECE,F,Canada,New York
+898.0,Eva,24.0,81.0,AIML,M,NZ,New York
+899.0,Charlie,24.0,71.0,IT,,USA,Texas
+900.0,Charlie,24.0,56.0,CSE,M,UK,New York
+901.0,Bob,23.0,65.0,IT,M,UK,New York
+902.0,Charlie,22.0,52.0,ECE,,UK,New York
+903.0,Charlie,18.0,68.0,ECE,F,NZ,California
+904.0,Charlie,18.0,53.0,AIML,M,USA,Texas
+905.0,Charlie,19.0,60.0,CSE,M,Australia,Texas
+906.0,David,24.0,99.0,ECE,M,,Florida
+907.0,Eva,21.0,62.0,CSE,F,UK,New York
+908.0,Charlie,24.0,97.0,AIML,F,USA,
+909.0,Charlie,23.0,53.0,ECE,F,Australia,Texas
+910.0,Eva,24.0,61.0,CSE,,Australia,Florida
+911.0,Charlie,24.0,,ECE,F,USA,New York
+912.0,Eva,24.0,64.0,IT,M,USA,California
+913.0,Charlie,24.0,66.0,ECE,F,Canada,KLP
+914.0,David,19.0,51.0,,F,Canada,California
+915.0,Charlie,21.0,69.0,CSE,M,Canada,Florida
+916.0,Bob,18.0,,CSE,M,USA,New York
+917.0,Charlie,21.0,54.0,IT,M,UK,Florida
+918.0,Bob,21.0,98.0,AIML,F,UK,KLP
+919.0,Bob,20.0,74.0,IT,,Australia,Texas
+920.0,Alice,20.0,92.0,IT,F,UK,Texas
+921.0,Charlie,23.0,78.0,,M,USA,California
+922.0,David,23.0,73.0,ECE,F,Australia,Texas
+923.0,David,20.0,82.0,ECE,F,USA,California
+924.0,Bob,18.0,65.0,ECE,M,NZ,Texas
+925.0,David,20.0,92.0,AIML,M,UK,KLP
+926.0,Bob,18.0,63.0,IT,M,NZ,New York
+927.0,Alice,21.0,55.0,AIML,M,NZ,Texas
+928.0,Eva,19.0,79.0,,M,UK,New York
+929.0,Alice,18.0,91.0,,M,Australia,California
+930.0,David,20.0,,IT,M,USA,KLP
+931.0,David,20.0,60.0,IT,M,UK,California
+932.0,Alice,18.0,72.0,AIML,M,Canada,California
+933.0,Eva,23.0,51.0,,F,USA,KLP
+934.0,Eva,18.0,82.0,IT,F,USA,Texas
+935.0,Charlie,24.0,92.0,,F,NZ,California
+936.0,Eva,21.0,300.0,CSE,F,,California
+937.0,Bob,22.0,55.0,ECE,M,Australia,Texas
+938.0,Charlie,19.0,96.0,AIML,M,NZ,New York
+939.0,Bob,21.0,70.0,IT,F,NZ,KLP
+940.0,Alice,21.0,65.0,AIML,F,NZ,KLP
+941.0,Eva,18.0,86.0,,F,UK,KLP
+942.0,Bob,20.0,79.0,CSE,F,NZ,New York
+943.0,Bob,23.0,300.0,AIML,F,USA,Texas
+,Charlie,24.0,66.0,AIML,M,Canada,New York
+945.0,Eva,-5.0,62.0,AIML,M,UK,New York
+946.0,Eva,22.0,70.0,IT,F,UK,Florida
+947.0,Charlie,20.0,90.0,CSE,F,NZ,Texas
+948.0,Bob,23.0,57.0,AIML,F,NZ,Texas
+949.0,Eva,19.0,95.0,IT,M,Australia,California
+950.0,Eva,19.0,96.0,CSE,M,USA,California
+951.0,Eva,20.0,74.0,ECE,F,UK,California
+952.0,Alice,18.0,,CSE,M,UK,New York
+953.0,Bob,22.0,56.0,CSE,F,Australia,Florida
+954.0,Charlie,19.0,97.0,CSE,M,UK,Florida
+955.0,Alice,21.0,54.0,IT,M,NZ,New York
+956.0,Charlie,21.0,79.0,,M,Canada,California
+957.0,Charlie,21.0,54.0,ECE,F,UK,California
+958.0,Alice,22.0,89.0,CSE,M,Australia,Florida
+959.0,Charlie,22.0,54.0,AIML,F,USA,New York
+960.0,Charlie,24.0,67.0,CSE,M,Australia,KLP
+961.0,Charlie,18.0,,AIML,,Canada,New York
+962.0,Charlie,19.0,64.0,AIML,,Canada,New York
+,Charlie,20.0,75.0,IT,F,UK,Florida
+964.0,Charlie,20.0,95.0,ECE,F,USA,California
+965.0,Alice,21.0,80.0,ECE,M,Australia,KLP
+966.0,Bob,20.0,72.0,CSE,F,USA,KLP
+967.0,Bob,22.0,51.0,AIML,M,NZ,Texas
+968.0,Charlie,23.0,63.0,CSE,M,UK,
+969.0,Alice,19.0,78.0,ECE,M,Canada,Texas
+970.0,Eva,21.0,80.0,AIML,M,NZ,Florida
+971.0,Charlie,19.0,54.0,IT,F,Canada,Texas
+972.0,Bob,21.0,66.0,CSE,F,UK,KLP
+973.0,Charlie,22.0,95.0,CSE,M,USA,Florida
+974.0,Alice,22.0,72.0,CSE,M,Australia,California
+,Bob,24.0,85.0,,F,NZ,Texas
+976.0,Alice,21.0,84.0,AIML,F,UK,New York
+977.0,David,22.0,68.0,CSE,F,NZ,KLP
+978.0,Bob,22.0,78.0,CSE,M,USA,New York
+979.0,Bob,23.0,77.0,CSE,M,UK,KLP
+980.0,David,19.0,68.0,IT,M,Canada,
+981.0,Eva,19.0,66.0,AIML,M,UK,KLP
+982.0,Bob,24.0,55.0,ECE,F,NZ,Florida
+983.0,Eva,19.0,50.0,AIML,M,NZ,Florida
+984.0,Eva,23.0,98.0,IT,M,USA,California
+985.0,Eva,23.0,150.0,ECE,M,Canada,Florida
+986.0,Eva,20.0,61.0,AIML,M,UK,Texas
+987.0,Alice,,94.0,,F,NZ,Texas
+988.0,Eva,18.0,54.0,IT,M,USA,New York
+989.0,Charlie,18.0,58.0,IT,M,Canada,Texas
+990.0,Charlie,20.0,82.0,ECE,M,Canada,Texas
+991.0,Charlie,24.0,78.0,ECE,F,NZ,Texas
+992.0,David,22.0,77.0,,F,Canada,California
+993.0,Alice,22.0,78.0,ECE,F,NZ,New York
+994.0,David,23.0,80.0,nan,F,UK,Florida
+995.0,Eva,21.0,61.0,CSE,F,,Florida
+996.0,Charlie,21.0,,CSE,F,UK,Florida
+,Charlie,,82.0,AIML,M,NZ,California
+998.0,David,20.0,82.0,AIML,M,USA,New York
+999.0,Eva,19.0,80.0,AIML,F,NZ,
+1000.0,David,23.0,58.0,,M,NZ,Florida
