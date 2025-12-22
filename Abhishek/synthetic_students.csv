@@ -1,0 +1,6 @@
+Student_ID,Name,Age,Marks,Department
+101.0,Amit,23,85,CSE
+102.0,Suman,22,90,ECE
+103.0,Ravi,24,78,ME
+104.0,,23,92,
+,Priya,24,Pass,ECE
