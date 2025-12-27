@@ -1,0 +1,501 @@
+Student_ID,First_Name,Last_Name,Age,Major,GPA,Enrollment_Year,Phone,Email
+1001,Chirag,Sharma,22,Computer Science,3.05,2023,9871633791,chirag.sharma1001@college.edu
+1002,Sophia,Menon,20,Mathematics,3.95,2022,9830780682,sophia.menon1002@college.edu
+1003,Laxman,Kumar,18,Civil Engineering,3.94,2024,9889267901,laxman.kumar1003@college.edu
+1004,Bhavna,Singh,21,Mechanical Engineering,3.53,2021,9821550229,bhavna.singh1004@college.edu
+1005,Qasim,Khan,23,Electrical Engineering,3.7,2021,9828374961,qasim.khan1005@college.edu
+1006,Sophia,Chopra,25,Biology,2.21,2021,9875182155,sophia.chopra1006@college.edu
+1007,Rajesh,Kumar,20,Finance,2.76,2024,9841631951,rajesh.kumar1007@college.edu
+1008,Sophia,Verma,25,Electrical Engineering,3.2,2022,9838279824,sophia.verma1008@college.edu
+1009,Vikram,Singh,20,Finance,2.12,2023,9816154360,vikram.singh1009@college.edu
+1010,Olivia,Gupta,18,Biology,2.37,2023,9812792385,olivia.gupta1010@college.edu
+1011,Chirag,Iyer,21,Finance,3.99,2023,9829345885,chirag.iyer1011@college.edu
+1012,Rajesh,Kumar,25,Electrical Engineering,2.32,2023,9861047535,rajesh.kumar1012@college.edu
+1013,Harsh,Nair,21,Finance,2.41,2022,9812430724,harsh.nair1013@college.edu
+1014,Vikram,Sinha,25,Mechanical Engineering,3.82,2021,9848633829,vikram.sinha1014@college.edu
+1015,Deepak,Nair,18,Marketing,2.22,2023,9853011195,deepak.nair1015@college.edu
+1016,Yash,Verma,19,Mechanical Engineering,2.26,2022,9822835374,yash.verma1016@college.edu
+1017,Nikhil,Menon,25,Mechanical Engineering,2.92,2022,9873788545,nikhil.menon1017@college.edu
+1018,Esha,Bhat,20,Computer Science,2.76,2024,9842295966,esha.bhat1018@college.edu
+1019,Olivia,Chopra,23,Physics,3.27,2023,9830489032,olivia.chopra1019@college.edu
+1020,Rajesh,Nair,23,Physics,2.27,2021,9819239369,rajesh.nair1020@college.edu
+1021,Priya,Verma,19,Finance,3.16,2024,9872420093,priya.verma1021@college.edu
+1022,Chirag,Khan,19,Physics,3.49,2021,9887394970,chirag.khan1022@college.edu
+1023,Chirag,Nair,25,Finance,3.93,2024,9885905771,chirag.nair1023@college.edu
+1024,Chirag,Sharma,22,Mathematics,3.53,2023,9838326511,chirag.sharma1024@college.edu
+1025,Priya,Singh,25,Business Administration,3.47,2024,9884750790,priya.singh1025@college.edu
+1026,Nikhil,Singh,21,Mathematics,2.16,2021,9838833470,nikhil.singh1026@college.edu
+1027,Uma,Gupta,19,Marketing,3.72,2024,9824977196,uma.gupta1027@college.edu
+1028,Priya,Khan,24,Mechanical Engineering,3.66,2022,9833503670,priya.khan1028@college.edu
+1029,Harsh,Kumar,24,Chemistry,2.18,2021,9814716257,harsh.kumar1029@college.edu
+1030,Vikram,Desai,20,Physics,2.66,2024,9890202191,vikram.desai1030@college.edu
+1031,Esha,Nair,21,Physics,2.74,2023,9815175829,esha.nair1031@college.edu
+1032,Sophia,Sinha,25,Electrical Engineering,3.66,2022,9879396862,sophia.sinha1032@college.edu
+1033,Esha,Malhotra,21,Biology,2.77,2022,9834889933,esha.malhotra1033@college.edu
+1034,Yash,Singh,25,Chemistry,2.17,2021,9895103077,yash.singh1034@college.edu
+1035,Vikram,Nair,21,Business Administration,2.65,2022,9876040701,vikram.nair1035@college.edu
+1036,Faisal,Sharma,20,Mathematics,3.96,2022,9819253950,faisal.sharma1036@college.edu
+1037,Uma,Nair,18,Electrical Engineering,3.05,2023,9840039595,uma.nair1037@college.edu
+1038,Gina,Patel,19,Mathematics,3.95,2021,9891811331,gina.patel1038@college.edu
+1039,Tushar,Nair,24,Physics,2.04,2022,9814941039,tushar.nair1039@college.edu
+1040,Priya,Bhat,22,Physics,2.82,2023,9899280383,priya.bhat1040@college.edu
+1041,Vikram,Patel,21,Finance,3.13,2022,9814930517,vikram.patel1041@college.edu
+1042,Wanisha,Patel,20,Finance,3.65,2024,9844901198,wanisha.patel1042@college.edu
+1043,Qasim,Khan,21,Chemistry,2.49,2022,9862068004,qasim.khan1043@college.edu
+1044,Bhavna,Verma,25,Chemistry,3.78,2021,9897630545,bhavna.verma1044@college.edu
+1045,Rajesh,Khan,21,Finance,3.74,2021,9812437221,rajesh.khan1045@college.edu
+1046,Yash,Rao,22,Psychology,2.88,2023,9810078160,yash.rao1046@college.edu
+1047,Gina,Khan,18,Marketing,2.17,2021,9852167710,gina.khan1047@college.edu
+1048,Olivia,Malhotra,23,Business Administration,2.77,2023,9862876547,olivia.malhotra1048@college.edu
+1049,Laxman,Bhat,22,Marketing,3.83,2024,9832875385,laxman.bhat1049@college.edu
+1050,Harsh,Desai,25,Finance,3.99,2022,9878531875,harsh.desai1050@college.edu
+1051,Esha,Khan,23,Mathematics,2.86,2024,9811358198,esha.khan1051@college.edu
+1052,Wanisha,Sharma,18,Business Administration,2.59,2022,9866166479,wanisha.sharma1052@college.edu
+1053,Tushar,Kumar,24,Physics,2.34,2021,9846154390,tushar.kumar1053@college.edu
+1054,Wanisha,Kumar,21,Biology,3.23,2021,9899031120,wanisha.kumar1054@college.edu
+1055,Meera,Gupta,22,Computer Science,2.22,2024,9834044307,meera.gupta1055@college.edu
+1056,Bhavna,Khan,21,Computer Science,3.97,2022,9814873236,bhavna.khan1056@college.edu
+1057,Sophia,Khan,18,Chemistry,3.45,2022,9842042285,sophia.khan1057@college.edu
+1058,Rajesh,Verma,21,Chemistry,2.36,2021,9815865548,rajesh.verma1058@college.edu
+1059,Xyza,Rao,20,Mechanical Engineering,2.85,2022,9873644559,xyza.rao1059@college.edu
+1060,Xyza,Rao,23,Marketing,3.96,2022,9825994074,xyza.rao1060@college.edu
+1061,Nikhil,Iyer,24,Chemistry,2.58,2024,9870595093,nikhil.iyer1061@college.edu
+1062,Nikhil,Gupta,21,Computer Science,2.76,2021,9865801276,nikhil.gupta1062@college.edu
+1063,Gina,Bhat,18,Mathematics,3.76,2021,9888591591,gina.bhat1063@college.edu
+1064,Faisal,Singh,25,Computer Science,3.18,2024,9841133626,faisal.singh1064@college.edu
+1065,Vikram,Verma,22,Mathematics,2.6,2023,9829872937,vikram.verma1065@college.edu
+1066,Amit,Sinha,21,Mechanical Engineering,3.7,2022,9875861728,amit.sinha1066@college.edu
+1067,Amit,Menon,25,Electrical Engineering,2.34,2022,9886750218,amit.menon1067@college.edu
+1068,Rajesh,Patel,24,Finance,2.85,2022,9830726277,rajesh.patel1068@college.edu
+1069,Vikram,Chopra,21,Finance,2.56,2023,9838640615,vikram.chopra1069@college.edu
+1070,Deepak,Iyer,18,Biology,2.21,2022,9820863730,deepak.iyer1070@college.edu
+1071,Xyza,Verma,19,Finance,2.09,2022,9856720364,xyza.verma1071@college.edu
+1072,Sophia,Rao,25,Psychology,2.41,2021,9876450783,sophia.rao1072@college.edu
+1073,Meera,Verma,21,Chemistry,3.13,2023,9894591013,meera.verma1073@college.edu
+1074,Nikhil,Desai,18,Chemistry,3.24,2024,9866681778,nikhil.desai1074@college.edu
+1075,Gina,Bhat,25,Computer Science,2.98,2022,9872835454,gina.bhat1075@college.edu
+1076,Yash,Iyer,18,Psychology,2.08,2022,9862900892,yash.iyer1076@college.edu
+1077,Vikram,Gupta,20,Electrical Engineering,3.13,2021,9810703020,vikram.gupta1077@college.edu
+1078,Laxman,Menon,20,Mechanical Engineering,3.92,2021,9879742264,laxman.menon1078@college.edu
+1079,Priya,Patel,22,Finance,2.47,2024,9863946176,priya.patel1079@college.edu
+1080,Esha,Bhat,20,Computer Science,2.65,2024,9892757351,esha.bhat1080@college.edu
+1081,Jatin,Chopra,20,Finance,2.73,2023,9848999704,jatin.chopra1081@college.edu
+1082,Jatin,Khan,19,Psychology,2.42,2021,9826772991,jatin.khan1082@college.edu
+1083,Gina,Iyer,23,Mechanical Engineering,2.74,2024,9840339396,gina.iyer1083@college.edu
+1084,Vikram,Menon,22,Chemistry,2.01,2023,9875128501,vikram.menon1084@college.edu
+1085,Bhavna,Rao,21,Finance,2.5,2022,9869063713,bhavna.rao1085@college.edu
+1086,Faisal,Iyer,20,Mechanical Engineering,2.75,2024,9812784228,faisal.iyer1086@college.edu
+1087,Tushar,Singh,24,Civil Engineering,2.65,2024,9879678653,tushar.singh1087@college.edu
+1088,Priya,Khan,21,Biology,2.26,2024,9828687173,priya.khan1088@college.edu
+1089,Qasim,Chopra,24,Business Administration,2.02,2024,9893547870,qasim.chopra1089@college.edu
+1090,Qasim,Iyer,23,Business Administration,3.49,2021,9862845744,qasim.iyer1090@college.edu
+1091,Uma,Khan,22,Marketing,3.44,2021,9817696331,uma.khan1091@college.edu
+1092,Jatin,Iyer,25,Physics,2.06,2024,9884238955,jatin.iyer1092@college.edu
+1093,Yash,Chopra,19,Finance,3.77,2021,9820785695,yash.chopra1093@college.edu
+1094,Harsh,Malhotra,25,Biology,3.6,2023,9882375864,harsh.malhotra1094@college.edu
+1095,Olivia,Gupta,21,Electrical Engineering,2.27,2021,9847744403,olivia.gupta1095@college.edu
+1096,Laxman,Verma,23,Mechanical Engineering,2.21,2022,9849033577,laxman.verma1096@college.edu
+1097,Olivia,Nair,19,Psychology,3.33,2024,9839098742,olivia.nair1097@college.edu
+1098,Sophia,Kumar,25,Computer Science,2.69,2024,9843575196,sophia.kumar1098@college.edu
+1099,Isha,Iyer,22,Marketing,2.83,2022,9875293981,isha.iyer1099@college.edu
+1100,Uma,Khan,22,Psychology,3.13,2022,9868668341,uma.khan1100@college.edu
+1101,Kavya,Singh,24,Physics,3.09,2023,9892797004,kavya.singh1101@college.edu
+1102,Olivia,Menon,19,Mathematics,2.23,2021,9886019088,olivia.menon1102@college.edu
+1103,Priya,Chopra,24,Biology,2.82,2022,9875094472,priya.chopra1103@college.edu
+1104,Meera,Rao,23,Electrical Engineering,3.14,2023,9833536281,meera.rao1104@college.edu
+1105,Esha,Iyer,21,Chemistry,3.85,2021,9873075450,esha.iyer1105@college.edu
+1106,Chirag,Bhat,25,Electrical Engineering,2.6,2022,9866439976,chirag.bhat1106@college.edu
+1107,Wanisha,Kumar,23,Finance,2.52,2021,9844518644,wanisha.kumar1107@college.edu
+1108,Jatin,Nair,25,Civil Engineering,2.82,2022,9881763999,jatin.nair1108@college.edu
+1109,Qasim,Malhotra,22,Electrical Engineering,3.36,2023,9856239593,qasim.malhotra1109@college.edu
+1110,Amit,Kumar,24,Mechanical Engineering,3.88,2021,9853776091,amit.kumar1110@college.edu
+1111,Amit,Malhotra,19,Psychology,2.2,2022,9873806669,amit.malhotra1111@college.edu
+1112,Laxman,Khan,19,Mathematics,3.03,2024,9831096505,laxman.khan1112@college.edu
+1113,Priya,Patel,22,Biology,3.78,2023,9853996180,priya.patel1113@college.edu
+1114,Uma,Menon,20,Finance,3.92,2023,9895698443,uma.menon1114@college.edu
+1115,Amit,Desai,24,Business Administration,2.67,2022,9863109062,amit.desai1115@college.edu
+1116,Sophia,Rao,25,Finance,3.2,2024,9856404853,sophia.rao1116@college.edu
+1117,Priya,Sinha,23,Computer Science,3.77,2021,9830367333,priya.sinha1117@college.edu
+1118,Deepak,Bhat,18,Mathematics,2.55,2022,9823872750,deepak.bhat1118@college.edu
+1119,Harsh,Malhotra,22,Psychology,2.84,2021,9830872576,harsh.malhotra1119@college.edu
+1120,Kavya,Khan,25,Computer Science,3.14,2022,9849888995,kavya.khan1120@college.edu
+1121,Laxman,Menon,21,Chemistry,3.71,2022,9868167576,laxman.menon1121@college.edu
+1122,Deepak,Gupta,21,Electrical Engineering,3.63,2021,9810916703,deepak.gupta1122@college.edu
+1123,Faisal,Kumar,23,Biology,3.86,2024,9834764636,faisal.kumar1123@college.edu
+1124,Vikram,Malhotra,22,Physics,3.31,2021,9880531418,vikram.malhotra1124@college.edu
+1125,Xyza,Rao,24,Mathematics,3.17,2022,9836396751,xyza.rao1125@college.edu
+1126,Chirag,Singh,20,Physics,2.58,2024,9892357186,chirag.singh1126@college.edu
+1127,Faisal,Malhotra,19,Psychology,3.89,2023,9823053987,faisal.malhotra1127@college.edu
+1128,Vikram,Nair,22,Psychology,3.93,2023,9898944791,vikram.nair1128@college.edu
+1129,Rajesh,Sinha,18,Chemistry,2.4,2023,9853429157,rajesh.sinha1129@college.edu
+1130,Xyza,Chopra,18,Business Administration,3.05,2023,9877155793,xyza.chopra1130@college.edu
+1131,Qasim,Verma,25,Psychology,2.57,2023,9829017325,qasim.verma1131@college.edu
+1132,Nikhil,Verma,20,Biology,3.81,2022,9841873699,nikhil.verma1132@college.edu
+1133,Bhavna,Desai,25,Civil Engineering,3.99,2024,9867778199,bhavna.desai1133@college.edu
+1134,Nikhil,Sinha,18,Marketing,2.94,2022,9848565539,nikhil.sinha1134@college.edu
+1135,Vikram,Sharma,24,Biology,2.27,2021,9823520497,vikram.sharma1135@college.edu
+1136,Isha,Gupta,20,Biology,2.97,2024,9855940165,isha.gupta1136@college.edu
+1137,Wanisha,Sharma,24,Business Administration,2.94,2023,9851367941,wanisha.sharma1137@college.edu
+1138,Kavya,Khan,19,Mathematics,3.41,2024,9853275671,kavya.khan1138@college.edu
+1139,Jatin,Iyer,21,Computer Science,3.69,2022,9863978413,jatin.iyer1139@college.edu
+1140,Meera,Sinha,23,Mechanical Engineering,2.89,2021,9897107104,meera.sinha1140@college.edu
+1141,Olivia,Khan,19,Computer Science,2.38,2022,9862111415,olivia.khan1141@college.edu
+1142,Priya,Sinha,21,Electrical Engineering,2.99,2022,9839215672,priya.sinha1142@college.edu
+1143,Olivia,Desai,18,Physics,3.53,2023,9871907607,olivia.desai1143@college.edu
+1144,Harsh,Sinha,24,Marketing,3.02,2023,9859685897,harsh.sinha1144@college.edu
+1145,Yash,Bhat,23,Biology,3.32,2023,9892490592,yash.bhat1145@college.edu
+1146,Jatin,Singh,24,Mechanical Engineering,3.14,2023,9887119831,jatin.singh1146@college.edu
+1147,Esha,Iyer,22,Biology,3.45,2024,9824427365,esha.iyer1147@college.edu
+1148,Nikhil,Desai,18,Biology,2.57,2021,9841640943,nikhil.desai1148@college.edu
+1149,Meera,Singh,21,Civil Engineering,3.08,2021,9869070449,meera.singh1149@college.edu
+1150,Olivia,Iyer,23,Psychology,2.18,2024,9857255276,olivia.iyer1150@college.edu
+1151,Amit,Chopra,18,Chemistry,3.59,2024,9895986105,amit.chopra1151@college.edu
+1152,Kavya,Verma,19,Biology,2.92,2021,9823327234,kavya.verma1152@college.edu
+1153,Vikram,Iyer,24,Chemistry,3.37,2022,9844334997,vikram.iyer1153@college.edu
+1154,Yash,Sinha,22,Marketing,3.31,2021,9896407852,yash.sinha1154@college.edu
+1155,Tushar,Nair,18,Physics,3.25,2021,9882522115,tushar.nair1155@college.edu
+1156,Kavya,Chopra,19,Psychology,3.42,2024,9857954687,kavya.chopra1156@college.edu
+1157,Chirag,Patel,24,Mechanical Engineering,2.91,2021,9838012645,chirag.patel1157@college.edu
+1158,Isha,Nair,20,Biology,2.03,2024,9869024611,isha.nair1158@college.edu
+1159,Rajesh,Menon,25,Electrical Engineering,2.82,2021,9831951692,rajesh.menon1159@college.edu
+1160,Kavya,Singh,20,Civil Engineering,2.02,2023,9839774183,kavya.singh1160@college.edu
+1161,Sophia,Kumar,23,Mathematics,2.3,2024,9850249612,sophia.kumar1161@college.edu
+1162,Vikram,Nair,21,Mechanical Engineering,3.16,2021,9844399181,vikram.nair1162@college.edu
+1163,Laxman,Sharma,19,Psychology,2.8,2022,9888863533,laxman.sharma1163@college.edu
+1164,Xyza,Khan,25,Physics,2.43,2022,9846740530,xyza.khan1164@college.edu
+1165,Sophia,Nair,25,Computer Science,2.86,2023,9817898182,sophia.nair1165@college.edu
+1166,Chirag,Gupta,21,Mathematics,2.33,2022,9893214561,chirag.gupta1166@college.edu
+1167,Wanisha,Nair,18,Finance,2.17,2023,9859942522,wanisha.nair1167@college.edu
+1168,Amit,Patel,23,Psychology,2.4,2023,9894535822,amit.patel1168@college.edu
+1169,Nikhil,Malhotra,20,Business Administration,3.34,2024,9887506013,nikhil.malhotra1169@college.edu
+1170,Vikram,Desai,18,Mechanical Engineering,3.31,2024,9899626258,vikram.desai1170@college.edu
+1171,Harsh,Menon,24,Biology,2.27,2022,9820371747,harsh.menon1171@college.edu
+1172,Meera,Patel,19,Biology,2.39,2024,9867288507,meera.patel1172@college.edu
+1173,Kavya,Malhotra,24,Marketing,3.29,2021,9891958123,kavya.malhotra1173@college.edu
+1174,Wanisha,Bhat,18,Computer Science,2.91,2023,9877876498,wanisha.bhat1174@college.edu
+1175,Isha,Sharma,18,Mechanical Engineering,2.18,2024,9847861405,isha.sharma1175@college.edu
+1176,Uma,Patel,18,Business Administration,3.51,2023,9819873027,uma.patel1176@college.edu
+1177,Isha,Khan,22,Biology,2.16,2021,9810753467,isha.khan1177@college.edu
+1178,Qasim,Sinha,20,Computer Science,2.38,2022,9837439955,qasim.sinha1178@college.edu
+1179,Rajesh,Sinha,21,Biology,3.44,2021,9866515179,rajesh.sinha1179@college.edu
+1180,Esha,Desai,19,Business Administration,3.87,2024,9834932482,esha.desai1180@college.edu
+1181,Bhavna,Iyer,19,Mechanical Engineering,3.84,2023,9891800131,bhavna.iyer1181@college.edu
+1182,Xyza,Iyer,25,Biology,2.41,2021,9891200846,xyza.iyer1182@college.edu
+1183,Chirag,Rao,20,Mechanical Engineering,3.79,2022,9847791534,chirag.rao1183@college.edu
+1184,Wanisha,Rao,19,Civil Engineering,3.18,2022,9854433329,wanisha.rao1184@college.edu
+1185,Meera,Sharma,21,Biology,2.62,2023,9833551302,meera.sharma1185@college.edu
+1186,Yash,Khan,20,Marketing,3.22,2021,9811024613,yash.khan1186@college.edu
+1187,Meera,Kumar,23,Finance,2.3,2024,9842144168,meera.kumar1187@college.edu
+1188,Tushar,Bhat,19,Finance,3.62,2024,9848539516,tushar.bhat1188@college.edu
+1189,Qasim,Kumar,21,Electrical Engineering,3.43,2023,9830338995,qasim.kumar1189@college.edu
+1190,Amit,Nair,22,Finance,2.65,2022,9863133991,amit.nair1190@college.edu
+1191,Xyza,Khan,25,Chemistry,2.12,2024,9851865477,xyza.khan1191@college.edu
+1192,Kavya,Sharma,25,Physics,2.99,2023,9831551973,kavya.sharma1192@college.edu
+1193,Wanisha,Iyer,18,Mechanical Engineering,3.9,2021,9869041858,wanisha.iyer1193@college.edu
+1194,Nikhil,Verma,24,Biology,2.73,2022,9883964334,nikhil.verma1194@college.edu
+1195,Harsh,Desai,25,Chemistry,2.63,2022,9888323457,harsh.desai1195@college.edu
+1196,Priya,Singh,20,Chemistry,2.56,2023,9882466225,priya.singh1196@college.edu
+1197,Amit,Gupta,23,Business Administration,3.0,2024,9895958708,amit.gupta1197@college.edu
+1198,Amit,Malhotra,20,Mechanical Engineering,3.77,2022,9880530507,amit.malhotra1198@college.edu
+1199,Deepak,Bhat,18,Computer Science,3.7,2021,9890039738,deepak.bhat1199@college.edu
+1200,Yash,Patel,25,Computer Science,3.9,2022,9880173841,yash.patel1200@college.edu
+1201,Amit,Malhotra,18,Electrical Engineering,3.37,2022,9872444669,amit.malhotra1201@college.edu
+1202,Rajesh,Sinha,25,Finance,3.36,2024,9830526015,rajesh.sinha1202@college.edu
+1203,Uma,Sharma,19,Physics,2.73,2021,9830146801,uma.sharma1203@college.edu
+1204,Yash,Malhotra,23,Psychology,2.08,2023,9890344562,yash.malhotra1204@college.edu
+1205,Isha,Sharma,22,Mechanical Engineering,3.84,2023,9868104481,isha.sharma1205@college.edu
+1206,Rajesh,Singh,18,Chemistry,2.69,2022,9895670706,rajesh.singh1206@college.edu
+1207,Jatin,Khan,23,Electrical Engineering,2.54,2021,9822148182,jatin.khan1207@college.edu
+1208,Kavya,Desai,21,Chemistry,3.05,2023,9865027533,kavya.desai1208@college.edu
+1209,Chirag,Kumar,20,Marketing,2.13,2021,9874924950,chirag.kumar1209@college.edu
+1210,Deepak,Desai,20,Computer Science,3.39,2021,9847623228,deepak.desai1210@college.edu
+1211,Jatin,Nair,21,Biology,3.41,2021,9885910090,jatin.nair1211@college.edu
+1212,Kavya,Menon,21,Biology,2.52,2024,9826710607,kavya.menon1212@college.edu
+1213,Amit,Nair,19,Marketing,2.8,2021,9844929547,amit.nair1213@college.edu
+1214,Meera,Patel,24,Computer Science,3.55,2022,9852495747,meera.patel1214@college.edu
+1215,Chirag,Nair,23,Mechanical Engineering,2.26,2021,9898360003,chirag.nair1215@college.edu
+1216,Xyza,Sinha,24,Business Administration,3.43,2024,9890214224,xyza.sinha1216@college.edu
+1217,Priya,Desai,22,Civil Engineering,3.1,2024,9897100752,priya.desai1217@college.edu
+1218,Gina,Singh,19,Business Administration,3.54,2023,9890719651,gina.singh1218@college.edu
+1219,Esha,Khan,19,Psychology,3.33,2023,9887584973,esha.khan1219@college.edu
+1220,Isha,Sharma,24,Finance,2.23,2022,9829356736,isha.sharma1220@college.edu
+1221,Kavya,Bhat,20,Business Administration,2.01,2024,9820382542,kavya.bhat1221@college.edu
+1222,Bhavna,Iyer,19,Biology,2.58,2024,9882709812,bhavna.iyer1222@college.edu
+1223,Esha,Iyer,20,Mechanical Engineering,2.34,2023,9866090830,esha.iyer1223@college.edu
+1224,Xyza,Chopra,18,Business Administration,2.61,2022,9887654010,xyza.chopra1224@college.edu
+1225,Vikram,Iyer,19,Mathematics,2.39,2022,9850991638,vikram.iyer1225@college.edu
+1226,Uma,Bhat,24,Mechanical Engineering,3.61,2024,9812964398,uma.bhat1226@college.edu
+1227,Tushar,Menon,25,Computer Science,2.73,2022,9839254288,tushar.menon1227@college.edu
+1228,Tushar,Bhat,21,Computer Science,2.43,2023,9841168836,tushar.bhat1228@college.edu
+1229,Bhavna,Sinha,23,Business Administration,2.91,2023,9839111076,bhavna.sinha1229@college.edu
+1230,Kavya,Chopra,22,Computer Science,2.04,2022,9895905705,kavya.chopra1230@college.edu
+1231,Bhavna,Singh,20,Chemistry,2.07,2021,9851052851,bhavna.singh1231@college.edu
+1232,Xyza,Nair,19,Civil Engineering,3.81,2023,9859078248,xyza.nair1232@college.edu
+1233,Esha,Desai,20,Business Administration,2.78,2021,9833568089,esha.desai1233@college.edu
+1234,Sophia,Rao,24,Psychology,2.46,2023,9810531207,sophia.rao1234@college.edu
+1235,Kavya,Verma,25,Physics,2.99,2024,9886770358,kavya.verma1235@college.edu
+1236,Kavya,Malhotra,22,Electrical Engineering,2.89,2023,9879346484,kavya.malhotra1236@college.edu
+1237,Xyza,Gupta,25,Electrical Engineering,3.82,2022,9824742036,xyza.gupta1237@college.edu
+1238,Bhavna,Sinha,22,Computer Science,3.24,2023,9881882187,bhavna.sinha1238@college.edu
+1239,Gina,Bhat,18,Mechanical Engineering,3.8,2021,9875759729,gina.bhat1239@college.edu
+1240,Olivia,Kumar,18,Mechanical Engineering,3.2,2021,9831093704,olivia.kumar1240@college.edu
+1241,Rajesh,Kumar,20,Computer Science,3.76,2023,9881546819,rajesh.kumar1241@college.edu
+1242,Xyza,Khan,19,Mechanical Engineering,2.41,2023,9851357425,xyza.khan1242@college.edu
+1243,Esha,Patel,21,Business Administration,2.48,2023,9836924187,esha.patel1243@college.edu
+1244,Nikhil,Gupta,18,Civil Engineering,3.93,2021,9847453882,nikhil.gupta1244@college.edu
+1245,Nikhil,Chopra,19,Civil Engineering,2.71,2024,9879594993,nikhil.chopra1245@college.edu
+1246,Isha,Khan,19,Electrical Engineering,3.67,2023,9828645547,isha.khan1246@college.edu
+1247,Yash,Sinha,24,Mechanical Engineering,3.47,2024,9811136330,yash.sinha1247@college.edu
+1248,Gina,Chopra,21,Mechanical Engineering,2.48,2023,9838905701,gina.chopra1248@college.edu
+1249,Bhavna,Desai,20,Biology,2.05,2024,9818323569,bhavna.desai1249@college.edu
+1250,Chirag,Khan,25,Psychology,2.67,2022,9821160194,chirag.khan1250@college.edu
+1251,Xyza,Verma,23,Electrical Engineering,3.36,2022,9836437379,xyza.verma1251@college.edu
+1252,Faisal,Singh,18,Electrical Engineering,2.15,2024,9840289087,faisal.singh1252@college.edu
+1253,Priya,Sinha,19,Biology,2.48,2022,9870237586,priya.sinha1253@college.edu
+1254,Harsh,Verma,22,Civil Engineering,3.83,2022,9892273390,harsh.verma1254@college.edu
+1255,Xyza,Gupta,20,Finance,2.25,2023,9864650329,xyza.gupta1255@college.edu
+1256,Sophia,Iyer,22,Electrical Engineering,3.76,2023,9818072928,sophia.iyer1256@college.edu
+1257,Isha,Bhat,19,Mechanical Engineering,2.25,2024,9885779878,isha.bhat1257@college.edu
+1258,Sophia,Menon,25,Biology,3.18,2024,9824865784,sophia.menon1258@college.edu
+1259,Laxman,Menon,25,Biology,2.87,2021,9876443486,laxman.menon1259@college.edu
+1260,Isha,Malhotra,21,Computer Science,2.62,2022,9845188035,isha.malhotra1260@college.edu
+1261,Laxman,Bhat,20,Business Administration,3.09,2024,9829806630,laxman.bhat1261@college.edu
+1262,Esha,Sharma,25,Biology,2.62,2024,9881332444,esha.sharma1262@college.edu
+1263,Faisal,Desai,19,Psychology,3.14,2022,9843691844,faisal.desai1263@college.edu
+1264,Rajesh,Kumar,20,Marketing,3.11,2021,9862434863,rajesh.kumar1264@college.edu
+1265,Esha,Chopra,25,Biology,3.23,2021,9837748963,esha.chopra1265@college.edu
+1266,Tushar,Gupta,18,Business Administration,2.6,2023,9845910136,tushar.gupta1266@college.edu
+1267,Deepak,Bhat,22,Computer Science,3.86,2022,9812336232,deepak.bhat1267@college.edu
+1268,Esha,Verma,24,Mathematics,2.73,2023,9854101773,esha.verma1268@college.edu
+1269,Meera,Desai,23,Marketing,2.26,2023,9882660071,meera.desai1269@college.edu
+1270,Sophia,Sinha,19,Business Administration,3.72,2023,9845838724,sophia.sinha1270@college.edu
+1271,Yash,Desai,18,Chemistry,3.86,2024,9898906742,yash.desai1271@college.edu
+1272,Wanisha,Verma,18,Finance,3.91,2024,9890272072,wanisha.verma1272@college.edu
+1273,Esha,Sharma,20,Electrical Engineering,3.71,2023,9846542600,esha.sharma1273@college.edu
+1274,Olivia,Patel,19,Civil Engineering,3.5,2023,9881309069,olivia.patel1274@college.edu
+1275,Jatin,Khan,24,Physics,2.92,2024,9853625720,jatin.khan1275@college.edu
+1276,Rajesh,Malhotra,22,Business Administration,2.2,2022,9878930681,rajesh.malhotra1276@college.edu
+1277,Xyza,Sinha,22,Physics,2.6,2021,9830281986,xyza.sinha1277@college.edu
+1278,Yash,Verma,19,Computer Science,3.89,2023,9810656289,yash.verma1278@college.edu
+1279,Deepak,Iyer,20,Marketing,3.34,2021,9824706971,deepak.iyer1279@college.edu
+1280,Faisal,Khan,21,Computer Science,3.78,2021,9889872666,faisal.khan1280@college.edu
+1281,Chirag,Nair,22,Finance,3.95,2021,9844505585,chirag.nair1281@college.edu
+1282,Nikhil,Rao,19,Mathematics,3.61,2024,9821270887,nikhil.rao1282@college.edu
+1283,Jatin,Sharma,25,Biology,2.88,2022,9813109817,jatin.sharma1283@college.edu
+1284,Vikram,Chopra,24,Physics,2.36,2022,9810704179,vikram.chopra1284@college.edu
+1285,Esha,Rao,24,Chemistry,2.46,2023,9845089687,esha.rao1285@college.edu
+1286,Wanisha,Kumar,25,Chemistry,3.05,2023,9832655350,wanisha.kumar1286@college.edu
+1287,Sophia,Malhotra,20,Business Administration,3.01,2024,9892590722,sophia.malhotra1287@college.edu
+1288,Esha,Sinha,21,Electrical Engineering,2.61,2024,9856414279,esha.sinha1288@college.edu
+1289,Xyza,Patel,19,Mechanical Engineering,2.19,2022,9858739708,xyza.patel1289@college.edu
+1290,Sophia,Chopra,22,Mechanical Engineering,2.18,2023,9890928783,sophia.chopra1290@college.edu
+1291,Chirag,Iyer,19,Mechanical Engineering,3.09,2021,9893750583,chirag.iyer1291@college.edu
+1292,Rajesh,Sharma,23,Civil Engineering,3.57,2023,9870282698,rajesh.sharma1292@college.edu
+1293,Sophia,Rao,24,Business Administration,2.23,2024,9829531351,sophia.rao1293@college.edu
+1294,Yash,Malhotra,19,Psychology,3.62,2023,9862902843,yash.malhotra1294@college.edu
+1295,Tushar,Kumar,19,Mechanical Engineering,3.64,2023,9830446722,tushar.kumar1295@college.edu
+1296,Uma,Singh,19,Business Administration,3.37,2022,9824557662,uma.singh1296@college.edu
+1297,Bhavna,Kumar,25,Marketing,3.24,2023,9843637916,bhavna.kumar1297@college.edu
+1298,Nikhil,Iyer,18,Civil Engineering,2.75,2023,9878092732,nikhil.iyer1298@college.edu
+1299,Tushar,Khan,21,Psychology,2.42,2024,9819565730,tushar.khan1299@college.edu
+1300,Uma,Rao,18,Physics,3.55,2024,9891218447,uma.rao1300@college.edu
+1301,Xyza,Sinha,21,Business Administration,3.66,2024,9856549664,xyza.sinha1301@college.edu
+1302,Rajesh,Gupta,25,Chemistry,2.77,2022,9872852490,rajesh.gupta1302@college.edu
+1303,Tushar,Verma,24,Business Administration,3.31,2021,9838048637,tushar.verma1303@college.edu
+1304,Yash,Rao,20,Computer Science,2.6,2024,9834012922,yash.rao1304@college.edu
+1305,Meera,Patel,23,Biology,3.8,2022,9873255329,meera.patel1305@college.edu
+1306,Faisal,Malhotra,22,Electrical Engineering,3.1,2022,9810392301,faisal.malhotra1306@college.edu
+1307,Sophia,Chopra,20,Marketing,2.57,2023,9860940777,sophia.chopra1307@college.edu
+1308,Chirag,Desai,25,Physics,3.44,2023,9819335307,chirag.desai1308@college.edu
+1309,Rajesh,Desai,20,Electrical Engineering,2.28,2022,9813545528,rajesh.desai1309@college.edu
+1310,Deepak,Iyer,24,Chemistry,3.1,2023,9872438227,deepak.iyer1310@college.edu
+1311,Amit,Desai,22,Finance,2.05,2022,9829724437,amit.desai1311@college.edu
+1312,Bhavna,Verma,21,Computer Science,3.82,2022,9845317577,bhavna.verma1312@college.edu
+1313,Yash,Iyer,25,Biology,2.09,2022,9817674064,yash.iyer1313@college.edu
+1314,Sophia,Chopra,19,Civil Engineering,3.68,2024,9812863083,sophia.chopra1314@college.edu
+1315,Tushar,Patel,18,Computer Science,3.99,2021,9820497382,tushar.patel1315@college.edu
+1316,Vikram,Chopra,18,Computer Science,2.1,2023,9869342890,vikram.chopra1316@college.edu
+1317,Gina,Menon,23,Computer Science,3.3,2024,9857063476,gina.menon1317@college.edu
+1318,Uma,Gupta,25,Computer Science,3.01,2024,9826203549,uma.gupta1318@college.edu
+1319,Laxman,Singh,24,Mechanical Engineering,2.29,2023,9883773510,laxman.singh1319@college.edu
+1320,Amit,Menon,20,Computer Science,3.45,2023,9845442124,amit.menon1320@college.edu
+1321,Yash,Singh,18,Electrical Engineering,2.1,2022,9895914224,yash.singh1321@college.edu
+1322,Jatin,Nair,24,Chemistry,3.17,2023,9826211059,jatin.nair1322@college.edu
+1323,Olivia,Khan,25,Biology,3.29,2024,9878231781,olivia.khan1323@college.edu
+1324,Rajesh,Singh,19,Finance,2.15,2023,9817993867,rajesh.singh1324@college.edu
+1325,Meera,Singh,21,Civil Engineering,3.38,2022,9847354916,meera.singh1325@college.edu
+1326,Laxman,Sharma,22,Mathematics,3.16,2021,9868824217,laxman.sharma1326@college.edu
+1327,Yash,Malhotra,19,Electrical Engineering,2.19,2024,9882061245,yash.malhotra1327@college.edu
+1328,Xyza,Kumar,25,Physics,3.71,2021,9884761474,xyza.kumar1328@college.edu
+1329,Bhavna,Bhat,21,Marketing,2.79,2024,9832334672,bhavna.bhat1329@college.edu
+1330,Uma,Khan,19,Mathematics,2.82,2024,9842312669,uma.khan1330@college.edu
+1331,Esha,Verma,21,Business Administration,3.51,2024,9862428701,esha.verma1331@college.edu
+1332,Nikhil,Kumar,18,Civil Engineering,2.01,2022,9835233773,nikhil.kumar1332@college.edu
+1333,Kavya,Rao,18,Business Administration,3.89,2023,9856780100,kavya.rao1333@college.edu
+1334,Tushar,Patel,18,Biology,3.59,2021,9899257767,tushar.patel1334@college.edu
+1335,Bhavna,Iyer,18,Finance,3.24,2023,9825778259,bhavna.iyer1335@college.edu
+1336,Laxman,Desai,20,Civil Engineering,2.65,2021,9874286557,laxman.desai1336@college.edu
+1337,Vikram,Singh,23,Civil Engineering,2.19,2021,9891072616,vikram.singh1337@college.edu
+1338,Uma,Khan,25,Physics,3.74,2022,9889088461,uma.khan1338@college.edu
+1339,Sophia,Kumar,22,Physics,2.37,2023,9846720833,sophia.kumar1339@college.edu
+1340,Faisal,Khan,21,Civil Engineering,2.48,2024,9896237175,faisal.khan1340@college.edu
+1341,Esha,Chopra,18,Business Administration,2.87,2022,9882856715,esha.chopra1341@college.edu
+1342,Deepak,Sinha,21,Psychology,2.04,2023,9879739987,deepak.sinha1342@college.edu
+1343,Bhavna,Sinha,21,Mathematics,3.22,2024,9848640944,bhavna.sinha1343@college.edu
+1344,Uma,Patel,25,Mathematics,2.87,2024,9864098665,uma.patel1344@college.edu
+1345,Qasim,Chopra,20,Chemistry,3.77,2023,9877190630,qasim.chopra1345@college.edu
+1346,Sophia,Singh,21,Business Administration,2.84,2024,9882189853,sophia.singh1346@college.edu
+1347,Xyza,Gupta,20,Mechanical Engineering,2.74,2021,9869465839,xyza.gupta1347@college.edu
+1348,Rajesh,Gupta,18,Computer Science,3.55,2023,9858728943,rajesh.gupta1348@college.edu
+1349,Bhavna,Chopra,25,Chemistry,3.06,2023,9863253832,bhavna.chopra1349@college.edu
+1350,Deepak,Bhat,24,Computer Science,2.08,2024,9862908781,deepak.bhat1350@college.edu
+1351,Faisal,Khan,21,Finance,3.29,2022,9820564152,faisal.khan1351@college.edu
+1352,Faisal,Gupta,20,Chemistry,2.19,2021,9840100546,faisal.gupta1352@college.edu
+1353,Tushar,Nair,19,Electrical Engineering,3.32,2024,9823276549,tushar.nair1353@college.edu
+1354,Qasim,Singh,21,Mathematics,2.38,2024,9857478994,qasim.singh1354@college.edu
+1355,Rajesh,Bhat,19,Civil Engineering,3.64,2022,9889881253,rajesh.bhat1355@college.edu
+1356,Wanisha,Rao,23,Mechanical Engineering,3.0,2021,9826310825,wanisha.rao1356@college.edu
+1357,Faisal,Menon,18,Mechanical Engineering,2.39,2024,9821246484,faisal.menon1357@college.edu
+1358,Yash,Desai,25,Finance,3.44,2023,9846081434,yash.desai1358@college.edu
+1359,Olivia,Gupta,24,Computer Science,3.19,2023,9823325693,olivia.gupta1359@college.edu
+1360,Faisal,Bhat,23,Mechanical Engineering,2.17,2023,9855872851,faisal.bhat1360@college.edu
+1361,Priya,Kumar,24,Computer Science,2.34,2024,9855645147,priya.kumar1361@college.edu
+1362,Kavya,Singh,25,Marketing,2.17,2023,9819993862,kavya.singh1362@college.edu
+1363,Amit,Nair,18,Physics,2.05,2023,9885364431,amit.nair1363@college.edu
+1364,Qasim,Patel,18,Mechanical Engineering,2.0,2021,9897944597,qasim.patel1364@college.edu
+1365,Bhavna,Bhat,20,Civil Engineering,2.59,2022,9861947511,bhavna.bhat1365@college.edu
+1366,Yash,Singh,18,Mechanical Engineering,3.75,2024,9819717535,yash.singh1366@college.edu
+1367,Sophia,Malhotra,22,Business Administration,2.71,2023,9812090049,sophia.malhotra1367@college.edu
+1368,Uma,Khan,21,Biology,2.35,2024,9865159786,uma.khan1368@college.edu
+1369,Olivia,Sinha,20,Chemistry,3.76,2022,9837662107,olivia.sinha1369@college.edu
+1370,Isha,Gupta,23,Electrical Engineering,2.38,2021,9850041693,isha.gupta1370@college.edu
+1371,Amit,Iyer,18,Civil Engineering,2.24,2023,9818949775,amit.iyer1371@college.edu
+1372,Meera,Verma,25,Psychology,3.41,2023,9895357611,meera.verma1372@college.edu
+1373,Qasim,Iyer,19,Electrical Engineering,2.37,2021,9863007316,qasim.iyer1373@college.edu
+1374,Nikhil,Gupta,21,Biology,2.07,2021,9875895310,nikhil.gupta1374@college.edu
+1375,Vikram,Singh,22,Civil Engineering,3.35,2021,9858139378,vikram.singh1375@college.edu
+1376,Olivia,Sinha,24,Biology,3.15,2022,9844335337,olivia.sinha1376@college.edu
+1377,Wanisha,Gupta,18,Electrical Engineering,3.24,2023,9855147742,wanisha.gupta1377@college.edu
+1378,Yash,Desai,23,Biology,2.42,2022,9877736847,yash.desai1378@college.edu
+1379,Olivia,Sharma,23,Electrical Engineering,3.73,2024,9829485210,olivia.sharma1379@college.edu
+1380,Uma,Singh,21,Psychology,3.27,2024,9845682633,uma.singh1380@college.edu
+1381,Wanisha,Singh,19,Marketing,3.73,2023,9867125133,wanisha.singh1381@college.edu
+1382,Kavya,Khan,19,Marketing,3.12,2023,9878474786,kavya.khan1382@college.edu
+1383,Jatin,Gupta,18,Chemistry,2.95,2021,9854367558,jatin.gupta1383@college.edu
+1384,Harsh,Desai,22,Electrical Engineering,3.9,2021,9876533519,harsh.desai1384@college.edu
+1385,Vikram,Malhotra,24,Mechanical Engineering,2.74,2024,9868826684,vikram.malhotra1385@college.edu
+1386,Xyza,Gupta,19,Civil Engineering,2.09,2024,9821073840,xyza.gupta1386@college.edu
+1387,Uma,Desai,23,Psychology,2.59,2021,9853632909,uma.desai1387@college.edu
+1388,Deepak,Kumar,19,Psychology,2.3,2021,9810759125,deepak.kumar1388@college.edu
+1389,Jatin,Rao,25,Electrical Engineering,2.21,2023,9844321944,jatin.rao1389@college.edu
+1390,Faisal,Malhotra,19,Mathematics,2.58,2022,9881775540,faisal.malhotra1390@college.edu
+1391,Bhavna,Menon,20,Mechanical Engineering,3.02,2021,9813661845,bhavna.menon1391@college.edu
+1392,Yash,Sinha,22,Civil Engineering,3.49,2022,9865340860,yash.sinha1392@college.edu
+1393,Nikhil,Malhotra,21,Finance,2.03,2024,9826558488,nikhil.malhotra1393@college.edu
+1394,Rajesh,Khan,20,Finance,2.37,2023,9841098561,rajesh.khan1394@college.edu
+1395,Xyza,Singh,19,Physics,3.7,2021,9834923584,xyza.singh1395@college.edu
+1396,Qasim,Malhotra,18,Computer Science,2.63,2024,9870771118,qasim.malhotra1396@college.edu
+1397,Nikhil,Sharma,25,Biology,2.5,2022,9863594197,nikhil.sharma1397@college.edu
+1398,Nikhil,Desai,18,Computer Science,3.12,2024,9831857880,nikhil.desai1398@college.edu
+1399,Kavya,Rao,24,Computer Science,2.42,2021,9848200911,kavya.rao1399@college.edu
+1400,Bhavna,Rao,22,Business Administration,3.74,2023,9825511045,bhavna.rao1400@college.edu
+1401,Chirag,Kumar,25,Electrical Engineering,3.33,2024,9870123405,chirag.kumar1401@college.edu
+1402,Vikram,Sharma,19,Mathematics,2.83,2024,9827613870,vikram.sharma1402@college.edu
+1403,Rajesh,Iyer,25,Business Administration,3.95,2021,9855097564,rajesh.iyer1403@college.edu
+1404,Bhavna,Gupta,19,Psychology,3.15,2024,9850733375,bhavna.gupta1404@college.edu
+1405,Amit,Malhotra,20,Psychology,2.81,2021,9881183257,amit.malhotra1405@college.edu
+1406,Esha,Sharma,21,Physics,2.57,2022,9838947687,esha.sharma1406@college.edu
+1407,Jatin,Chopra,25,Mechanical Engineering,3.65,2024,9871775573,jatin.chopra1407@college.edu
+1408,Qasim,Malhotra,19,Biology,2.42,2022,9812094657,qasim.malhotra1408@college.edu
+1409,Priya,Malhotra,18,Mechanical Engineering,2.69,2022,9823717657,priya.malhotra1409@college.edu
+1410,Bhavna,Bhat,20,Biology,2.58,2024,9897763820,bhavna.bhat1410@college.edu
+1411,Bhavna,Patel,25,Computer Science,3.05,2023,9896137280,bhavna.patel1411@college.edu
+1412,Vikram,Patel,22,Chemistry,3.32,2022,9822117805,vikram.patel1412@college.edu
+1413,Xyza,Malhotra,22,Mathematics,2.07,2024,9846312081,xyza.malhotra1413@college.edu
+1414,Wanisha,Desai,20,Physics,3.2,2021,9874841666,wanisha.desai1414@college.edu
+1415,Bhavna,Chopra,18,Computer Science,2.27,2022,9890798313,bhavna.chopra1415@college.edu
+1416,Harsh,Nair,22,Civil Engineering,3.81,2021,9850671785,harsh.nair1416@college.edu
+1417,Vikram,Singh,22,Mechanical Engineering,3.22,2024,9852322864,vikram.singh1417@college.edu
+1418,Meera,Nair,18,Electrical Engineering,3.79,2024,9884132181,meera.nair1418@college.edu
+1419,Sophia,Menon,22,Mechanical Engineering,3.78,2024,9811106281,sophia.menon1419@college.edu
+1420,Esha,Verma,23,Electrical Engineering,2.04,2024,9881461988,esha.verma1420@college.edu
+1421,Harsh,Sinha,23,Computer Science,3.99,2024,9815111749,harsh.sinha1421@college.edu
+1422,Wanisha,Gupta,18,Mechanical Engineering,2.34,2023,9897942774,wanisha.gupta1422@college.edu
+1423,Faisal,Chopra,21,Biology,2.32,2021,9868390653,faisal.chopra1423@college.edu
+1424,Meera,Menon,24,Physics,3.83,2021,9827417124,meera.menon1424@college.edu
+1425,Jatin,Singh,20,Finance,2.28,2021,9871255486,jatin.singh1425@college.edu
+1426,Wanisha,Sharma,19,Electrical Engineering,2.99,2023,9883242851,wanisha.sharma1426@college.edu
+1427,Uma,Chopra,22,Business Administration,2.72,2021,9883289430,uma.chopra1427@college.edu
+1428,Xyza,Bhat,18,Physics,3.37,2024,9843484682,xyza.bhat1428@college.edu
+1429,Yash,Nair,19,Mechanical Engineering,3.88,2021,9819022448,yash.nair1429@college.edu
+1430,Tushar,Kumar,25,Psychology,2.25,2021,9873954389,tushar.kumar1430@college.edu
+1431,Gina,Sharma,20,Biology,3.49,2022,9851381622,gina.sharma1431@college.edu
+1432,Chirag,Nair,19,Mechanical Engineering,3.63,2023,9874049378,chirag.nair1432@college.edu
+1433,Faisal,Gupta,18,Mathematics,2.51,2022,9857560441,faisal.gupta1433@college.edu
+1434,Deepak,Desai,18,Civil Engineering,3.65,2024,9827300368,deepak.desai1434@college.edu
+1435,Bhavna,Bhat,19,Electrical Engineering,3.62,2021,9854273433,bhavna.bhat1435@college.edu
+1436,Meera,Rao,23,Biology,3.05,2023,9841941308,meera.rao1436@college.edu
+1437,Nikhil,Nair,23,Electrical Engineering,2.72,2022,9821220965,nikhil.nair1437@college.edu
+1438,Tushar,Khan,23,Electrical Engineering,2.55,2021,9840695381,tushar.khan1438@college.edu
+1439,Qasim,Rao,24,Psychology,3.88,2022,9830026161,qasim.rao1439@college.edu
+1440,Sophia,Chopra,21,Psychology,3.0,2023,9872634772,sophia.chopra1440@college.edu
+1441,Meera,Kumar,21,Psychology,3.91,2024,9848304918,meera.kumar1441@college.edu
+1442,Amit,Sharma,19,Mechanical Engineering,2.54,2021,9858529798,amit.sharma1442@college.edu
+1443,Bhavna,Nair,18,Marketing,2.58,2024,9824024743,bhavna.nair1443@college.edu
+1444,Amit,Desai,18,Physics,3.95,2024,9848978042,amit.desai1444@college.edu
+1445,Qasim,Bhat,19,Finance,2.29,2022,9820576090,qasim.bhat1445@college.edu
+1446,Faisal,Malhotra,21,Marketing,3.81,2022,9832795733,faisal.malhotra1446@college.edu
+1447,Esha,Verma,21,Psychology,3.06,2024,9818063567,esha.verma1447@college.edu
+1448,Rajesh,Rao,22,Finance,3.82,2022,9847385103,rajesh.rao1448@college.edu
+1449,Isha,Iyer,20,Marketing,2.1,2021,9884925474,isha.iyer1449@college.edu
+1450,Wanisha,Malhotra,21,Physics,2.06,2023,9828652823,wanisha.malhotra1450@college.edu
+1451,Wanisha,Patel,25,Chemistry,2.65,2022,9859167356,wanisha.patel1451@college.edu
+1452,Chirag,Kumar,18,Mechanical Engineering,3.91,2021,9817643510,chirag.kumar1452@college.edu
+1453,Rajesh,Patel,25,Mechanical Engineering,3.36,2022,9868798320,rajesh.patel1453@college.edu
+1454,Faisal,Menon,21,Biology,2.26,2024,9831081860,faisal.menon1454@college.edu
+1455,Sophia,Kumar,18,Electrical Engineering,3.37,2024,9827561465,sophia.kumar1455@college.edu
+1456,Wanisha,Desai,19,Civil Engineering,3.88,2022,9886997096,wanisha.desai1456@college.edu
+1457,Uma,Gupta,18,Biology,3.73,2021,9847817187,uma.gupta1457@college.edu
+1458,Laxman,Patel,24,Civil Engineering,3.22,2022,9841152324,laxman.patel1458@college.edu
+1459,Wanisha,Khan,24,Marketing,3.81,2024,9867223162,wanisha.khan1459@college.edu
+1460,Kavya,Kumar,20,Electrical Engineering,3.35,2021,9823768972,kavya.kumar1460@college.edu
+1461,Nikhil,Sharma,21,Finance,3.15,2023,9853602865,nikhil.sharma1461@college.edu
+1462,Uma,Malhotra,20,Biology,2.81,2022,9857378951,uma.malhotra1462@college.edu
+1463,Deepak,Desai,21,Civil Engineering,2.45,2021,9864769560,deepak.desai1463@college.edu
+1464,Gina,Kumar,22,Chemistry,3.84,2024,9894079125,gina.kumar1464@college.edu
+1465,Amit,Kumar,23,Mechanical Engineering,2.73,2023,9828524818,amit.kumar1465@college.edu
+1466,Meera,Patel,24,Business Administration,2.9,2021,9846940541,meera.patel1466@college.edu
+1467,Meera,Sharma,20,Computer Science,2.96,2024,9858656791,meera.sharma1467@college.edu
+1468,Gina,Sinha,22,Finance,2.8,2024,9828173344,gina.sinha1468@college.edu
+1469,Meera,Bhat,18,Business Administration,2.68,2021,9834268953,meera.bhat1469@college.edu
+1470,Harsh,Rao,19,Business Administration,2.91,2021,9863605309,harsh.rao1470@college.edu
+1471,Vikram,Malhotra,20,Computer Science,3.04,2022,9818274926,vikram.malhotra1471@college.edu
+1472,Isha,Khan,22,Marketing,2.35,2023,9860166452,isha.khan1472@college.edu
+1473,Xyza,Sinha,20,Business Administration,2.37,2024,9892534434,xyza.sinha1473@college.edu
+1474,Wanisha,Gupta,18,Biology,3.54,2024,9829382717,wanisha.gupta1474@college.edu
+1475,Laxman,Desai,23,Business Administration,2.37,2024,9825367310,laxman.desai1475@college.edu
+1476,Tushar,Menon,19,Chemistry,3.21,2023,9899003898,tushar.menon1476@college.edu
+1477,Harsh,Iyer,23,Physics,2.24,2023,9891067516,harsh.iyer1477@college.edu
+1478,Qasim,Iyer,19,Computer Science,3.26,2022,9847492083,qasim.iyer1478@college.edu
+1479,Deepak,Bhat,23,Mathematics,2.21,2024,9837616156,deepak.bhat1479@college.edu
+1480,Meera,Kumar,18,Computer Science,2.83,2024,9863180612,meera.kumar1480@college.edu
+1481,Kavya,Nair,18,Biology,3.41,2022,9836917510,kavya.nair1481@college.edu
+1482,Chirag,Desai,22,Civil Engineering,2.43,2023,9842525038,chirag.desai1482@college.edu
+1483,Meera,Nair,22,Finance,3.93,2021,9818119134,meera.nair1483@college.edu
+1484,Yash,Desai,22,Psychology,2.96,2024,9874015337,yash.desai1484@college.edu
+1485,Meera,Bhat,19,Mathematics,3.8,2021,9872689354,meera.bhat1485@college.edu
+1486,Gina,Patel,25,Physics,3.84,2024,9837934761,gina.patel1486@college.edu
+1487,Kavya,Chopra,24,Chemistry,3.1,2021,9855209208,kavya.chopra1487@college.edu
+1488,Yash,Iyer,19,Biology,2.85,2023,9814599462,yash.iyer1488@college.edu
+1489,Deepak,Sinha,22,Computer Science,2.38,2022,9851052304,deepak.sinha1489@college.edu
+1490,Sophia,Chopra,24,Psychology,2.71,2024,9822308698,sophia.chopra1490@college.edu
+1491,Gina,Nair,25,Business Administration,3.45,2022,9855653165,gina.nair1491@college.edu
+1492,Isha,Malhotra,20,Finance,3.86,2024,9843087249,isha.malhotra1492@college.edu
+1493,Chirag,Rao,25,Marketing,2.21,2022,9820596915,chirag.rao1493@college.edu
+1494,Rajesh,Chopra,18,Business Administration,3.66,2024,9841790764,rajesh.chopra1494@college.edu
+1495,Bhavna,Rao,20,Finance,3.76,2022,9816680119,bhavna.rao1495@college.edu
+1496,Vikram,Singh,19,Marketing,3.35,2021,9869345639,vikram.singh1496@college.edu
+1497,Tushar,Menon,19,Civil Engineering,3.99,2021,9810793821,tushar.menon1497@college.edu
+1498,Chirag,Sharma,18,Psychology,3.1,2023,9828512699,chirag.sharma1498@college.edu
+1499,Sophia,Singh,20,Civil Engineering,2.93,2021,9883592880,sophia.singh1499@college.edu
+1500,Uma,Gupta,22,Biology,2.08,2021,9834509962,uma.gupta1500@college.edu
