@@ -1,57 +1,117 @@
+Here’s a clean, student-friendly revision of the README, tailored for **January–June 2026** and extended to include **FDP (Faculty Development Program)**. I’ve kept it simple, explicit, and future-proof—like good documentation should be.
+
+---
+
 # 📚 CodroidHub Training Repository
 
-Welcome to the **CodroidHub Training Repository**!  
-This repository serves as the central hub for all training programs conducted by CodroidHub, hosting structured materials, projects, and progress updates across multiple domains.
+Welcome to the **CodroidHub Training Repository** 👋
+This repository is the central workspace for all **CodroidHub training programs**, where students and faculty can upload assignments, projects, and learning artifacts in an organized and trackable way.
 
 ---
 
-## 🌟 Branches by Training Batch
+## 🌟 Training Batch: January – June 2026
 
-To keep the repository organized, **content is maintained in separate branches for each batch**. For example:  
+All work for the **January–June 2026 batch** is maintained in its **own branch**.
 
-- `July-September,2025` → Work and submissions for the July–September 2025 batch  
+* **Branch name:** `January-June,2026`
 
-> The **main branch** contains only the repository structure, guidelines, and instructions for contributors.
-
----
-
-## 🚀 Training Domains
-
-The repository is organized by domain. Each domain folder will contain individual folders for trainees or trainers:
-
-- Data Analytics  
-- Data Science  
-- Figma  
-- Finance  
-- Flutter  
-- Graphic Designing  
-- LLM  
-- MERN  
-- Marketing  
+> ⚠️ The **main branch** only contains repository structure, rules, and general instructions.
+> **All uploads must be done inside your batch branch.**
 
 ---
 
-## 📝 How to Upload Your Work
+## 📁 Current Structure (Important)
 
-1. **Switch to your batch branch** (e.g., `July-September,2025`).  
-2. Navigate to your **training domain folder** (e.g., `MERN`, `Figma`).  
-3. **Create a folder with your name** inside the domain folder.  
-4. Upload your files (projects, exercises, notes) into your personal folder.  
-5. Commit and push your changes.  
-
-> Please do not modify or delete other contributors’ folders to maintain the integrity of the repository.
+At present, **this branch contains only one main folder**.
+All students and faculty must upload their work **inside this folder only**, following the rules below.
 
 ---
 
-## 🌱 Contribution Guidelines
+## 🚀 Training Domains (For Students)
 
-- Keep your work inside your personal folder only.  
-- Use clear commit messages, e.g., `Added Week1 exercises`.  
-- Follow folder naming conventions for consistency.  
+Inside the batch folder, training is organized by **domain**.
+Each domain will contain **individual folders for each student**.
+
+Available domains include:
+
+* Data Analytics
+* Data Science
+* Figma
+* Finance
+* Flutter
+* Graphic Designing
+* LLM
+* MERN
+* Marketing
+
+### 👩‍🎓 Student Folder Structure
+
+```
+Domain_Name/
+ └── Student_Name/
+     ├── Week1/
+     ├── Week2/
+     ├── Project/
+     └── Notes/
+```
+
+### 📌 How Students Should Upload Work
+
+1. Switch to the **`January-June,2026` branch**
+2. Open your **training domain folder**
+3. Create a folder with **your full name**
+4. Upload your files (assignments, projects, notes)
+5. Commit and push your changes
+
+✔️ Work **only inside your own folder**
+❌ Do not edit or delete others’ folders
 
 ---
 
-## 📧 Contact
+## 🎓 FDP (Faculty Development Program)
 
-For any issues or queries regarding the repository, please reach out at **info@codroidhub.com**.
+This repository also supports **FDP uploads**.
 
+### 🏫 FDP Folder Structure
+
+FDP work must follow this strict hierarchy:
+
+```
+FDP/
+ └── College_Name/
+     └── Teacher_Name/
+          ├── Assignments/
+          ├── Projects/
+          └── Certificates/
+```
+
+### 📌 FDP Upload Rules
+
+* Each **college gets its own folder**
+* Inside it, create folders for **each teacher**
+* Inside the teacher folder, create a folder using the **assigned teacher code**
+* Upload all FDP-related materials only inside that code folder
+
+This structure helps CodroidHub track:
+
+* College-wise participation
+* Teacher-wise progress
+* FDP compliance and certification
+
+---
+
+## 🌱 Contribution Guidelines (For Everyone)
+
+* Upload content **only in your assigned folder**
+* Use clear commit messages
+
+  * Example: `Added Week 2 MERN assignments`
+* Follow naming conventions exactly
+* Keep the repository clean and organized
+
+---
+
+## 📧 Support & Contact
+
+For any issues, access problems, or repository-related queries, contact:
+📩 **[info@codroidhub.com](mailto:info@codroidhub.com)**
