@@ -124,10 +124,9 @@ This repository also supports **Faculty Development Program (FDP)** uploads.
 FDP/
  └── College_Name/
      └── Teacher_Name/
-         └── Teacher_Code/
-             ├── Assignments/
-             ├── Projects/
-             └── Certificates/
+         ├── Assignments/
+         ├── Projects/
+         └── Certificates/
 ```
 
 ### FDP Upload Rules
