@@ -1,34 +1,42 @@
 # 📚 CodroidHub Training Repository
 
 Welcome to the **CodroidHub Training Repository** 👋
-This repository is the central workspace for all **CodroidHub training programs**, where students and faculty can upload assignments, projects, and learning artifacts in an organized and trackable way.
+This repository is the central workspace for all **CodroidHub training programs**, where students and faculty can upload assignments, projects, and learning artifacts in a structured, organized, and trackable manner.
+
+---
+
+## 🌐 Repository Overview
+
+To maintain clarity and discipline:
+
+* Each **training batch has its own branch**
+* The **main branch** contains only:
+
+  * Repository structure
+  * Contribution rules
+  * General instructions
+
+> ⚠️ **Do not upload any work to the `main` branch.**
 
 ---
 
 ## 🌟 Training Batch: January – June 2026
 
-All work for the **January–June 2026 batch** is maintained in its **own branch**.
+All work for the **January–June 2026** long-term batch is maintained in a dedicated branch.
 
 * **Branch name:** `January-June,2026`
 
-> ⚠️ The **main branch** only contains repository structure, rules, and general instructions.
-> **All uploads must be done inside your batch branch.**
-
----
-
-## 📁 Current Structure (Important)
-
-At present, **this branch contains only one main folder**.
-All students and faculty must upload their work **inside this folder only**, following the rules below.
+At present, this branch contains **only one main folder**.
+All students and faculty must upload their work **inside this folder only**, following the structure below.
 
 ---
 
 ## 🚀 Training Domains (For Students)
 
 Inside the batch folder, training is organized by **domain**.
-Each domain will contain **individual folders for each student**.
+Each domain contains **individual folders for students**.
 
-Available domains include:
+### Available Domains
 
 * Data Analytics
 * Data Science
@@ -40,74 +48,133 @@ Available domains include:
 * MERN
 * Marketing
 
-### 👩‍🎓 Student Folder Structure
+---
+
+## 👩‍🎓 Student Folder Structure
 
 ```
 Domain_Name/
- └── Student_Name/
+ └── Student_Full_Name/
      ├── Week1/
      ├── Week2/
+     ├── Week3/
      ├── Project/
      └── Notes/
 ```
 
-### 📌 How Students Should Upload Work
+---
+
+## 📅 Instructions for January–June 2026 Students
+
+These instructions apply to **all long-term batch students**.
 
 1. Switch to the **`January-June,2026` branch**
-2. Open your **training domain folder**
-3. Create a folder with **your full name**
-4. Upload your files (assignments, projects, notes)
-5. Commit and push your changes
+2. Navigate to your **training domain**
+3. Create **one folder with your full name**
+4. Upload:
 
-✔️ Work **only inside your own folder**
-❌ Do not edit or delete others’ folders
+   * Weekly assignments
+   * Practice exercises
+   * Notes
+   * Projects
+5. Commit and push your changes regularly
+
+### Rules to Follow
+
+* Work **only inside your own folder**
+* Do not edit or delete others’ folders
+* Do not rename domain folders
+* Use meaningful commit messages
+
+  * Example: `Added Week 2 React assignments`
+
+Your folder is your learning record—keep it clean and readable.
+
+---
+
+## 📅 Instructions for June–July Batches (Short-Term / Bridge Programs)
+
+These instructions apply to **short-term, fast-track, or bridge batches** conducted during **June–July**.
+
+* You will be assigned a **separate branch** for your batch
+* Upload content **only in the branch assigned to you**
+* Folder flow:
+
+  * Main folder → Domain → Your Name
+
+### Additional Notes
+
+* Timelines are shorter; submissions must be well-labeled
+* Final projects should be clearly named
+
+  * Example: `Final_Project_JuneJuly2026`
+* Repository discipline remains mandatory even for short batches
+
+Short programs move fast—structure keeps them from breaking.
 
 ---
 
 ## 🎓 FDP (Faculty Development Program)
 
-This repository also supports **FDP uploads**.
+This repository also supports **Faculty Development Program (FDP)** uploads.
 
-### 🏫 FDP Folder Structure
-
-FDP work must follow this strict hierarchy:
+### Mandatory FDP Folder Structure
 
 ```
 FDP/
  └── College_Name/
      └── Teacher_Name/
-          ├── Assignments/
-          ├── Projects/
-          └── Certificates/
+         └── Teacher_Code/
+             ├── Assignments/
+             ├── Projects/
+             └── Certificates/
 ```
 
-### 📌 FDP Upload Rules
+### FDP Upload Rules
 
-* Each **college gets its own folder**
-* Inside it, create folders for **each teacher**
-* Inside the teacher folder, create a folder using the **assigned teacher code**
-* Upload all FDP-related materials only inside that code folder
+* College name must be written **in full**
+* Teacher name must match **official enrollment records**
+* Teacher code is **mandatory and must not be modified**
+* Upload only FDP-related materials in this section
+* Do not upload student work inside FDP folders
 
-This structure helps CodroidHub track:
+This structure enables:
 
-* College-wise participation
-* Teacher-wise progress
-* FDP compliance and certification
+* College-wise tracking
+* Faculty-wise evaluation
+* Certification and compliance audits
+
+Precision here is essential.
 
 ---
 
 ## 🌱 Contribution Guidelines (For Everyone)
 
 * Upload content **only in your assigned folder**
-* Use clear commit messages
+* Never modify others’ work
+* Follow naming conventions strictly
+* Commit frequently with clear messages
 
-  * Example: `Added Week 2 MERN assignments`
-* Follow naming conventions exactly
-* Keep the repository clean and organized
+  * Example: `Added Week 4 MERN API task`
+* Keep folders organized and readable
+
+---
+
+## ❌ Common Mistakes to Avoid
+
+* Uploading files to the wrong branch
+* Mixing student and FDP content
+* Renaming shared folders
+* Using unclear file or commit names
+* Uploading everything in a single folder without structure
 
 ---
 
 ## 📧 Support & Contact
 
-For any issues, access problems, or repository-related queries, contact:
+For access issues, repository queries, or structural concerns, contact:
 📩 **[info@codroidhub.com](mailto:info@codroidhub.com)**
+
+
+A repository is a shared memory.
+Structure is what keeps that memory from turning into noise.
