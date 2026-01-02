@@ -1,7 +1,3 @@
-Here’s a clean, student-friendly revision of the README, tailored for **January–June 2026** and extended to include **FDP (Faculty Development Program)**. I’ve kept it simple, explicit, and future-proof—like good documentation should be.
-
----
-
 # 📚 CodroidHub Training Repository
 
 Welcome to the **CodroidHub Training Repository** 👋
