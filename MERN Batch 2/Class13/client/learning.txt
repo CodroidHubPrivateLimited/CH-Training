@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+React App Create >>
+1. use command >> npm create vite@latest folderName
+2. use this command to run UI >> npm run dev 
+
+
+
+
+
+
+
+Import Jo bhi cheez chaiye vo mai bulakai use krunga
+import { useState } from 'react'  .------------>  calling react 
+import './App.css'    ---------------> Calling App ki css
+
+function App() {
+
+
+  return (
+    <> ----------> Fragments
+    </>
+  )
+}
+
+export default App
+
+
+
+
+
+css CLASHING >>> css cLASHING SAI BACHNE KAI LIYE HUM 
+>> module.css >> use krte hain
+
+
+Ajj humne dekha 
+>> project initialization
+>> Real time work on Components
+>> Css Clashing dekhi
+>> Resolve
+>> Folder Structuring 
+>> First Code of React  
