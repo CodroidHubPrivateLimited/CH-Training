@@ -31,12 +31,12 @@ app.delete("/api/test/delete",(req,res)=>{
 
 // Task 5
 mongoose.connect("mongodb://127.0.0.1:3000/test")
-// .then(() => {
-//     console.log("MongoDB connected successfully");
-// })
-// .catch((error) => {
-//     console.log("MongoDB connection failed", error);
-// });
+.then(() => {
+    console.log("MongoDB connected successfully");
+})
+.catch((error) => {
+    console.log("MongoDB connection failed", error);
+});
 
 
 app.listen(3000,()=>{
