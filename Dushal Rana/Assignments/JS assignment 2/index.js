@@ -13,7 +13,7 @@ console.log(head);
 
 //
 let count = 0;
-const display = document.getElementById("display");
+const display = document.getElementsByClassName("display")[0];
 display.innerText=count;
 
 const btn = document.getElementsByTagName("button");
@@ -96,8 +96,7 @@ inpt.addEventListener("keyup", function(){
 })
 
 let btn66=document.getElementsByClassName("btn66")[0];
-btn66.tabIndex=0;
-btn66.focus();
+
 btn66.addEventListener("mouseover", function(){
     btn66.style.background="yellow";
 });
