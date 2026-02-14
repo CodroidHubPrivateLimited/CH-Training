@@ -44,4 +44,25 @@ Ajj humne dekha
 >> Css Clashing dekhi
 >> Resolve
 >> Folder Structuring 
->> First Code of React  
+>> First Code of React 
+
+
+
+
+
+
+Today will see how useState Hook, Props ,Browse router
+Components -------> Global Components
+   |
+   ---------------> Paticular Components
+1. Props is completed  ----> Parents sai data change krkai dekha hai
+2. useState Dekha with counter example
+3. UseNavigate , BrowseRouter, Routes, Route --------> react-router-dom
+4. Debu
+
+
+
+Integrateing Frontend 
+
+1. Frontend  >>>> UI >> 1. user sai data collect >> 2. hitting apis (eventListner) >>3. data send from Frontend
+2. Backend >>>> Backend management >> 1. request >> 2. validate Schemaa and controller >>3. data save work as conttroller
