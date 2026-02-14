@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.parentContainer{
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.container{
+    width: 100%;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 12px;
+    height: 78.5vh;
+}
