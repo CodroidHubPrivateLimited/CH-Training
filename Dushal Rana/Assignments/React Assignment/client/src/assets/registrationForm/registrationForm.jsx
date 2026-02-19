@@ -11,10 +11,25 @@ function RegistrationForm(){
     password: "",
   });
   const[fetchUserData,setfetcheUserdData]=useState()
-     const[edit,setEdit]= useState()
 
     const [selectedUser,setSelectedUser]=useState()
 
+
+    const handleSelectedEditUser= (data)=>{
+
+      setSelectedUser(data)
+      console.log("Selected User Data ", data)
+      setFormData(
+        {
+        name: data.name,
+        email: data.email,
+        password:"",
+        confirmPassword:""
+
+      }
+
+      )
+    }
 
 
 
@@ -40,8 +55,15 @@ fetchData()
     const handleSubmit = async(e)=>{
     e.preventDefault();
       try{
-    const response = await fetch("http://localhost:3000/api/user/registration", {
-      method: "POST",
+
+
+        if(selectedUser){
+
+          // console.log()
+          const userId= selectedUser._id
+
+          const response = await fetch(`http://localhost:3000/api/user/registration/update/${userId}`, {
+      method: "PUT",
       headers: {
         "Content-Type": "application/json"
       },
@@ -51,8 +73,45 @@ fetchData()
     );
     const data =  await response.json();
     console.log(data);
+      alert("Registration Updation completed")
+
+
+
+
+        }else{
+    const response = await fetch("http://localhost:3000/api/user/registration", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    }
+
+    );
+
+    const data =  await response.json();
+    console.log(data);
       alert("Registration completed")
-      }catch{
+
+
+        }
+
+    setFormData({
+      name: "",
+      email: "",
+      password: "",
+      confirmPassword: ""
+    });
+
+    fetchData()
+
+
+      }
+      
+      
+      
+      
+      catch(error)  {
            console.error(error);
     alert("Something went wrong");
       }
@@ -69,12 +128,12 @@ fetchData()
 
         <div className={styles.input}>
           <label>Name</label><br />
-          <input type="text" name="name" required onChange={handleChange}/>
+          <input type="text" name="name" value={formData.name} required onChange={handleChange}/>
         </div>
 
         <div className={styles.input}>
           <label>Email</label><br />
-          <input type="email" name="email" required onChange={handleChange}/>
+          <input type="email" name="email" value={formData.email} required onChange={handleChange}/>
         </div>
 
         <div className={styles.input}>
@@ -98,8 +157,9 @@ fetchData()
                 <div>
           <h1>Here All the Registered user will be displayyed </h1>
           <Card RegisteredUser={fetchUserData} 
-           selectedUser={selectedUser}
-           setSelectedUser={setSelectedUser} />
+          
+          SelectedEditUser={handleSelectedEditUser}
+           />
         </div>
         </div>
 

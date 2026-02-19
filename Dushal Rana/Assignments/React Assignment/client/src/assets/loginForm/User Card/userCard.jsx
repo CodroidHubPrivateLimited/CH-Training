@@ -1,7 +1,7 @@
 import react, { useState } from "react"
 import styles from "./userCard.module.css"
 
-function Card({RegisteredUser, selectedUser, setSelectedUser}) {
+function Card({RegisteredUser, SelectedEditUser}) {
     console.log("This Data is comming from User Card not from Resitratiion Form", RegisteredUser)
    
 
@@ -42,7 +42,7 @@ console.log("sending id to Delete",id)
             </div>
 
             <div className= {styles.action}>
-            <button onClick={()=>{setSelectedUser(data._id)}}>Edit</button>
+            <button onClick={()=>{SelectedEditUser(data)}}>Edit</button>
            <button onClick={()=>{handleDelete(data._id)}}>delete</button>
            </div>
           </div>

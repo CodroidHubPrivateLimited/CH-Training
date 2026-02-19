@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.missionSection {
+  background: #dfe9e6;
+  padding: 80px 20px;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.subtitle {
+  max-width: 850px;
+  margin: auto;
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 60px;
+  line-height: 1.6;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h3 {
+  font-size: 22px;
+  margin: 15px 0 10px;
+  color: #0f172a;
+}
+
+.card p {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.iconBox {
+  width: 60px;
+  height: 60px;
+  background: #d1fae5;
+  color: #0a7c4a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

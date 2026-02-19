@@ -1,0 +1,89 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f6fb;
+}
+
+.card {
+  background: white;
+  padding: 50px;
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 15px;
+  display: block;
+  text-align: left;
+}
+
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #0a7c4a;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  background: #0a7c4a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.message {
+  margin-top: 10px;
+  color: #0a7c4a;
+  font-size: 14px;
+}
+
+.signup {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+
+.back {
+  display: block;
+  margin-top: 15px;
+  color: #0a7c4a;
+  text-decoration: none;
+  font-size: 14px;
+}
