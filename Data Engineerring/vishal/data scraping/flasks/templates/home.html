@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modern Data Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+
+<body>
+    <video autoplay muted loop playsinline class="video-bg">
+        <source src="{{ url_for('static', filename='background.mp4') }}" type="video/mp4">
+    </video>
+    <div class="animated-bg"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="navbar">
+        <h2>🚀 Data Dashboard</h2>
+        <div class="nav-buttons">
+            <button onclick="showStatic()" id="staticBtn">📁 Static Data</button>
+            <button onclick="showApi()" id="apiBtn">🌐 API Data</button>
+        </div>
+    </div>
+    <div class="content">
+        <div id="staticSection" class="data-section">
+            <h2 class="section-title">📁 Static CSV Files</h2>
+            <div class="card-grid">
+                {% for file, table in static_data.items() %}
+                <div class="data-card" onclick="toggleCard(this)">
+                    <h3>{{ file }}</h3>
+                    <div class="table-box card-content">
+                        {{ table|safe }}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div id="apiSection" class="data-section">
+            <h2 class="section-title">🌐 API CSV Files</h2>
+            <div class="card-grid">
+                {% for file, table in api_data.items() %}
+                <div class="data-card api-card" onclick="toggleCard(this)">
+                    <h3>{{ file }}</h3>
+                    <div class="table-box card-content">
+                        {{ table|safe }}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <script>
+        function showStatic() {
+            document.getElementById("staticSection").style.display = "block";
+            document.getElementById("apiSection").style.display = "none";
+            document.getElementById("staticBtn").classList.add("active");
+            document.getElementById("apiBtn").classList.remove("active");
+        }
+        function showApi() {
+            document.getElementById("apiSection").style.display = "block";
+            document.getElementById("staticSection").style.display = "none";
+
+            document.getElementById("apiBtn").classList.add("active");
+            document.getElementById("staticBtn").classList.remove("active");
+        }
+        function toggleCard(card) {
+            const content = card.querySelector(".card-content");
+            content.classList.toggle("show");
+        }
+        showStatic();
+    </script>
+
+</body>
+
+</html>
