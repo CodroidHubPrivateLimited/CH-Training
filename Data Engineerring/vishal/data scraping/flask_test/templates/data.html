@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ filename }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>{{ filename }}</h1>
+
+    <div class="table-box">
+        {{ table|safe }}
+    </div>
+
+    <a href="{{ url_for('home') }}" class="back-btn">⬅ Back</a>
+
+</body>
+
+</html>

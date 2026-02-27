@@ -629,3 +629,40 @@ th {
 tr:hover {
     background: rgba(255, 255, 255, 0.1);
 }
+.description {
+    font-size: 14px;
+    opacity: 0.8;
+    margin: 10px 0;
+}
+
+.url {
+    font-size: 13px;
+    color: #00f2ff;
+    margin-bottom: 15px;
+}
+
+.view-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #00f2ff;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    background: white;
+    transform: scale(1.1);
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #ff4b2b;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}

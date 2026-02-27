@@ -1,0 +1,161 @@
+Product_ID,Product_Name,Category,Price_INR,Rating,Number_of_Reviews
+1,Cheese n Corn,Beverages,272,4.3,37
+2,Farmhouse Pizza,Sides,307,4.9,170
+3,Peppy Paneer Pizza,Non-Veg Pizza,333,4.8,213
+4,Veg Extravaganza,Beverages,432,4.7,252
+5,Peppy Paneer Pizza,Beverages,217,4.3,283
+6,Veg Extravaganza,Beverages,156,4.6,65
+7,Cheese n Corn,Sides,187,4.9,335
+8,Farmhouse Pizza,Veg Pizza,105,4.7,78
+9,Pepper Barbecue Chicken,Sides,254,4.9,383
+10,Farmhouse Pizza,Beverages,405,3.9,465
+11,Farmhouse Pizza,Non-Veg Pizza,131,3.5,25
+12,Indi Tandoori Paneer,Veg Pizza,236,4.1,227
+13,Cheese n Corn,Beverages,186,3.7,334
+14,Indi Tandoori Paneer,Veg Pizza,281,4.8,60
+15,Cheese n Corn,Desserts,499,4.1,282
+16,Pepper Barbecue Chicken,Desserts,417,4.3,354
+17,Deluxe Veggie,Veg Pizza,119,3.7,362
+18,Veg Extravaganza,Desserts,462,4.0,181
+19,Deluxe Veggie,Desserts,475,4.8,400
+20,Margherita Pizza,Desserts,286,4.9,483
+21,Indi Tandoori Paneer,Sides,260,4.2,114
+22,Peppy Paneer Pizza,Veg Pizza,221,4.5,306
+23,Chicken Dominator,Desserts,493,4.8,397
+24,Deluxe Veggie,Desserts,454,4.9,111
+25,Mexican Green Wave,Beverages,135,3.9,355
+26,Margherita Pizza,Veg Pizza,246,4.3,40
+27,Margherita Pizza,Veg Pizza,168,4.9,94
+28,Pepper Barbecue Chicken,Non-Veg Pizza,534,4.1,397
+29,Chicken Dominator,Non-Veg Pizza,473,5.0,156
+30,Deluxe Veggie,Desserts,295,4.0,344
+31,Veg Extravaganza,Non-Veg Pizza,506,3.9,295
+32,Deluxe Veggie,Desserts,420,4.7,491
+33,Peppy Paneer Pizza,Beverages,138,4.0,495
+34,Margherita Pizza,Beverages,210,4.1,326
+35,Mexican Green Wave,Beverages,289,4.7,337
+36,Chicken Dominator,Desserts,420,4.9,277
+37,Farmhouse Pizza,Sides,547,4.5,27
+38,Peppy Paneer Pizza,Beverages,99,4.4,117
+39,Deluxe Veggie,Sides,582,4.9,21
+40,Pepper Barbecue Chicken,Veg Pizza,356,4.7,228
+41,Deluxe Veggie,Desserts,211,3.7,283
+42,Veg Extravaganza,Beverages,438,4.0,367
+43,Chicken Dominator,Non-Veg Pizza,326,4.9,264
+44,Pepper Barbecue Chicken,Non-Veg Pizza,149,3.6,426
+45,Pepper Barbecue Chicken,Sides,183,4.1,45
+46,Indi Tandoori Paneer,Non-Veg Pizza,341,3.6,441
+47,Cheese n Corn,Beverages,398,3.6,385
+48,Farmhouse Pizza,Sides,538,4.7,365
+49,Chicken Dominator,Non-Veg Pizza,392,4.4,57
+50,Margherita Pizza,Beverages,183,4.1,55
+51,Veg Extravaganza,Desserts,307,3.8,493
+52,Cheese n Corn,Veg Pizza,147,3.9,397
+53,Veg Extravaganza,Beverages,534,4.9,472
+54,Indi Tandoori Paneer,Veg Pizza,434,4.0,33
+55,Farmhouse Pizza,Sides,224,4.2,265
+56,Peppy Paneer Pizza,Sides,464,3.6,338
+57,Chicken Dominator,Veg Pizza,142,3.5,475
+58,Peppy Paneer Pizza,Non-Veg Pizza,284,4.8,427
+59,Deluxe Veggie,Beverages,372,4.5,497
+60,Margherita Pizza,Veg Pizza,556,4.2,276
+61,Cheese n Corn,Non-Veg Pizza,572,3.7,386
+62,Chicken Dominator,Veg Pizza,120,4.0,309
+63,Mexican Green Wave,Veg Pizza,484,4.8,208
+64,Indi Tandoori Paneer,Beverages,300,4.7,466
+65,Veg Extravaganza,Sides,596,4.2,490
+66,Margherita Pizza,Desserts,532,4.6,343
+67,Deluxe Veggie,Beverages,537,4.0,293
+68,Pepper Barbecue Chicken,Non-Veg Pizza,186,3.9,88
+69,Peppy Paneer Pizza,Beverages,545,4.3,117
+70,Farmhouse Pizza,Veg Pizza,254,4.4,424
+71,Cheese n Corn,Sides,577,3.8,290
+72,Mexican Green Wave,Sides,540,3.6,177
+73,Deluxe Veggie,Sides,598,3.8,107
+74,Veg Extravaganza,Non-Veg Pizza,280,4.1,420
+75,Deluxe Veggie,Desserts,146,3.7,218
+76,Indi Tandoori Paneer,Non-Veg Pizza,198,3.7,62
+77,Deluxe Veggie,Beverages,249,3.6,157
+78,Deluxe Veggie,Beverages,341,3.9,31
+79,Chicken Dominator,Non-Veg Pizza,550,5.0,241
+80,Deluxe Veggie,Sides,449,5.0,240
+81,Indi Tandoori Paneer,Non-Veg Pizza,466,3.6,303
+82,Cheese n Corn,Desserts,154,4.7,300
+83,Indi Tandoori Paneer,Beverages,550,4.9,85
+84,Pepper Barbecue Chicken,Sides,115,4.6,265
+85,Cheese n Corn,Sides,414,4.4,396
+86,Pepper Barbecue Chicken,Beverages,242,4.5,313
+87,Pepper Barbecue Chicken,Veg Pizza,359,3.6,106
+88,Pepper Barbecue Chicken,Sides,562,4.9,100
+89,Farmhouse Pizza,Non-Veg Pizza,590,3.8,302
+90,Peppy Paneer Pizza,Desserts,357,4.2,74
+91,Margherita Pizza,Desserts,495,3.6,176
+92,Deluxe Veggie,Desserts,185,4.2,458
+93,Peppy Paneer Pizza,Veg Pizza,191,3.7,71
+94,Indi Tandoori Paneer,Non-Veg Pizza,371,3.9,291
+95,Mexican Green Wave,Sides,269,4.5,416
+96,Margherita Pizza,Sides,549,3.9,499
+97,Chicken Dominator,Beverages,124,4.5,404
+98,Farmhouse Pizza,Desserts,110,4.5,151
+99,Farmhouse Pizza,Desserts,418,3.7,102
+100,Pepper Barbecue Chicken,Veg Pizza,410,3.5,77
+101,Deluxe Veggie,Desserts,537,4.7,56
+102,Peppy Paneer Pizza,Non-Veg Pizza,343,4.0,30
+103,Mexican Green Wave,Non-Veg Pizza,258,3.8,110
+104,Deluxe Veggie,Non-Veg Pizza,114,4.8,34
+105,Veg Extravaganza,Sides,463,4.7,348
+106,Pepper Barbecue Chicken,Non-Veg Pizza,577,3.8,85
+107,Mexican Green Wave,Desserts,459,4.9,24
+108,Peppy Paneer Pizza,Desserts,217,4.7,164
+109,Peppy Paneer Pizza,Desserts,272,3.9,39
+110,Mexican Green Wave,Veg Pizza,365,3.6,143
+111,Cheese n Corn,Beverages,449,3.9,175
+112,Veg Extravaganza,Desserts,168,4.6,73
+113,Peppy Paneer Pizza,Beverages,445,4.9,71
+114,Cheese n Corn,Desserts,192,3.8,98
+115,Peppy Paneer Pizza,Sides,341,4.3,160
+116,Indi Tandoori Paneer,Desserts,387,4.6,328
+117,Deluxe Veggie,Non-Veg Pizza,540,4.0,426
+118,Margherita Pizza,Veg Pizza,564,4.1,439
+119,Cheese n Corn,Desserts,496,4.2,15
+120,Margherita Pizza,Non-Veg Pizza,231,4.3,378
+121,Peppy Paneer Pizza,Sides,257,3.7,31
+122,Margherita Pizza,Non-Veg Pizza,194,5.0,487
+123,Deluxe Veggie,Sides,325,4.1,162
+124,Deluxe Veggie,Veg Pizza,406,3.8,366
+125,Cheese n Corn,Non-Veg Pizza,182,4.9,430
+126,Chicken Dominator,Non-Veg Pizza,376,4.5,454
+127,Peppy Paneer Pizza,Veg Pizza,413,3.9,89
+128,Peppy Paneer Pizza,Sides,184,4.3,390
+129,Farmhouse Pizza,Veg Pizza,300,4.3,154
+130,Chicken Dominator,Beverages,477,3.7,310
+131,Indi Tandoori Paneer,Veg Pizza,471,4.6,354
+132,Deluxe Veggie,Veg Pizza,414,3.8,57
+133,Margherita Pizza,Veg Pizza,557,3.6,191
+134,Margherita Pizza,Sides,182,4.8,400
+135,Indi Tandoori Paneer,Veg Pizza,472,3.7,346
+136,Margherita Pizza,Veg Pizza,546,4.0,46
+137,Peppy Paneer Pizza,Veg Pizza,285,4.1,60
+138,Indi Tandoori Paneer,Non-Veg Pizza,292,3.6,396
+139,Mexican Green Wave,Non-Veg Pizza,581,4.1,393
+140,Indi Tandoori Paneer,Beverages,169,3.6,463
+141,Deluxe Veggie,Non-Veg Pizza,287,3.6,462
+142,Margherita Pizza,Sides,501,4.8,248
+143,Chicken Dominator,Non-Veg Pizza,267,4.6,54
+144,Mexican Green Wave,Veg Pizza,538,4.8,276
+145,Peppy Paneer Pizza,Non-Veg Pizza,412,4.9,204
+146,Peppy Paneer Pizza,Beverages,162,4.3,164
+147,Mexican Green Wave,Beverages,293,3.5,90
+148,Peppy Paneer Pizza,Beverages,508,3.7,104
+149,Farmhouse Pizza,Non-Veg Pizza,150,4.1,359
+150,Mexican Green Wave,Non-Veg Pizza,245,3.7,113
+151,Veg Extravaganza,Veg Pizza,348,3.9,173
+152,Pepper Barbecue Chicken,Beverages,210,4.8,473
+153,Farmhouse Pizza,Veg Pizza,367,4.1,170
+154,Cheese n Corn,Non-Veg Pizza,358,4.5,457
+155,Cheese n Corn,Desserts,306,4.1,287
+156,Cheese n Corn,Desserts,577,4.5,341
+157,Veg Extravaganza,Sides,317,4.9,80
+158,Pepper Barbecue Chicken,Veg Pizza,144,4.6,75
+159,Margherita Pizza,Beverages,322,3.9,92
+160,Farmhouse Pizza,Desserts,206,3.5,118
