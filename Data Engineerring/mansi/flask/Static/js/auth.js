@@ -1,22 +1,29 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-    const toggles = document.querySelectorAll(".toggle-password");
+    /* ================= EYE TOGGLE ================= */
+    document.querySelectorAll(".toggle-password").forEach(icon => {
+        icon.addEventListener("click", () => {
+            const targetId = icon.getAttribute("data-target");
+            const input = document.getElementById(targetId);
 
-    toggles.forEach(toggle => {
-        toggle.addEventListener("click", function () {
+            if (!input) return;
 
-            const targetId = this.getAttribute("data-target");
-            const passwordInput = document.getElementById(targetId);
-
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                this.textContent = "🙈";
+            if (input.type === "password") {
+                input.type = "text";
+                icon.textContent = "🙈";
             } else {
-                passwordInput.type = "password";
-                this.textContent = "👁";
+                input.type = "password";
+                icon.textContent = "👁";
             }
-
         });
     });
+
+    /* ================= POPUP CLOSE ================= */
+    const popupBtn = document.querySelector("#errorPopup button");
+    if (popupBtn) {
+        popupBtn.addEventListener("click", () => {
+            document.getElementById("errorPopup").style.display = "none";
+        });
+    }
 
 });
