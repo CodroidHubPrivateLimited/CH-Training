@@ -205,6 +205,16 @@ def view_api(site):
         headers=headers,
         rows=rows
     )
-# ================= RUN =================
+@app.route("/Journey")
+def Journey():
+    return render_template("base/Journey.html")
+@app.route("/about")
+def about():
+    return render_template("about.html")
+@app.route("/feedback")
+def feedback():
+    return render_template("feedback.html")
+
+# ================= RUN ================
 if __name__ == "__main__":
     app.run(debug=True)
