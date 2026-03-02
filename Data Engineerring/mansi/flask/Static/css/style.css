@@ -150,3 +150,14 @@ body, html {
     50% { transform: translateY(-30px); }
     100% { transform: translateY(0px); }
 }
+
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #7f3fbf, #ff7eb3);
+    min-height: 100vh;
+    color: #fff;
+    overflow-x: hidden;
+}
+
