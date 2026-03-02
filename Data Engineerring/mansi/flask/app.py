@@ -22,7 +22,7 @@ def create_table():
     conn.execute("""
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            email TEXT NOT NULL,
+            email TEXT NOT NULL UNIQUE,
             username TEXT NOT NULL UNIQUE,
             password TEXT NOT NULL
         )
@@ -34,21 +34,13 @@ def create_table():
 create_table()
 
 
-# ================= COMMON VIEW FUNCTION =================
-def render_live_page(fetch_function, template_path):
-    if "user" not in session:
-        return redirect("/login")
-
-    headers, rows = fetch_function()
-    return render_template(template_path, headers=headers, rows=rows)
-
-
-# ================= AUTH =================
+# ================= HOME =================
 @app.route("/")
 def home():
     return render_template("base/home.html")
 
 
+# ================= SIGNUP =================
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
@@ -66,32 +58,35 @@ def signup():
             conn.close()
             flash("Account created successfully!")
             return redirect("/login")
+
         except sqlite3.IntegrityError:
-            flash("Username already exists!")
+            flash("Email or Username already exists!")
 
     return render_template("signup.html")
 
 
+# ================= LOGIN =================
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
-        username = request.form["username"]
+        email = request.form["email"]
         password = request.form["password"]
 
         conn = get_db()
         user = conn.execute(
-            "SELECT * FROM users WHERE username = ?", (username,)
+            "SELECT * FROM users WHERE email = ?", (email,)
         ).fetchone()
         conn.close()
 
         if user and check_password_hash(user["password"], password):
             session["user"] = user["username"]
             return redirect("/dashboard")
-        flash("Invalid username or password")
+        else:
+            flash("Invalid email or password", "error")
 
     return render_template("login.html")
 
-
+# ================= DASHBOARD =================
 @app.route("/dashboard")
 def dashboard():
     if "user" in session:
@@ -99,6 +94,7 @@ def dashboard():
     return redirect("/login")
 
 
+# ================= LOGOUT =================
 @app.route("/logout")
 def logout():
     session.pop("user", None)
@@ -106,14 +102,12 @@ def logout():
 
 
 # ================= DYNAMIC WEBSITES =================
-
-
 @app.route("/dynamic-websites")
 def dynamic_websites():
     if "user" not in session:
         return redirect("/login")
-
     return render_template("dynamic/dynamic_websites.html")
+
 
 from router.dynamic import myntra, Snapdeal, Meesho, ajio, blinkit
 
@@ -126,13 +120,14 @@ SCRAPER_MAP = {
 }
 
 
-
 @app.route("/view/dynamic/<site>")
 def view_dynamic(site):
-    site = site.lower()
+    if "user" not in session:
+        return redirect("/login")
 
+    site = site.lower()
     module = SCRAPER_MAP.get(site)
-   
+
     headers, rows = module.fetch_data()
 
     return render_template(
@@ -143,16 +138,18 @@ def view_dynamic(site):
     )
 
 
-
-
 # ================= STATIC WEBSITES =================
 from router.Static import amazon, flipkart, bookscrap, ecommers, shopsy, codroidhub2, polo
+
 @app.route("/static-websites")
 def static_websites():
     return render_template("Static/Static_websites.html") if "user" in session else redirect("/login")
 
+
 @app.route("/view/<dataType>/<site>")
 def viewFile(dataType, site):
+    if "user" not in session:
+        return redirect("/login")
 
     modules = {
         "amazon": amazon,
@@ -174,6 +171,7 @@ def viewFile(dataType, site):
         rows=rows
     )
 
+
 # ================= API SERVICES =================
 from router.Api import reddit, codroidhub, dummyjson, github, gyansetu
 
@@ -184,6 +182,8 @@ def api_services():
 
 @app.route("/view/api/<site>")
 def view_api(site):
+    if "user" not in session:
+        return redirect("/login")
 
     site = site.lower()
 
@@ -196,7 +196,6 @@ def view_api(site):
     }
 
     module = API_MAP.get(site)
-
     headers, rows = module.fetch_data()
 
     return render_template(
@@ -205,16 +204,24 @@ def view_api(site):
         headers=headers,
         rows=rows
     )
+
+
+# ================= EXTRA PAGES =================
 @app.route("/Journey")
 def Journey():
     return render_template("base/Journey.html")
+
+
 @app.route("/about")
 def about():
     return render_template("about.html")
+
+
 @app.route("/feedback")
 def feedback():
     return render_template("feedback.html")
 
-# ================= RUN ================
+
+# ================= RUN =================
 if __name__ == "__main__":
     app.run(debug=True)
