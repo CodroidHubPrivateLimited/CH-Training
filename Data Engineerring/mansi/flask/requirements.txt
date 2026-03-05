@@ -5,3 +5,5 @@ pandas
 numpy
 matplotlib
 gunicorn
+selenium
+webdriver_manager
