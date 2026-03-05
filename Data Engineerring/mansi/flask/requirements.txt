@@ -1,6 +1,6 @@
 flask
 requests
-beautyfullsoup4
+beautifulsoup4
 pandas
 numpy
 matplotlib
