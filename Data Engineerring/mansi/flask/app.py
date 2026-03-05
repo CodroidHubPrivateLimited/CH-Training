@@ -1,14 +1,18 @@
 from flask import Flask, render_template, request, redirect, session, flash
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
+import os
 import sys
 
 sys.dont_write_bytecode = True
 
+# ================= APP =================
 app = Flask(__name__)
 app.secret_key = "your_secret_key"
-DATABASE = "database.db"
 
+# ================= DATABASE PATH (FIXED FOR RENDER + LOCAL) =================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATABASE = os.path.join(BASE_DIR, "database.db")
 
 # ================= DATABASE =================
 def get_db():
@@ -33,7 +37,6 @@ def create_table():
 
 create_table()
 
-
 # ================= HOME =================
 @app.route("/")
 def home():
@@ -44,23 +47,31 @@ def home():
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
-        email = request.form["email"]
-        username = request.form["username"]
-        password = generate_password_hash(request.form["password"])
+        email = request.form.get("email")
+        username = request.form.get("username")
+        password = request.form.get("password")
+
+        if not email or not username or not password:
+            flash("All fields are required!")
+            return redirect("/signup")
+
+        hashed_password = generate_password_hash(password)
 
         try:
             conn = get_db()
             conn.execute(
                 "INSERT INTO users (email, username, password) VALUES (?, ?, ?)",
-                (email, username, password)
+                (email, username, hashed_password)
             )
             conn.commit()
             conn.close()
-            flash("Account created successfully!")
+
+            flash("Account created successfully! Please login.")
             return redirect("/login")
 
         except sqlite3.IntegrityError:
             flash("Email or Username already exists!")
+            return redirect("/signup")
 
     return render_template("signup.html")
 
@@ -69,12 +80,13 @@ def signup():
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
-        email = request.form["email"]
-        password = request.form["password"]
+        email = request.form.get("email")
+        password = request.form.get("password")
 
         conn = get_db()
         user = conn.execute(
-            "SELECT * FROM users WHERE email = ?", (email,)
+            "SELECT * FROM users WHERE email = ?",
+            (email,)
         ).fetchone()
         conn.close()
 
@@ -82,16 +94,18 @@ def login():
             session["user"] = user["username"]
             return redirect("/dashboard")
         else:
-            flash("Invalid email or password", "error")
+            flash("Invalid email or password")
+            return redirect("/login")
 
     return render_template("login.html")
+
 
 # ================= DASHBOARD =================
 @app.route("/dashboard")
 def dashboard():
-    if "user" in session:
-        return render_template("base/dashboard.html", user=session["user"])
-    return redirect("/login")
+    if "user" not in session:
+        return redirect("/login")
+    return render_template("base/dashboard.html", user=session["user"])
 
 
 # ================= LOGOUT =================
@@ -102,13 +116,6 @@ def logout():
 
 
 # ================= DYNAMIC WEBSITES =================
-@app.route("/dynamic-websites")
-def dynamic_websites():
-    if "user" not in session:
-        return redirect("/login")
-    return render_template("dynamic/dynamic_websites.html")
-
-
 from router.dynamic import myntra, Snapdeal, Meesho, ajio, blinkit
 
 SCRAPER_MAP = {
@@ -118,6 +125,12 @@ SCRAPER_MAP = {
     "ajio": ajio,
     "blinkit": blinkit,
 }
+
+@app.route("/dynamic-websites")
+def dynamic_websites():
+    if "user" not in session:
+        return redirect("/login")
+    return render_template("dynamic/dynamic_websites.html")
 
 
 @app.route("/view/dynamic/<site>")
@@ -132,7 +145,7 @@ def view_dynamic(site):
 
     return render_template(
         "dynamic/view_common.html",
-        title=f"{site.capitalize()} Data Scraping",
+        title=f"{site.capitalize()} Data",
         headers=headers,
         rows=rows
     )
@@ -143,7 +156,9 @@ from router.Static import amazon, flipkart, bookscrap, ecommers, shopsy, codroid
 
 @app.route("/static-websites")
 def static_websites():
-    return render_template("Static/Static_websites.html") if "user" in session else redirect("/login")
+    if "user" not in session:
+        return redirect("/login")
+    return render_template("Static/Static_websites.html")
 
 
 @app.route("/view/<dataType>/<site>")
@@ -177,15 +192,15 @@ from router.Api import reddit, codroidhub, dummyjson, github, gyansetu
 
 @app.route("/api-services")
 def api_services():
-    return render_template("api/api_services.html") if "user" in session else redirect("/login")
+    if "user" not in session:
+        return redirect("/login")
+    return render_template("api/api_services.html")
 
 
 @app.route("/view/api/<site>")
 def view_api(site):
     if "user" not in session:
         return redirect("/login")
-
-    site = site.lower()
 
     API_MAP = {
         "reddit": reddit,
@@ -224,4 +239,4 @@ def feedback():
 
 # ================= RUN =================
 if __name__ == "__main__":
-    app.run(debug=True, port=5000, host="0.0.0.0")
+    app.run(host="0.0.0.0", port=5000, debug=True)
