@@ -4,3 +4,4 @@ beautyfullsoup4
 pandas
 numpy
 matplotlib
+gunicorn
