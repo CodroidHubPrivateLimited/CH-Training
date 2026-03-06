@@ -6,3 +6,5 @@ beautifulsoup4
 pandas
 numpy
 matplotlib
+selenium
+webdriver_manager
