@@ -1,14 +1,10 @@
-Flask==2.3.3
-Werkzeug==3.0.1
+Flask
+Werkzeug
 gunicorn
-
 requests
 beautifulsoup4
-lxml
-
 pandas
 numpy
 matplotlib
-
 selenium
 webdriver_manager
