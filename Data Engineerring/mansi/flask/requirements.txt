@@ -7,5 +7,4 @@ pandas
 numpy
 matplotlib
 selenium
-webdriver_manager
 webdriver-manager
