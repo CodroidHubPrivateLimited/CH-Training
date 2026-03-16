@@ -1,4 +1,4 @@
-Flask
+flask
 Werkzeug
 gunicorn
 requests
@@ -7,5 +7,4 @@ pandas
 numpy
 matplotlib
 selenium
-webdriver_manager
 webdriver-manager
