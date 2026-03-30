@@ -6,8 +6,10 @@
     <title>AI Project Lifecycle</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='journey.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='responsive.css') }}">
 </head>
 <body>
+    {% include '_page_nav.html' %}
     <!-- Background -->
     <div class="bg-container">
         <div class="bg-gradient"></div>
@@ -138,3 +140,5 @@
     </div>
 </body>
 </html>
+
+

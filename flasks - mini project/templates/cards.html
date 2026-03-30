@@ -4,9 +4,11 @@
 <head>
     <title>Files</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='files.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='responsive.css') }}">
 </head>
 
 <body>
+    {% include "_page_nav.html" %}
 
     <h1>Available Files</h1>
 
@@ -24,8 +26,7 @@
 
     </div>
 
-    <a href="{{ url_for('select_page') }}">⬅ Back</a>
-
 </body>
 
 </html>
+
