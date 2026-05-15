@@ -1,0 +1,10 @@
+flask
+Werkzeug
+gunicorn
+requests
+beautifulsoup4
+pandas
+numpy
+matplotlib
+selenium
+webdriver-manager

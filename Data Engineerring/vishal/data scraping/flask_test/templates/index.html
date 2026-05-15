@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSV Dashboard</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>📂 CSV Files Dashboard</h1>
+
+    <div class="file-list">
+        {% for file in files %}
+        <a href="{{ url_for('view_file', filename=file) }}" class="file-btn">
+            {{ file }}
+        </a>
+        {% endfor %}
+    </div>
+
+</body>
+
+</html>

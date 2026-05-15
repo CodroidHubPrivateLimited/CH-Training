@@ -1,0 +1,90 @@
+.container {
+  height: 100vh;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 50px;
+  width: 500px;
+  border-radius: 14px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin-bottom: 5px;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 15px;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #0a7c4a;
+}
+
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background: #0a7c4a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.message {
+  margin-top: 10px;
+  color: #0a7c4a;
+  font-size: 14px;
+}
+
+.link {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.back {
+  display: block;
+  margin-top: 15px;
+  color: #0a7c4a;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
